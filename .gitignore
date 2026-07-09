@@ -1,0 +1,12 @@
+.DS_Store
+
+predictions/
+histograms/
+heatmaps/
+prediction_histograms/
+uncertainty_histograms/
+feature_importance/
+batches/
+active_learning_stats.tsv
+test.tsv
+train_pool.tsv
