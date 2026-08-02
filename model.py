@@ -15,6 +15,7 @@ from sklearn.inspection import permutation_importance
 from sklearn.cluster import AgglomerativeClustering
 from sklearn.metrics import pairwise_distances_argmin_min
 from sklearn.impute import SimpleImputer
+from sklearn.calibration import CalibrationDisplay
 
 
 #define columns as categorical or numerical
@@ -44,29 +45,37 @@ def parse_args():
     parser.add_argument("--stats-file", default="active_learning_stats.tsv")
     return parser.parse_args()
 
+def best_threshold(y_true, probs, name):
+    fpr, tpr, thresholds = roc_curve(y_true, probs[:, 1])
+
+    youden = tpr - fpr
+    best_idx = np.argmax(youden)
+
+    best_thr = thresholds[best_idx]
+
+    print(
+        f"{name}: "
+        f"Best threshold = {best_thr:.4f}, "
+        f"TPR = {tpr[best_idx]:.4f}, "
+        f"FPR = {fpr[best_idx]:.4f}, "
+        f"Youden = {youden[best_idx]:.4f}"
+    )
+
+    return best_thr
+
 #NOVO -FEATURE IMPORTANCE
 def feature_importance(model, X_test, y_test, iteration, name, output_dir="feature_importance"):
     os.makedirs(output_dir, exist_ok=True)
 
-    result = permutation_importance(
-        model,
-        X_test,
-        y_test,
-        n_repeats=10,
-        random_state=42,
-        scoring="f1"
-    )
+    result = permutation_importance(model, X_test, y_test, n_repeats=10, random_state=42, scoring="f1")
 
     importance_df = pd.DataFrame({
         "feature": X_test.columns,
         "importance_mean": result.importances_mean,
         "importance_std": result.importances_std
-    }).sort_values("importance_mean", ascending=False)
+}).sort_values("importance_mean", ascending=False)
 
-    importance_df.to_csv(
-        os.path.join(output_dir, f"{name}_feature_importance_iter_{iteration}.csv"),
-        index=False
-    )
+    importance_df.to_csv(os.path.join(output_dir, f"{name}_feature_importance_iter_{iteration}.csv"), index=False)
 
     top = importance_df.head(20)
 
@@ -76,11 +85,7 @@ def feature_importance(model, X_test, y_test, iteration, name, output_dir="featu
     plt.title(f"Top feature importance - iteration {iteration}")
     plt.tight_layout()
 
-    plt.savefig(
-        os.path.join(output_dir, f"{name}_feature_importance_iter_{iteration}.png"),
-        dpi=300,
-        bbox_inches="tight"
-    )
+    plt.savefig(os.path.join(output_dir, f"{name}_feature_importance_iter_{iteration}.png"), dpi=300, bbox_inches="tight")
     plt.close()
 
     return importance_df
@@ -158,6 +163,23 @@ def prediction_histogram(y_test, y_pred, iteration, pred_hist_dir = "prediction_
     )
     plt.close()
 
+def calibration_plot(y_true, probs, name, iteration, output_dir="calibration_curves"):
+    os.makedirs(output_dir, exist_ok=True)
+    plt.figure(figsize=(6, 6))
+    CalibrationDisplay.from_predictions(
+        y_true,
+        probs[:, 1],      # verjetnost za razred Yes
+        n_bins=10,
+        strategy="quantile"
+    )
+    plt.title(f"{name} calibration curve - iteration {iteration}")
+    plt.savefig(
+        os.path.join(output_dir, f"{name}_calibration_iter_{iteration}.png"),
+        dpi=300,
+        bbox_inches="tight"
+    )
+    plt.close()
+
 #get predictions, probabilities and uncertainty for a given dataframe
 def df_predictions(df, pred, probs, uncertainty):
 
@@ -197,7 +219,7 @@ def update_train(train_df, labeled_batch, iteration):
     return train_updated
 
 #building model, preprocess + XGBClassifier
-def build_model():
+def build_model(neg_pos_ratio):
     categorical_transformer = Pipeline([
         ("imputer", SimpleImputer(strategy="constant", fill_value="missing")),
         ("onehot", OneHotEncoder(handle_unknown="ignore"))
@@ -234,7 +256,7 @@ def build_model():
         objective="binary:logistic",
         eval_metric="logloss",
         random_state=42,
-        #scale_pos_weight=8.0,  
+        scale_pos_weight=neg_pos_ratio,  
     )
 
     model = Pipeline([
@@ -269,18 +291,19 @@ def permutation_feature_weights(model, X_val, y_val):
     return weights
 
 #selecting the most uncertain viruses/contigs from the pool to label next + make predictions and plots for the pool
-def select_batch(model,X_pool, batch_size, df_unlabeled, iteration, feature_weights, candidate_size=200):
+def select_batch(model,X_pool, batch_size, df_unlabeled, iteration, feature_weights, min_uncertainty = 0.2):
     #predict probability
     probs = model.predict_proba(X_pool)
     #calculates uncertainty for every virus/contig
     uncertainty = np.min(probs, axis=1)
 
-    # select 200 most uncertain examples
-    candidate_indices = np.argsort(uncertainty)[-candidate_size:]
+    # select viruses with uncertainty >= 0.2
+    mask = uncertainty >= min_uncertainty
+    candidate_indices = np.where(mask)[0]
     X_candidates = X_pool.iloc[candidate_indices].copy()
 
-    preprocess = model.named_steps["preprocess"]
 
+    preprocess = model.named_steps["preprocess"]
     X_candidates_transformed = preprocess.transform(X_candidates)
 
     if hasattr(X_candidates_transformed, "toarray"):
@@ -384,6 +407,9 @@ def test_model(model, test_file, iteration):
     probs = model.predict_proba(X_test)
     uncertainty = np.min(probs, axis=1)
     test_predictions = df_predictions(test, y_pred, probs, uncertainty)
+    roc_auc_test = roc_auc_score(y_test, probs[:, 1])
+    calibration_plot(y_test, probs, "test", iteration)
+    best_threshold(y_test, probs, "Test")
 
     #predictions and plots
     test_predictions.to_csv(os.path.join("predictions",f"test_predictions_iter_{iteration}.csv"), index=False)
@@ -392,16 +418,19 @@ def test_model(model, test_file, iteration):
     prediction_histogram(y_test, y_pred, iteration)
     confusion_matrix_heatmap(y_test, y_pred, iteration)
     
-    return accuracy, f1
+    return accuracy, f1, roc_auc_test
 
 #saving stats for each iteration to a tsv file
-def stats(stats_file, n_labeled, n_unlabeled, iteration, accuracy, f1, uncertainty):
+def stats(stats_file, n_labeled, n_unlabeled, iteration, accuracy, f1, uncertainty,roc_auc_test, roc_auc_train, roc_auc_val):
     stats_row = pd.DataFrame([{
         "iteration": iteration,
         "n_labeled": n_labeled,
         "n_unlabeled": n_unlabeled,
         "accuracy": accuracy,
         "f1": f1,
+        "ROC on test set": roc_auc_test,
+        "ROC on train set": roc_auc_train,
+        "ROC on validation set": roc_auc_val,
         "uncertainty_over_0_05": (uncertainty > 0.05).sum(),
         "uncertainty_over_0_10": (uncertainty > 0.10).sum(),
         "uncertainty_over_0_15": (uncertainty > 0.15).sum(),
@@ -453,21 +482,47 @@ def main():
 
     df_labeled = train[train[target].notna()].copy().drop(columns=metadata_cols)
     df_unlabeled = train[train[target].isna()].copy().drop(columns=metadata_cols)
+
+    if args.iteration > 0:
+        validation_df = pd.read_excel(args.validation_batch)
+
+        validation_keys = set(
+            zip(
+                validation_df["SAMPLE"],
+                validation_df["CONTIG NAME"]
+            )
+        )
+
+        keep_mask = [
+            (sample, contig) not in validation_keys
+            for sample, contig in zip(
+                df_unlabeled["SAMPLE"],
+                df_unlabeled["CONTIG NAME"]
+            )
+        ]
+
+        df_unlabeled = df_unlabeled[keep_mask].copy()
     
     X_train = df_labeled.drop(columns=drop_cols)
     y_train = df_labeled[target].map({"No": 0, "Yes": 1})
     X_pool = df_unlabeled.drop(columns=drop_cols)
-    
-    
 
-    model = build_model()
+    pos = np.sum(y_train == 1)
+    neg = np.sum(y_train == 0)
+    ratio = neg / pos
+    model = build_model(ratio)
     model.fit(X_train, y_train)
 
     feature_weights = None
+    roc_auc_val = None
     if args.iteration > 0:
 
         X_val, y_val = load_validation_batch(args.validation_batch)
         feature_weights = permutation_feature_weights(model, X_val, y_val)
+        val_probs = model.predict_proba(X_val)
+        calibration_plot(y_val, val_probs, "validation", args.iteration)
+        roc_auc_val = roc_auc_score(y_val, val_probs[:, 1])
+        best_threshold(y_val, val_probs, "Validation")
 
 
     #NOVO FEATURE IMPORTANCE
@@ -481,6 +536,10 @@ def main():
     train_pred = model.predict(X_train)
     train_predictions = df_predictions(df_labeled, train_pred, train_probs, uncertainty_train)
 
+    roc_auc_train = roc_auc_score(y_train, train_probs[:, 1])
+    best_threshold(y_train, train_probs, "Train")
+    calibration_plot(y_train, train_probs, "train", args.iteration)
+
     #predictions and histograms for train set
     train_predictions.to_csv(os.path.join("predictions",f"train_predictions_iter_{args.iteration}.csv"),index=False)
     probability_distribution(train_probs,name="train",iteration=args.iteration,output_dir="histograms")
@@ -488,12 +547,12 @@ def main():
 
 
     uncertainty, to_label = select_batch(model, X_pool, args.batch_size, df_unlabeled, args.iteration, feature_weights)
-    accuracy, f1 = test_model(model, args.test_file, args.iteration)
+    accuracy, f1, roc_auc_test = test_model(model, args.test_file, args.iteration)
 
     output_file = os.path.join("batches",f"to_label_iteration_{args.iteration}.xlsx")
     to_label.to_excel(output_file, index=False)
 
-    stats(args.stats_file, len(df_labeled), len(df_unlabeled), args.iteration, accuracy, f1, uncertainty)
+    stats(args.stats_file, len(df_labeled), len(df_unlabeled), args.iteration, accuracy, f1, uncertainty, roc_auc_test, roc_auc_train, roc_auc_val)
 
     print(f"Iteration: {args.iteration}")
     print(f"Labeled examples: {len(df_labeled)}")
