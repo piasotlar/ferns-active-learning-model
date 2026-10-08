@@ -1,38 +1,41 @@
+#organized version of model.py
 import argparse
 import os
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from xgboost import XGBClassifier
-from sklearn.metrics import accuracy_score,f1_score, confusion_matrix, roc_auc_score, roc_curve
+from sklearn.metrics import accuracy_score,f1_score, roc_auc_score, roc_curve
 from sklearn.inspection import permutation_importance
 
-from sklearn.cluster import AgglomerativeClustering
+from sklearn.cluster import KMeans, AgglomerativeClustering
 from sklearn.metrics import pairwise_distances_argmin_min
 from sklearn.impute import SimpleImputer
-from sklearn.calibration import CalibrationDisplay
+from visualizations import probability_distribution, uncertainty_distribution, confusion_matrix_heatmap, prediction_histogram, calibration_plot, feature_importance
+
+# --------------------------------------
+# 1. CONFIGURATION
+# --------------------------------------
+
+CATEGORICAL_COLS = ["REALM", "KINGDOM", "PHYLUM", "CLASS", "ORDER", "FAMILY","GENUS", "SPECIES","MVP", "CP", "POLYPROTEIN","HMMER_MP_HIT","CONSISTENT LENGTH (tax)", "PLANT HOST (tax)"]
+NUMERIC_COLS = ["LENGTH", "SPADES_COV", "COVERM RPKM", "COVERM READ COUNT","LONGEST ORF LENGTH", "LONGEST ORF COVERAGE", "NUM OF ORFS", "HMMER_MP_EVALUE", "HMMER_MP_SCORE"]
+TARGET = "YES/NO"
+KEY_COLS = ["SAMPLE", "CONTIG NAME"]
+METADATA_COLS = ["ITERATION_ADDED","PROB_NO_AT_SELECTION","PROB_YES_AT_SELECTION","UNCERTAINTY_AT_SELECTION"]
+DROP_COLS = ["YES/NO", "SAMPLE", "CONTIG NAME","HMMER_MP_TARGET", "HMMER_MP_QUERY"]
+
+NEGATIVE_THRESHOLD = 0.05
+POSITIVE_THRESHOLD = 0.90 # povečala mejo na 0.9 za 19 iteracijo, drugače 0.95
+NEGATIVE_BATCH_SIZE = 10
+POSITIVE_BATCH_SIZE = 20
 
 
-#define columns as categorical or numerical
-categorical_cols = ["REALM", "KINGDOM", "PHYLUM", "CLASS", "ORDER", "FAMILY","GENUS", "SPECIES",
-                    "MVP", "CP", "POLYPROTEIN","HMMER_MP_HIT","CONSISTENT LENGTH (tax)", "PLANT HOST (tax)"]
+# --------------------------------------
+# 2. ARGUMENTS / SETUP
+# --------------------------------------
 
-numeric_cols = ["LENGTH", "SPADES_COV", "COVERM RPKM", "COVERM READ COUNT","LONGEST ORF LENGTH", 
-                "LONGEST ORF COVERAGE", "NUM OF ORFS", "HMMER_MP_EVALUE", "HMMER_MP_SCORE"]
-
-#target column and key columns for merging
-target = "YES/NO"
-key_cols = ["SAMPLE", "CONTIG NAME"]
-
-#metadata columns to keep track of when a virus/contig was added to the training set and its probabilities and uncertainty at that time
-metadata_cols = ["ITERATION_ADDED","PROB_NO_AT_SELECTION","PROB_YES_AT_SELECTION","UNCERTAINTY_AT_SELECTION"]
-
-#parse arguments 
 def parse_args():
 
     parser = argparse.ArgumentParser()
@@ -41,56 +44,10 @@ def parse_args():
     parser.add_argument("--test-file", default="test.tsv")
     parser.add_argument("--validation-batch", default=None)
     parser.add_argument("--add-to-train-batch", default=None)
-    parser.add_argument("--batch-size", type=int, default=20)
     parser.add_argument("--stats-file", default="active_learning_stats.tsv")
+
     return parser.parse_args()
 
-def best_threshold(y_true, probs, name):
-    fpr, tpr, thresholds = roc_curve(y_true, probs[:, 1])
-
-    youden = tpr - fpr
-    best_idx = np.argmax(youden)
-
-    best_thr = thresholds[best_idx]
-
-    print(
-        f"{name}: "
-        f"Best threshold = {best_thr:.4f}, "
-        f"TPR = {tpr[best_idx]:.4f}, "
-        f"FPR = {fpr[best_idx]:.4f}, "
-        f"Youden = {youden[best_idx]:.4f}"
-    )
-
-    return best_thr
-
-#NOVO -FEATURE IMPORTANCE
-def feature_importance(model, X_test, y_test, iteration, name, output_dir="feature_importance"):
-    os.makedirs(output_dir, exist_ok=True)
-
-    result = permutation_importance(model, X_test, y_test, n_repeats=10, random_state=42, scoring="f1")
-
-    importance_df = pd.DataFrame({
-        "feature": X_test.columns,
-        "importance_mean": result.importances_mean,
-        "importance_std": result.importances_std
-}).sort_values("importance_mean", ascending=False)
-
-    importance_df.to_csv(os.path.join(output_dir, f"{name}_feature_importance_iter_{iteration}.csv"), index=False)
-
-    top = importance_df.head(20)
-
-    plt.figure(figsize=(8, 6))
-    plt.barh(top["feature"][::-1], top["importance_mean"][::-1])
-    plt.xlabel("Permutation importance based on F1")
-    plt.title(f"Top feature importance - iteration {iteration}")
-    plt.tight_layout()
-
-    plt.savefig(os.path.join(output_dir, f"{name}_feature_importance_iter_{iteration}.png"), dpi=300, bbox_inches="tight")
-    plt.close()
-
-    return importance_df
-
-#dirs for saving data and pictures
 def create_output_dirs():
     dirs = [
         "batches",
@@ -103,99 +60,14 @@ def create_output_dirs():
     for directory in dirs:
         os.makedirs(directory, exist_ok=True)
 
-#plots for probability distribution, uncertainty distribution, heatmaps, prediction histograms
-def probability_distribution(probs, name, iteration, output_dir):
-    plt.figure()
-    plt.hist(probs[:, 1], bins=20, range=(0, 1), edgecolor="black")
-    plt.xlabel("Probability of Yes")
-    plt.ylabel("Number of viruses/contigs")
-    plt.title(f"{name} distribution - iteration {iteration}")
-    plt.xlim(0, 1)
-    file_path = os.path.join(output_dir, f"{name}_prediction_distribution_iter_{iteration}.png")
-    plt.savefig(file_path, dpi=300, bbox_inches="tight")
-    plt.close()
+# --------------------------------------
+# 3. DATA LOADING / UPDATING
+# --------------------------------------
 
-def uncertainty_distribution(uncertainty, name, iteration, output_dir):
-    plt.figure()
-    plt.hist(uncertainty, bins=20, range=(0, 0.5), edgecolor="black")
-    plt.xlabel("Uncertainty")
-    plt.ylabel("Number of viruses/contigs")
-    plt.title(f"{name} uncertainty distribution - iteration {iteration}")
-    plt.xlim(0, 0.5)
-    file_path = os.path.join(output_dir, f"{name}_uncertainty_distribution_iter_{iteration}.png")
-    plt.savefig(file_path, dpi=300, bbox_inches="tight")
-    plt.close()
-
-def confusion_matrix_heatmap(y_test, y_pred, iteration, heatmap_dir = "heatmaps"):
-    
-    plt.figure(figsize=(5,4))
-    cm = confusion_matrix(y_test, y_pred)
-    sns.heatmap(cm, annot=True, fmt='d', cmap='Blues')
-    plt.title(f"Confusion Matrix {iteration}")
-    plt.xlabel("Predicted")
-    plt.ylabel("Actual")
-    file_path = os.path.join(heatmap_dir, f"confusion_matrix_iter_{iteration}.png")
-    plt.savefig(file_path, dpi=300, bbox_inches="tight")
-    plt.close()
-
-def prediction_histogram(y_test, y_pred, iteration, pred_hist_dir = "prediction_histograms"):
-
-    # število primerov
-    true_no_pred_no = ((y_test == 0) & (y_pred == 0)).sum()
-    true_no_pred_yes = ((y_test == 0) & (y_pred == 1)).sum()
-    true_yes_pred_no = ((y_test == 1) & (y_pred == 0)).sum()
-    true_yes_pred_yes = ((y_test == 1) & (y_pred == 1)).sum()
-
-    x = np.arange(2)
-    width = 0.35
-    plt.figure(figsize=(6,5))
-    plt.bar(x - width/2,[true_no_pred_no, true_yes_pred_no],width,label="Predicted No")
-    plt.bar(x + width/2,[true_no_pred_yes, true_yes_pred_yes],width,label="Predicted Yes")
-    plt.xticks(x, ["True No", "True Yes"])
-    plt.ylabel("Number of contigs")
-    plt.xlabel("True label")
-    plt.title(f"Test set predictions - iteration {iteration}")
-    plt.legend()
-
-    plt.savefig(os.path.join(pred_hist_dir,f"test_prediction_histogram_iter_{iteration}.png"),
-        dpi=300,
-        bbox_inches="tight"
-    )
-    plt.close()
-
-def calibration_plot(y_true, probs, name, iteration, output_dir="calibration_curves"):
-    os.makedirs(output_dir, exist_ok=True)
-    plt.figure(figsize=(6, 6))
-    CalibrationDisplay.from_predictions(
-        y_true,
-        probs[:, 1],      # verjetnost za razred Yes
-        n_bins=10,
-        strategy="quantile"
-    )
-    plt.title(f"{name} calibration curve - iteration {iteration}")
-    plt.savefig(
-        os.path.join(output_dir, f"{name}_calibration_iter_{iteration}.png"),
-        dpi=300,
-        bbox_inches="tight"
-    )
-    plt.close()
-
-#get predictions, probabilities and uncertainty for a given dataframe
-def df_predictions(df, pred, probs, uncertainty):
-
-    df = df.copy()
-    df["prediction"] = pred
-    df["prob_No"] = probs[:, 0]
-    df["prob_Yes"] = probs[:, 1]
-    df["uncertainty"] = uncertainty
-
-    return df
-
-#adding annotations from previous iteration batch, to the train_pool file
 def update_train(train_df, labeled_batch, iteration):
 
     labeled_df = pd.read_excel(labeled_batch)
-    labeled_filtered = labeled_df[key_cols + [target, "prob_No", "prob_Yes", "uncertainty"]].copy()
+    labeled_filtered = labeled_df[KEY_COLS + [TARGET, "prob_No", "prob_Yes", "uncertainty"]].copy()
 
     labeled_filtered["ITERATION_ADDED"] = int(iteration)
 
@@ -205,18 +77,74 @@ def update_train(train_df, labeled_batch, iteration):
         "uncertainty": "UNCERTAINTY_AT_SELECTION"
     })
 
-    train_updated = train_df.merge(labeled_filtered, on=key_cols, how="left", suffixes=("", "_new"))
-    train_updated[target] = train_updated[f"{target}_new"].combine_first(train_updated[target])
+    train_updated = train_df.merge(labeled_filtered, on=KEY_COLS, how="left", suffixes=("", "_new"))
+    train_updated[TARGET] = train_updated[f"{TARGET}_new"].combine_first(train_updated[TARGET])
 
-    for col in metadata_cols:
+    for col in METADATA_COLS:
         new_col = f"{col}_new"
         if new_col in train_updated.columns:
             train_updated[col] = train_updated[new_col].combine_first(train_updated[col])
             train_updated = train_updated.drop(columns=[new_col])
 
-    train_updated = train_updated.drop(columns=[f"{target}_new"])
+    train_updated = train_updated.drop(columns=[f"{TARGET}_new"])
     
     return train_updated
+
+def load_training_data(args):
+    train = pd.read_csv(args.train_file, sep="\t", decimal=".")
+     #add columns for metadata in iteration 0
+    if args.iteration == 0:
+
+        train["ITERATION_ADDED"] = pd.Series(pd.NA, dtype="Int64")
+        for col in ["PROB_NO_AT_SELECTION","PROB_YES_AT_SELECTION","UNCERTAINTY_AT_SELECTION"]:
+            train[col] = np.nan
+
+        train.loc[train[TARGET].notna(), "ITERATION_ADDED"] = 0
+        train.to_csv(args.train_file, sep="\t", index=False)
+
+    if args.iteration > 1:
+        train = update_train(train, args.add_to_train_batch, args.iteration)
+        train.to_csv(args.train_file, sep="\t", index=False)
+
+    return train
+
+def load_validation_batch(args):
+    model_cols = CATEGORICAL_COLS + NUMERIC_COLS
+    val = pd.read_excel(args.validation_batch)
+
+    X_val = val[model_cols].copy()
+    y_val = val[TARGET].map({"No": 0, "Yes": 1})
+
+    return X_val, y_val
+
+def remove_validation_from_pool(df_unlabeled, args):
+    val = pd.read_excel(args.validation_batch)
+    val_keys = val[KEY_COLS]
+    df_unlabeled = df_unlabeled.merge(val_keys, on=KEY_COLS, how="left", indicator=True)
+    df_unlabeled = df_unlabeled[df_unlabeled["_merge"] == "left_only"].drop(columns=["_merge"])
+    return df_unlabeled
+
+def split_labeled_unlabeled(train, args):
+
+    df_labeled = train[train[TARGET].notna()].copy().drop(columns=METADATA_COLS)
+    df_unlabeled = train[train[TARGET].isna()].copy().drop(columns=METADATA_COLS)
+
+    if args.iteration > 0 and args.validation_batch is not None:
+        df_unlabeled = remove_validation_from_pool(df_unlabeled, args)
+
+    return df_labeled, df_unlabeled
+
+def load_test(args):
+    test = pd.read_csv(args.test_file, sep="\t", decimal=".")
+    X_test = test.drop(columns=DROP_COLS)
+    y_test = test[TARGET].map({"No": 0, "Yes": 1})
+
+    return test, X_test, y_test
+
+
+# --------------------------------------
+# 4. MODEL
+# --------------------------------------
 
 #building model, preprocess + XGBClassifier
 def build_model(neg_pos_ratio):
@@ -228,12 +156,12 @@ def build_model(neg_pos_ratio):
 
     preprocess = ColumnTransformer(
         transformers=[
-            ("cat", categorical_transformer, categorical_cols),
+            ("cat", categorical_transformer, CATEGORICAL_COLS),
 
             ("num", Pipeline([
                 ("imputer", SimpleImputer(strategy="median")),
                 ("scaler", StandardScaler())
-            ]), [v for v in numeric_cols if v not in ["HMMER_MP_EVALUE","HMMER_MP_SCORE"]]),
+            ]), [v for v in NUMERIC_COLS if v not in ["HMMER_MP_EVALUE","HMMER_MP_SCORE"]]),
 
             ("evalue", Pipeline([
                 ("imputer", SimpleImputer(strategy="constant", fill_value=1)),
@@ -266,16 +194,6 @@ def build_model(neg_pos_ratio):
 
     return model
 
-def load_validation_batch(validation_batch):
-
-    model_cols = categorical_cols + numeric_cols
-    val = pd.read_excel(validation_batch)
-
-    X_val = val[model_cols].copy()
-    y_val = val[target].map({"No": 0, "Yes": 1})
-
-    return X_val, y_val
-
 def permutation_feature_weights(model, X_val, y_val):
     result = permutation_importance(
         model,
@@ -290,14 +208,78 @@ def permutation_feature_weights(model, X_val, y_val):
 
     return weights
 
-#selecting the most uncertain viruses/contigs from the pool to label next + make predictions and plots for the pool
-def select_batch(model,X_pool, batch_size, df_unlabeled, iteration, feature_weights, min_uncertainty = 0.2):
+
+# --------------------------------------
+# 5. EVALUATION
+# --------------------------------------
+def best_threshold(y_true, probs, name):
+    fpr, tpr, thresholds = roc_curve(y_true, probs[:, 1])
+
+    youden = tpr - fpr
+    best_idx = np.argmax(youden)
+
+    best_thr = thresholds[best_idx]
+
+    print(
+        f"{name}: "
+        f"Best threshold = {best_thr:.4f}, "
+        f"TPR = {tpr[best_idx]:.4f}, "
+        f"FPR = {fpr[best_idx]:.4f}, "
+        f"Youden = {youden[best_idx]:.4f}"
+    )
+
+    return best_thr
+
+def evaluate_model(model, X, y, iteration, name):
+
+    probs = model.predict_proba(X)
+    pred = model.predict(X)
+    uncertainty = np.min(probs, axis=1)
+
+    accuracy = accuracy_score(y, pred)
+    f1 = f1_score(y, pred)
+    roc_auc = roc_auc_score(y, probs[:, 1])
+
+    best_threshold(y, probs, name)
+    calibration_plot(y, probs, name, iteration)
+    feature_importance(model, X, y, iteration, name)
+
+    return accuracy, f1, roc_auc, pred, probs, uncertainty
+
+def df_predictions(df, pred, probs, uncertainty):
+
+    df = df.copy()
+    df["prediction"] = pred
+    df["prob_No"] = probs[:, 0]
+    df["prob_Yes"] = probs[:, 1]
+    df["uncertainty"] = uncertainty
+
+    return df
+# --------------------------------------
+# 6. ACTIVE LEARNING / SAMPLING
+# --------------------------------------
+
+#v1 -> select candidates closest to uncertainty = 0.5
+def select_most_uncertain_samples(model, X_pool, df_unlabeled, batch_size=20):
+    probs = model.predict_proba(X_pool)
+    uncertainty = np.min(probs, axis=1)
+    candidate_indices = np.argsort(uncertainty)[:batch_size]
+    batch = df_unlabeled.iloc[candidate_indices].copy()
+    batch["prob_No"] = probs[candidate_indices, 0]
+    batch["prob_Yes"] = probs[candidate_indices, 1]
+    batch["uncertainty"] = uncertainty[candidate_indices]
+
+    return batch
+
+#v3 -> select 20 candidates with uncertainty > 0.2
+
+def select_batch(model,X_pool, batch_size, df_unlabeled, feature_weights, min_uncertainty = 0.2):
     #predict probability
     probs = model.predict_proba(X_pool)
     #calculates uncertainty for every virus/contig
     uncertainty = np.min(probs, axis=1)
 
-    # select viruses with uncertainty >= 0.2
+    # select viruses with uncertainty >= 0.05
     mask = uncertainty >= min_uncertainty
     candidate_indices = np.where(mask)[0]
     X_candidates = X_pool.iloc[candidate_indices].copy()
@@ -312,7 +294,7 @@ def select_batch(model,X_pool, batch_size, df_unlabeled, iteration, feature_weig
     if feature_weights is None:
         transformed_weights = np.ones(X_candidates_transformed.shape[1])
     else:
-        model_cols = categorical_cols + numeric_cols
+        model_cols = CATEGORICAL_COLS + NUMERIC_COLS
 
         feature_weights_series = pd.Series(
             feature_weights,
@@ -376,51 +358,141 @@ def select_batch(model,X_pool, batch_size, df_unlabeled, iteration, feature_weig
     to_label["prob_Yes"] = probs[selected_pool_indices, 1]
     to_label["uncertainty"] = uncertainty[selected_pool_indices]
 
-    to_label = to_label.sort_values("uncertainty", ascending=False)
+    batch = to_label.sort_values("uncertainty", ascending=False)
 
-    #to get predictions for pool
-    pred = model.predict(X_pool)
-    pool_predictions = df_predictions(df_unlabeled, pred, probs, uncertainty)
+    return batch
 
-    #predictions and histograms
-    pool_predictions.to_csv(os.path.join("predictions", f"pool_predictions_iter_{iteration}.csv"), index=False)
-    uncertainty_distribution(uncertainty, "pool", iteration, output_dir="uncertainty_histograms")
-    probability_distribution(probs,name="pool",iteration=iteration,output_dir="histograms")
 
-    return uncertainty, to_label
+#v3 -> select 20 candidates with  uncertainty > 0.1 (v2) and 10 candidates with uncertainty < 0.1
+def select_high_certainty_batch(model, X_pool, batch_size, df_unlabeled,feature_weights, max_uncertainty = 0.1):
 
-#testing the model on the test set, calculating accuracy and f1 score, feature importance, predictions and plots
-def test_model(model, test_file, iteration):
-
-    test = pd.read_csv(test_file, sep="\t", decimal=".")
-    X_test = test.drop(columns=["YES/NO", "SAMPLE", "CONTIG NAME", "HMMER_MP_TARGET","HMMER_MP_QUERY"])
-    y_test = test[target].map({"No": 0, "Yes": 1})
-    y_pred = model.predict(X_test)
-
-    accuracy = accuracy_score(y_test, y_pred)
-    f1 = f1_score(y_test, y_pred)
-
-    #NOVO FEATURE IMPORTANCE
-    feature_importance(model, X_test, y_test, iteration, "test")
-
-    #to get predictions for test set
-    probs = model.predict_proba(X_test)
+    probs = model.predict_proba(X_pool)
     uncertainty = np.min(probs, axis=1)
-    test_predictions = df_predictions(test, y_pred, probs, uncertainty)
-    roc_auc_test = roc_auc_score(y_test, probs[:, 1])
-    calibration_plot(y_test, probs, "test", iteration)
-    best_threshold(y_test, probs, "Test")
+    mask = uncertainty < max_uncertainty
+    candidate_indices = np.where(mask)[0]
+    X_candidates = X_pool.iloc[candidate_indices].copy()
 
-    #predictions and plots
-    test_predictions.to_csv(os.path.join("predictions",f"test_predictions_iter_{iteration}.csv"), index=False)
-    uncertainty_distribution(uncertainty,"test",iteration,output_dir="uncertainty_histograms")
-    probability_distribution(probs,name="test set",iteration=iteration,output_dir="histograms")
-    prediction_histogram(y_test, y_pred, iteration)
-    confusion_matrix_heatmap(y_test, y_pred, iteration)
+    preprocess = model.named_steps["preprocess"]
+    X_candidates_transformed = preprocess.transform(X_candidates)
+
+    if hasattr(X_candidates_transformed, "toarray"):
+        X_candidates_transformed = X_candidates_transformed.toarray()
+
+    if feature_weights is None:
+        transformed_weights = np.ones(X_candidates_transformed.shape[1])
+    else:
+        model_cols = categorical_cols + numeric_cols
+
+        feature_weights_series = pd.Series(
+            feature_weights,
+            index=model_cols
+        )
+
+        transformed_feature_names = preprocess.get_feature_names_out()
     
-    return accuracy, f1, roc_auc_test
+        transformed_weights = []
 
-#saving stats for each iteration to a tsv file
+        for transformed_name in transformed_feature_names:
+            name = transformed_name.split("__", 1)[1]
+
+            matched_weight = 0
+
+            for original_col in model_cols:
+                if name == original_col or name.startswith(original_col + "_"):
+                    matched_weight = feature_weights_series[original_col]
+                    break
+
+            transformed_weights.append(matched_weight)
+
+        transformed_weights = np.array(transformed_weights)
+
+    X_candidates_weighted = X_candidates_transformed * np.sqrt(transformed_weights)
+
+    kmeans = KMeans(n_clusters=batch_size, random_state=42).fit(X_candidates_weighted)
+
+    centroids, _ = pairwise_distances_argmin_min(kmeans.cluster_centers_, X_candidates_weighted)
+
+    indices = candidate_indices[centroids]
+    batch = df_unlabeled.iloc[indices].copy()
+    batch["prob_No"] = probs[indices, 0]
+    batch["prob_Yes"] = probs[indices, 1]
+    batch["uncertainty"] = uncertainty[indices]
+
+    return batch
+
+
+#v4 -> select most certain candidates and cluster them to get diverse samples
+
+def select_negative_positive_samples(model, X_pool, df_unlabeled, feature_weights, batch_size=10, prob_limit = 0.05, negative=True):
+
+    probs = model.predict_proba(X_pool)
+    uncertainty = np.min(probs, axis=1)
+    if negative:
+        mask = probs [:, 1] < prob_limit
+    else:
+        mask = probs [:, 1] > prob_limit
+    candidate_indices = np.where(mask)[0]
+    X_candidates = X_pool.iloc[candidate_indices].copy()
+
+    preprocess = model.named_steps["preprocess"]
+    X_candidates_transformed = preprocess.transform(X_candidates)
+
+    if hasattr(X_candidates_transformed, "toarray"):
+        X_candidates_transformed = X_candidates_transformed.toarray()
+        
+    if feature_weights is None:
+        transformed_weights = np.ones(X_candidates_transformed.shape[1])
+
+    else:
+        model_cols = CATEGORICAL_COLS + NUMERIC_COLS
+
+        feature_weights_series = pd.Series(
+            feature_weights,
+            index=model_cols
+        )
+
+        transformed_feature_names = preprocess.get_feature_names_out()
+    
+        transformed_weights = []
+
+        for transformed_name in transformed_feature_names:
+            name = transformed_name.split("__", 1)[1]
+
+            matched_weight = 0
+
+            for original_col in model_cols:
+                if name == original_col or name.startswith(original_col + "_"):
+                    matched_weight = feature_weights_series[original_col]
+                    break
+
+            transformed_weights.append(matched_weight)
+
+        transformed_weights = np.array(transformed_weights)
+
+    X_candidates_weighted = X_candidates_transformed * np.sqrt(transformed_weights)
+
+    kmeans = KMeans(n_clusters=batch_size, random_state=42).fit(X_candidates_weighted)
+
+    centroids, _ = pairwise_distances_argmin_min(kmeans.cluster_centers_, X_candidates_weighted)
+
+    indices = candidate_indices[centroids]
+    batch = df_unlabeled.iloc[indices].copy()
+    batch["prob_No"] = probs[indices, 0]
+    batch["prob_Yes"] = probs[indices, 1]
+    batch["uncertainty"] = uncertainty[indices]
+
+    return batch
+
+# --------------------------------------
+# 7. OUTPUT / STATISTICS
+# --------------------------------------
+
+def save_predictions(args,df_unlabeled, pred, probs, uncertainty, name):
+    predictions = df_predictions(df_unlabeled, pred, probs, uncertainty)
+    predictions.to_csv(os.path.join("predictions", f"{name}_predictions_iter_{args.iteration}.csv"), index=False)
+    uncertainty_distribution(uncertainty, name, args.iteration, output_dir="uncertainty_histograms")
+    probability_distribution(probs,name=name,iteration=args.iteration,output_dir="histograms")
+
 def stats(stats_file, n_labeled, n_unlabeled, iteration, accuracy, f1, uncertainty,roc_auc_test, roc_auc_train, roc_auc_val):
     stats_row = pd.DataFrame([{
         "iteration": iteration,
@@ -450,118 +522,96 @@ def stats(stats_file, n_labeled, n_unlabeled, iteration, accuracy, f1, uncertain
 
     new_stats.to_csv(stats_file, sep="\t", index=False)
 
+def print_stats(args, df_labeled, df_unlabeled, test_accuracy, f1, output_file):
 
+    print(f"Iteration: {args.iteration}")
+    print(f"Labeled examples: {len(df_labeled)}")
+    print(f"Unlabeled examples: {len(df_unlabeled)}")
+    print(f"Accuracy on test set: {test_accuracy:.4f}")
+    print(f"F1 on test set: {f1:.4f}")
+    print(f"Saved next batch to: {output_file}")
+    print(f"Saved stats to: {args.stats_file}")
+
+
+# --------------------------------------
+# 8. MAIN
+# --------------------------------------
 
 def main():
+
     args = parse_args()
-    drop_cols = ["YES/NO", "SAMPLE", "CONTIG NAME","HMMER_MP_TARGET", "HMMER_MP_QUERY"]
     create_output_dirs()
-
-    train = pd.read_csv(args.train_file, sep="\t", decimal=".")
     
-    #add columns for metadata in iteration 0
-    if args.iteration == 0:
-
-        train["ITERATION_ADDED"] = pd.Series(pd.NA, dtype="Int64")
-        for col in ["PROB_NO_AT_SELECTION","PROB_YES_AT_SELECTION","UNCERTAINTY_AT_SELECTION"]:
-            train[col] = np.nan
-
-        train.loc[train[target].notna(), "ITERATION_ADDED"] = 0
-        train.to_csv(args.train_file, sep="\t", index=False)
-
-    if args.iteration > 0:
-        if args.validation_batch is None:
-            raise ValueError("For iteration > 0, you must provide --validation-batch.")
-        
-    if args.iteration > 1:
-        if args.add_to_train_batch is None:
-            raise ValueError("For iteration > 1, you must provide --add-to-train-batch.")
-
-        train = update_train(train, args.add_to_train_batch, args.iteration)
-        train.to_csv(args.train_file, sep="\t", index=False)
-
-    df_labeled = train[train[target].notna()].copy().drop(columns=metadata_cols)
-    df_unlabeled = train[train[target].isna()].copy().drop(columns=metadata_cols)
-
-    if args.iteration > 0:
-        validation_df = pd.read_excel(args.validation_batch)
-
-        validation_keys = set(
-            zip(
-                validation_df["SAMPLE"],
-                validation_df["CONTIG NAME"]
-            )
+    if args.iteration > 0 and args.validation_batch is None:
+        raise ValueError(
+            "For iteration > 0, you must provide --validation-batch."
         )
 
-        keep_mask = [
-            (sample, contig) not in validation_keys
-            for sample, contig in zip(
-                df_unlabeled["SAMPLE"],
-                df_unlabeled["CONTIG NAME"]
-            )
-        ]
-
-        df_unlabeled = df_unlabeled[keep_mask].copy()
+    if args.iteration > 1 and args.add_to_train_batch is None:
+        raise ValueError(
+            "For iteration > 1, you must provide --add-to-train-batch."
+        )
     
-    X_train = df_labeled.drop(columns=drop_cols)
-    y_train = df_labeled[target].map({"No": 0, "Yes": 1})
-    X_pool = df_unlabeled.drop(columns=drop_cols)
+    train = load_training_data(args)
+    df_labeled, df_unlabeled = split_labeled_unlabeled(train, args)
 
+    X_train = df_labeled.drop(columns=DROP_COLS)
+    y_train = df_labeled[TARGET].map({"No": 0, "Yes": 1})
+
+    X_pool = df_unlabeled.drop(columns=DROP_COLS)
+
+    #caluclate ratio
     pos = np.sum(y_train == 1)
     neg = np.sum(y_train == 0)
     ratio = neg / pos
     model = build_model(ratio)
     model.fit(X_train, y_train)
 
+    #validation batch
     feature_weights = None
     roc_auc_val = None
+
     if args.iteration > 0:
-
-        X_val, y_val = load_validation_batch(args.validation_batch)
+        X_val, y_val = load_validation_batch(args)
         feature_weights = permutation_feature_weights(model, X_val, y_val)
-        val_probs = model.predict_proba(X_val)
-        calibration_plot(y_val, val_probs, "validation", args.iteration)
-        roc_auc_val = roc_auc_score(y_val, val_probs[:, 1])
-        best_threshold(y_val, val_probs, "Validation")
 
+        _, _, roc_auc_val, _, _, _ = evaluate_model(model, X_val, y_val, args.iteration, "validation")
 
-    #NOVO FEATURE IMPORTANCE
-    feature_importance(model, X_train, y_train, args.iteration, "train")
+    #train evaluation
+    _, _, roc_auc_train, train_pred , train_probs, train_uncertainty = evaluate_model(model, X_train, y_train, args.iteration, "train")
+    save_predictions(args, df_labeled, train_pred, train_probs, train_uncertainty, "train")
 
-    #probabilities and uncertainties for train set
-    train_probs = model.predict_proba(X_train)
-    uncertainty_train = np.min(train_probs, axis=1)
+    #pool evaluation
 
-    #predictions za train
-    train_pred = model.predict(X_train)
-    train_predictions = df_predictions(df_labeled, train_pred, train_probs, uncertainty_train)
+    pool_probs = model.predict_proba(X_pool)
+    pool_uncertainty = np.min(pool_probs, axis=1)
+    pool_pred = model.predict(X_pool)
 
-    roc_auc_train = roc_auc_score(y_train, train_probs[:, 1])
-    best_threshold(y_train, train_probs, "Train")
-    calibration_plot(y_train, train_probs, "train", args.iteration)
+    save_predictions(args, df_unlabeled, pool_pred, pool_probs, pool_uncertainty, "pool")
 
-    #predictions and histograms for train set
-    train_predictions.to_csv(os.path.join("predictions",f"train_predictions_iter_{args.iteration}.csv"),index=False)
-    probability_distribution(train_probs,name="train",iteration=args.iteration,output_dir="histograms")
-    uncertainty_distribution(uncertainty_train,"train",args.iteration,output_dir="uncertainty_histograms")
+    #batch for annotation
 
+    #v4
+    negative_batch = select_negative_positive_samples(model, X_pool, df_unlabeled, feature_weights, batch_size= NEGATIVE_BATCH_SIZE, prob_limit= NEGATIVE_THRESHOLD, negative=True)
+    positive_batch = select_negative_positive_samples(model, X_pool, df_unlabeled, feature_weights, batch_size= POSITIVE_BATCH_SIZE, prob_limit= POSITIVE_THRESHOLD, negative=False)
 
-    uncertainty, to_label = select_batch(model, X_pool, args.batch_size, df_unlabeled, args.iteration, feature_weights)
-    accuracy, f1, roc_auc_test = test_model(model, args.test_file, args.iteration)
-
+    to_label = pd.concat([negative_batch, positive_batch])
     output_file = os.path.join("batches",f"to_label_iteration_{args.iteration}.xlsx")
     to_label.to_excel(output_file, index=False)
 
-    stats(args.stats_file, len(df_labeled), len(df_unlabeled), args.iteration, accuracy, f1, uncertainty, roc_auc_test, roc_auc_train, roc_auc_val)
+    #testing the model
+    test, X_test, y_test = load_test(args)
+    accuracy, f1, roc_auc_test, test_pred, test_probs, test_uncertainty = evaluate_model(model, X_test, y_test, args.iteration, "test")
+    save_predictions(args, test, test_pred, test_probs, test_uncertainty, "test")
+    prediction_histogram(y_test, test_pred, args.iteration)
+    confusion_matrix_heatmap(y_test, test_pred, args.iteration)
 
-    print(f"Iteration: {args.iteration}")
-    print(f"Labeled examples: {len(df_labeled)}")
-    print(f"Unlabeled examples: {len(df_unlabeled)}")
-    print(f"Accuracy on test set: {accuracy:.4f}")
-    print(f"F1 on test set: {f1:.4f}")
-    print(f"Saved next batch to: {output_file}")
-    print(f"Saved stats to: {args.stats_file}")
+    stats(args.stats_file, len(df_labeled), len(df_unlabeled), args.iteration, accuracy, f1, pool_uncertainty, roc_auc_test, roc_auc_train, roc_auc_val)
+
+    print_stats(args, df_labeled, df_unlabeled, accuracy, f1, output_file)
 
 
 if __name__ == "__main__":
     main()
+
+#python model.py --iteration 4 --validation-batch "batches/to_label_iteration_3.xlsx" --add-to-train-batch "batches/to_label_iteration_2.xlsx"
