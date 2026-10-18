@@ -227,35 +227,35 @@ def plot_performance():
     )
 
     ax.plot(
-        performance["n_labeled"],
+        performance["iteration"],
         performance["accuracy"],
         marker="o",
         label="Accuracy"
     )
 
     ax.plot(
-        performance["n_labeled"],
+        performance["iteration"],
         performance["precision"],
         marker="o",
         label="Precision"
     )
 
     ax.plot(
-        performance["n_labeled"],
+        performance["iteration"],
         performance["recall"],
         marker="o",
         label="Recall"
     )
 
     ax.plot(
-        performance["n_labeled"],
+        performance["iteration"],
         performance["f1"],
         marker="o",
         label="F1"
     )
 
     ax.plot(
-        performance["n_labeled"],
+        performance["iteration"],
         performance["roc_auc"],
         marker="o",
         label="ROC-AUC"
@@ -272,6 +272,25 @@ def plot_performance():
     ax.set_ylim(
         0.25,
         1.05
+    )
+
+    labels = [
+        f"{int(row['iteration'])}\n(n={int(row['n_labeled'])})"
+        for _, row in performance.iterrows()
+    ]
+
+    ax.set_xticks(
+        performance["iteration"]
+    )
+
+    ax.set_xticklabels(
+        labels,
+        rotation=45,
+        ha="right"
+    )
+
+    ax.set_xlabel(
+        "Iteracija aktivnega učenja (število označenih primerov)"
     )
 
     ax.set_title(
@@ -1765,6 +1784,186 @@ def plot_all_feature_importance_heatmaps():
             top_n=15
         )
 
+def plot_uncertainty_bins_normalized():
+
+    stats = pd.read_csv(
+        STATS_FILE,
+        sep="\t"
+    ).sort_values("iteration")
+
+    # --------------------------------------------------------
+    # Stolpci z negotovostjo
+    # --------------------------------------------------------
+
+    uncertainty_columns = [
+        col for col in stats.columns
+        if col.startswith("uncertainty_over_")
+    ]
+
+    if len(uncertainty_columns) == 0:
+        print("Ni stolpcev z negotovostjo.")
+        return
+
+    # --------------------------------------------------------
+    # Normalizacija glede na število še neoznačenih primerov
+    #
+    # n_uncertain / n_unlabeled
+    # --------------------------------------------------------
+
+    data = stats[
+        uncertainty_columns
+    ].div(
+        stats["n_unlabeled"],
+        axis=0
+    )
+
+    # Imena pragov za x-os
+    thresholds = [
+        col.replace(
+            "uncertainty_over_",
+            ""
+        ).replace("_", ".")
+        for col in uncertainty_columns
+    ]
+
+    # --------------------------------------------------------
+    # Normalizacija BARV znotraj vsakega stolpca posebej
+    #
+    # 0 = najmanjša vrednost tega stolpca
+    # 1 = največja vrednost tega stolpca
+    # --------------------------------------------------------
+
+    color_data = np.zeros_like(
+        data.values,
+        dtype=float
+    )
+
+    for j in range(data.shape[1]):
+
+        values = data.iloc[:, j].to_numpy()
+
+        vmin = values.min()
+        vmax = values.max()
+
+        if vmax > vmin:
+
+            color_data[:, j] = (
+                (values - vmin) /
+                (vmax - vmin)
+            )
+
+        else:
+
+            color_data[:, j] = 0.5
+
+    # --------------------------------------------------------
+    # Plot
+    # --------------------------------------------------------
+
+    fig, ax = plt.subplots(
+        figsize=(10, 8)
+    )
+
+    im = ax.imshow(
+        color_data,
+        aspect="auto",
+        interpolation="nearest",
+        cmap="RdBu_r",
+        vmin=0,
+        vmax=1
+    )
+
+    # --------------------------------------------------------
+    # X axis
+    # --------------------------------------------------------
+
+    ax.set_xticks(
+        np.arange(len(thresholds))
+    )
+
+    ax.set_xticklabels(
+        thresholds,
+        rotation=45,
+        ha="right"
+    )
+
+    ax.set_xlabel(
+        "Prag negotovosti"
+    )
+
+    # --------------------------------------------------------
+    # Y axis
+    # --------------------------------------------------------
+
+    ax.set_yticks(
+        np.arange(len(stats))
+    )
+
+    ax.set_yticklabels(
+        stats["iteration"].astype(int)
+    )
+
+    ax.set_ylabel(
+        "Iteracija aktivnega učenja"
+    )
+
+    ax.set_title(
+        "Spreminjanje deleža negotovih napovedi "
+        "na neoznačeni množici"
+    )
+
+    # --------------------------------------------------------
+    # Colorbar
+    #
+    # Ker je vsak stolpec normaliziran posebej,
+    # barva predstavlja relativno vrednost znotraj stolpca.
+    # --------------------------------------------------------
+
+    cbar = fig.colorbar(
+        im,
+        ax=ax
+    )
+
+    cbar.set_ticks(
+        [0, 0.5, 1]
+    )
+
+    cbar.set_ticklabels(
+        [
+            "Najmanjši",
+            "Srednji",
+            "Največji"
+        ]
+    )
+
+    cbar.set_label(
+        "Relativna vrednost znotraj posameznega praga"
+    )
+
+    plt.tight_layout()
+
+    # --------------------------------------------------------
+    # Save
+    # --------------------------------------------------------
+
+    plt.savefig(
+        os.path.join(
+            PROBABILITY_DIR,
+            "uncertainty_bins_normalized.png"
+        ),
+        dpi=300,
+        bbox_inches="tight"
+    )
+
+    plt.savefig(
+        os.path.join(
+            PROBABILITY_DIR,
+            "uncertainty_bins_normalized.pdf"
+        ),
+        bbox_inches="tight"
+    )
+
+    plt.close()
 
 # ============================================================
 # MAIN
@@ -1883,6 +2082,8 @@ def main():
         f"Rezultati so shranjeni v: {RESULTS_DIR}/"
     )
 
+
+    plot_uncertainty_bins_normalized()
 
 if __name__ == "__main__":
     main()

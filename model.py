@@ -15,9 +15,7 @@ from sklearn.metrics import pairwise_distances_argmin_min
 from sklearn.impute import SimpleImputer
 from visualizations import probability_distribution, uncertainty_distribution, confusion_matrix_heatmap, prediction_histogram, calibration_plot, feature_importance
 
-# --------------------------------------
-# 1. CONFIGURATION
-# --------------------------------------
+# Variables
 
 CATEGORICAL_COLS = ["REALM", "KINGDOM", "PHYLUM", "CLASS", "ORDER", "FAMILY","GENUS", "SPECIES","MVP", "CP", "POLYPROTEIN","HMMER_MP_HIT","CONSISTENT LENGTH (tax)", "PLANT HOST (tax)"]
 NUMERIC_COLS = ["LENGTH", "SPADES_COV", "COVERM RPKM", "COVERM READ COUNT","LONGEST ORF LENGTH", "LONGEST ORF COVERAGE", "NUM OF ORFS", "HMMER_MP_EVALUE", "HMMER_MP_SCORE"]
@@ -32,9 +30,7 @@ NEGATIVE_BATCH_SIZE = 10
 POSITIVE_BATCH_SIZE = 20
 
 
-# --------------------------------------
-# 2. ARGUMENTS / SETUP
-# --------------------------------------
+#Creating output directories for batches, histograms, predictions, prediction_histograms, uncertainty_histograms, heatmaps
 
 def parse_args():
 
@@ -60,9 +56,7 @@ def create_output_dirs():
     for directory in dirs:
         os.makedirs(directory, exist_ok=True)
 
-# --------------------------------------
-# 3. DATA LOADING / UPDATING
-# --------------------------------------
+#Loading train data and adding labeled data
 
 def update_train(train_df, labeled_batch, iteration):
 
@@ -142,10 +136,6 @@ def load_test(args):
     return test, X_test, y_test
 
 
-# --------------------------------------
-# 4. MODEL
-# --------------------------------------
-
 #building model, preprocess + XGBClassifier
 def build_model(neg_pos_ratio):
     categorical_transformer = Pipeline([
@@ -209,9 +199,7 @@ def permutation_feature_weights(model, X_val, y_val):
     return weights
 
 
-# --------------------------------------
-# 5. EVALUATION
-# --------------------------------------
+#evaluation of the model, best threshold, accuracy, f1, roc_auc, calibration plot, feature importance
 def best_threshold(y_true, probs, name):
     fpr, tpr, thresholds = roc_curve(y_true, probs[:, 1])
 
@@ -255,9 +243,8 @@ def df_predictions(df, pred, probs, uncertainty):
     df["uncertainty"] = uncertainty
 
     return df
-# --------------------------------------
-# 6. ACTIVE LEARNING / SAMPLING
-# --------------------------------------
+
+# ACTIVE LEARNING SAMPLING TECHNIQUES
 
 #v1 -> select candidates closest to uncertainty = 0.5
 def select_most_uncertain_samples(model, X_pool, df_unlabeled, batch_size=20):
@@ -271,7 +258,7 @@ def select_most_uncertain_samples(model, X_pool, df_unlabeled, batch_size=20):
 
     return batch
 
-#v3 -> select 20 candidates with uncertainty > 0.2
+#v2 -> select 20 candidates with uncertainty > 0.2
 
 def select_batch(model,X_pool, batch_size, df_unlabeled, feature_weights, min_uncertainty = 0.2):
     #predict probability
@@ -483,9 +470,7 @@ def select_negative_positive_samples(model, X_pool, df_unlabeled, feature_weight
 
     return batch
 
-# --------------------------------------
-# 7. OUTPUT / STATISTICS
-# --------------------------------------
+#outputs
 
 def save_predictions(args,df_unlabeled, pred, probs, uncertainty, name):
     predictions = df_predictions(df_unlabeled, pred, probs, uncertainty)
@@ -533,9 +518,7 @@ def print_stats(args, df_labeled, df_unlabeled, test_accuracy, f1, output_file):
     print(f"Saved stats to: {args.stats_file}")
 
 
-# --------------------------------------
-# 8. MAIN
-# --------------------------------------
+#main function
 
 def main():
 
