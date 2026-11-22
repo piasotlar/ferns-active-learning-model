@@ -13,3 +13,4 @@ test.tsv
 train_pool.tsv
 cross_validation/CV*
 results/
+__pycache__/
