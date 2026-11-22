@@ -42,14 +42,13 @@ python table_extend.py
 This creates `table_extended.tsv`. 
 
 With the extended table prepare an initial training pool with labeled `Yes` and `No`
-examples, a separate labeled test set, and any remaining unlabeled contigs in
-the training pool. 
+examples and a separate labeled test set.
 
 Then split the table into:
 
 ```text
-recommender_system/train_pool.tsv
-recommender_system/test.tsv
+train_pool.tsv
+test.tsv
 ```
 
 `train_pool.tsv` should contain both labeled and unlabeled contigs. `test.tsv` is a
@@ -107,7 +106,7 @@ batches/to_label_iteration_<n>.xlsx
 ## Sampling strategies
 
 The strategy is selected in
-[recommender_system/model.py](recommender_system/model.py):
+[model.py](model.py):
 
 ```python
 sampling_version = 4
