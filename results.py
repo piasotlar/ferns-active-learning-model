@@ -230,21 +230,21 @@ def plot_performance():
         performance["iteration"],
         performance["accuracy"],
         marker="o",
-        label="Accuracy"
+        label="Točnost (Accuracy)"
     )
 
     ax.plot(
         performance["iteration"],
         performance["precision"],
         marker="o",
-        label="Precision"
+        label="Preciznost (Precision)"
     )
 
     ax.plot(
         performance["iteration"],
         performance["recall"],
         marker="o",
-        label="Recall"
+        label="Priklic (Recall)"
     )
 
     ax.plot(
@@ -408,6 +408,67 @@ def get_probability_heatmap_data(
         bins
     )
 
+def add_heatmap_annotations(
+    ax,
+    values,
+    color_values=None,
+    fmt=".2f",
+    fontsize=7,
+    annotate_zeros=False
+):
+    """
+    Doda številčne vrednosti v celice heatmapa.
+
+    values:
+        vrednosti, ki se izpišejo v celice
+
+    color_values:
+        vrednosti, uporabljene za določanje barve besedila.
+        Če None, se uporabijo values.
+    """
+
+    if color_values is None:
+        color_values = values
+
+    finite_values = color_values[
+        np.isfinite(color_values)
+    ]
+
+    if len(finite_values) == 0:
+        return
+
+    midpoint = (
+        finite_values.min() +
+        finite_values.max()
+    ) / 2
+
+    for i in range(values.shape[0]):
+        for j in range(values.shape[1]):
+
+            value = values[i, j]
+
+            if not np.isfinite(value):
+                continue
+
+            # ničel lahko ne izpisujemo, da graf ni prenatrpan
+            if value == 0 and not annotate_zeros:
+                continue
+
+            text_color = (
+                "black"
+                if color_values[i, j] > midpoint
+                else "white"
+            )
+
+            ax.text(
+                j,
+                i,
+                format(value, fmt),
+                ha="center",
+                va="center",
+                color=text_color,
+                fontsize=fontsize
+            )
 
 # ============================================================
 # 3. INDIVIDUAL PROBABILITY HEATMAPS
@@ -561,6 +622,35 @@ def plot_probability_heatmap(
         os.path.join(
             PROBABILITY_HEATMAP_DIR,
             f"{dataset}_probability_heatmap.pdf"
+        ),
+        bbox_inches="tight"
+    )
+
+    # --------------------------------------------------------
+    # Annotated version
+    # --------------------------------------------------------
+
+    add_heatmap_annotations(
+        ax,
+        data,
+        color_values=data,
+        fmt=".2f",
+        fontsize=6
+    )
+
+    plt.savefig(
+        os.path.join(
+            PROBABILITY_HEATMAP_DIR,
+            f"{dataset}_probability_heatmap_annotated.png"
+        ),
+        dpi=300,
+        bbox_inches="tight"
+    )
+
+    plt.savefig(
+        os.path.join(
+            PROBABILITY_HEATMAP_DIR,
+            f"{dataset}_probability_heatmap_annotated.pdf"
         ),
         bbox_inches="tight"
     )
@@ -1001,6 +1091,33 @@ def plot_probability_distribution_by_class(
                 PROBABILITY_DIR,
                 f"test_probability_distribution_true_"
                 f"{class_file_name}.pdf"
+            ),
+            bbox_inches="tight"
+        )
+
+        add_heatmap_annotations(
+            ax,
+            heatmap_data,
+            color_values=heatmap_data,
+            fmt=".2f",
+            fontsize=6
+        )
+
+        plt.savefig(
+            os.path.join(
+                PROBABILITY_DIR,
+                f"test_probability_distribution_true_"
+                f"{class_file_name}_annotated.png"
+            ),
+            dpi=300,
+            bbox_inches="tight"
+        )
+
+        plt.savefig(
+            os.path.join(
+                PROBABILITY_DIR,
+                f"test_probability_distribution_true_"
+                f"{class_file_name}_annotated.pdf"
             ),
             bbox_inches="tight"
         )
@@ -1619,33 +1736,19 @@ def plot_feature_importance_heatmap(
         ignore_index=True
     )
 
-    # --------------------------------------------------------
-    # Select top features
-    # --------------------------------------------------------
-
-    top_features = (
-        importance
-        .groupby("feature")[
-            "importance_mean"
-        ]
-        .mean()
-        .sort_values(
-            ascending=False
-        )
-        .head(top_n)
-        .index
-    )
-
-    importance = importance[
-        importance["feature"].isin(
-            top_features
-        )
-    ]
 
     # --------------------------------------------------------
     # Feature x iteration matrix
     # --------------------------------------------------------
 
+    matrix = importance.pivot_table(
+        index="feature",
+        columns="iteration",
+        values="importance_mean",
+        aggfunc="mean"
+    )
+
+    # Manjkajoče vrednosti nadomestimo z 0
     matrix = importance.pivot_table(
         index="feature",
         columns="iteration",
@@ -1757,6 +1860,32 @@ def plot_feature_importance_heatmap(
         os.path.join(
             FEATURE_DIR,
             f"{dataset}_feature_importance_heatmap.pdf"
+        ),
+        bbox_inches="tight"
+    )
+
+    add_heatmap_annotations(
+        ax,
+        matrix.values,
+        color_values=matrix.values,
+        fmt=".3f",
+        fontsize=6,
+        annotate_zeros=True
+    )
+
+    plt.savefig(
+        os.path.join(
+            FEATURE_DIR,
+            f"{dataset}_feature_importance_heatmap_annotated.png"
+        ),
+        dpi=300,
+        bbox_inches="tight"
+    )
+
+    plt.savefig(
+        os.path.join(
+            FEATURE_DIR,
+            f"{dataset}_feature_importance_heatmap_annotated.pdf"
         ),
         bbox_inches="tight"
     )

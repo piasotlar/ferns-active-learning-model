@@ -1,11 +1,5 @@
 .DS_Store
 
-annotator_analysis/annotator_answers*
-annotator_analysis/annotator_LOOCV
-annotator_analysis/cross_validation.py
-annotator_analysis/expert*
-annotator_analysis/venn*
-
 predictions/
 histograms/
 heatmaps/
@@ -14,7 +8,6 @@ uncertainty_histograms/
 feature_importance/
 batches/
 calibration_curves/
-comment_opposite_annotations_test/
 active_learning_stats.tsv
 test.tsv
 train_pool.tsv

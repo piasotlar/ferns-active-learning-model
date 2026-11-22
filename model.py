@@ -25,12 +25,14 @@ METADATA_COLS = ["ITERATION_ADDED","PROB_NO_AT_SELECTION","PROB_YES_AT_SELECTION
 DROP_COLS = ["YES/NO", "SAMPLE", "CONTIG NAME","HMMER_MP_TARGET", "HMMER_MP_QUERY"]
 
 NEGATIVE_THRESHOLD = 0.05
-POSITIVE_THRESHOLD = 0.90 # povečala mejo na 0.9 za 19 iteracijo, drugače 0.95
+POSITIVE_THRESHOLD = 0.95 
 NEGATIVE_BATCH_SIZE = 10
 POSITIVE_BATCH_SIZE = 20
 
+sampling_version = 4 # options: 1, 2, 3, 4
 
-#Creating output directories for batches, histograms, predictions, prediction_histograms, uncertainty_histograms, heatmaps
+
+# creates output directories for results (batches, histograms, predictions, prediction_histograms, uncertainty_histograms, heatmaps)
 
 def parse_args():
 
@@ -56,7 +58,7 @@ def create_output_dirs():
     for directory in dirs:
         os.makedirs(directory, exist_ok=True)
 
-#Loading train data and adding labeled data
+# loads train data and adds labeled data
 
 def update_train(train_df, labeled_batch, iteration):
 
@@ -136,7 +138,7 @@ def load_test(args):
     return test, X_test, y_test
 
 
-#building model, preprocess + XGBClassifier
+# building model, preprocess + XGBClassifier
 def build_model(neg_pos_ratio):
     categorical_transformer = Pipeline([
         ("imputer", SimpleImputer(strategy="constant", fill_value="missing")),
@@ -250,7 +252,7 @@ def df_predictions(df, pred, probs, uncertainty):
 def select_most_uncertain_samples(model, X_pool, df_unlabeled, batch_size=20):
     probs = model.predict_proba(X_pool)
     uncertainty = np.min(probs, axis=1)
-    candidate_indices = np.argsort(uncertainty)[:batch_size]
+    candidate_indices = np.argsort(uncertainty)[-batch_size:]
     batch = df_unlabeled.iloc[candidate_indices].copy()
     batch["prob_No"] = probs[candidate_indices, 0]
     batch["prob_Yes"] = probs[candidate_indices, 1]
@@ -368,7 +370,7 @@ def select_high_certainty_batch(model, X_pool, batch_size, df_unlabeled,feature_
     if feature_weights is None:
         transformed_weights = np.ones(X_candidates_transformed.shape[1])
     else:
-        model_cols = categorical_cols + numeric_cols
+        model_cols = CATEGORICAL_COLS + NUMERIC_COLS
 
         feature_weights_series = pd.Series(
             feature_weights,
@@ -415,9 +417,17 @@ def select_negative_positive_samples(model, X_pool, df_unlabeled, feature_weight
     probs = model.predict_proba(X_pool)
     uncertainty = np.min(probs, axis=1)
     if negative:
-        mask = probs [:, 1] < prob_limit
+        thresholds = [prob_limit, prob_limit + 0.05, prob_limit + 0.1]
+        for threshold in thresholds:
+            mask = probs [:, 1] < threshold
+            if mask.sum() >=batch_size:
+                break
     else:
-        mask = probs [:, 1] > prob_limit
+        thresholds = [prob_limit, prob_limit-0.05, prob_limit-0.1]
+        for threshold in thresholds:
+            mask = probs [:, 1] > threshold
+            if mask.sum() >= batch_size:
+                break
     candidate_indices = np.where(mask)[0]
     X_candidates = X_pool.iloc[candidate_indices].copy()
 
@@ -469,6 +479,7 @@ def select_negative_positive_samples(model, X_pool, df_unlabeled, feature_weight
     batch["uncertainty"] = uncertainty[indices]
 
     return batch
+
 
 #outputs
 
@@ -526,9 +537,7 @@ def main():
     create_output_dirs()
     
     if args.iteration > 0 and args.validation_batch is None:
-        raise ValueError(
-            "For iteration > 0, you must provide --validation-batch."
-        )
+        print("No validation batch provided. Skipping validation.")
 
     if args.iteration > 1 and args.add_to_train_batch is None:
         raise ValueError(
@@ -553,8 +562,7 @@ def main():
     #validation batch
     feature_weights = None
     roc_auc_val = None
-
-    if args.iteration > 0:
+    if args.validation_batch is not None:
         X_val, y_val = load_validation_batch(args)
         feature_weights = permutation_feature_weights(model, X_val, y_val)
 
@@ -574,11 +582,23 @@ def main():
 
     #batch for annotation
 
-    #v4
-    negative_batch = select_negative_positive_samples(model, X_pool, df_unlabeled, feature_weights, batch_size= NEGATIVE_BATCH_SIZE, prob_limit= NEGATIVE_THRESHOLD, negative=True)
-    positive_batch = select_negative_positive_samples(model, X_pool, df_unlabeled, feature_weights, batch_size= POSITIVE_BATCH_SIZE, prob_limit= POSITIVE_THRESHOLD, negative=False)
+    if sampling_version == 1:
+        to_label = select_most_uncertain_samples(model, X_pool, df_unlabeled, batch_size=POSITIVE_BATCH_SIZE)
+    elif sampling_version == 2:
+        to_label = select_batch(model, X_pool, batch_size=POSITIVE_BATCH_SIZE, df_unlabeled=df_unlabeled, feature_weights=feature_weights, min_uncertainty=0.2)
+    elif sampling_version == 3:
+        high_certainty_batch = select_high_certainty_batch(model, X_pool, batch_size=NEGATIVE_BATCH_SIZE, df_unlabeled=df_unlabeled, feature_weights=feature_weights, max_uncertainty=0.1)
+        uncertrain_batch = select_batch(model, X_pool, batch_size=POSITIVE_BATCH_SIZE, df_unlabeled=df_unlabeled, feature_weights=feature_weights, min_uncertainty=0.2)
+        to_label = pd.concat([high_certainty_batch, uncertrain_batch])
+    elif sampling_version == 4:
+        negative_batch = select_negative_positive_samples(model, X_pool, df_unlabeled, feature_weights, batch_size= NEGATIVE_BATCH_SIZE, prob_limit= NEGATIVE_THRESHOLD, negative=True)
+        positive_batch = select_negative_positive_samples(model, X_pool, df_unlabeled, feature_weights, batch_size= POSITIVE_BATCH_SIZE, prob_limit= POSITIVE_THRESHOLD, negative=False)
+        to_label = pd.concat([negative_batch, positive_batch])
 
-    to_label = pd.concat([negative_batch, positive_batch])
+    else:
+        raise ValueError(f"Invalid sampling_version: {sampling_version}. "
+                         "Choose 1, 2, 3 or 4.")
+
     output_file = os.path.join("batches",f"to_label_iteration_{args.iteration}.xlsx")
     to_label.to_excel(output_file, index=False)
 

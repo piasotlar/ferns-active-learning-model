@@ -1,0 +1,364 @@
+	Family	min_length_rounded	max_length_rounded	Host source
+0	Abyssoviridae	35000	36000	invertebrates
+1	Ackermannviridae	143000	165000	bacteria
+2	Adamaviridae	1000	5000	freshwater (S), invertebrates, invertebrates (S), marine (S), sewage (S), vertebrates
+3	Adenoviridae	24000	49000	vertebrates
+4	Aggregaviridae	43000	44000	bacteria
+5	Ahmunviridae	41000	42000	archaea
+6	Ahpuchviridae	71000	72000	archaea
+7	Aliceevansviridae	32000	49000	bacteria
+8	Alisviridae	33000	36000	bacteria
+9	Aliusviridae	9000	16000	invertebrates
+10	Alloherpesviridae	134000	296000	vertebrates
+11	Allomimiviridae	668000	669000	protists
+12	Alphaflexiviridae	5000	9000	fungi, plants
+13	Alphaormycoviridae	1000	4000	fungi (S), protists, protists (S)
+14	Alphasatellitidae	900	2000	invertebrates, plants
+15	Alphatetraviridae	2000	7000	invertebrates
+16	Alternaviridae	1000	4000	fungi
+17	Alvernaviridae	4000	5000	protists
+18	Amalgaviridae	2000	4000	fungi, plants
+19	Amesuviridae	2000	4000	plants
+20	Amnoonviridae	400	2000	vertebrates
+21	Ampullaviridae	22000	29000	archaea
+22	Anaerodiviridae	37000	38000	archaea
+23	Andersonviridae	78000	93000	bacteria
+24	Anelloviridae	1000	4000	invertebrates, vertebrates
+25	Anicreviridae	1000	3000	invertebrates, vertebrates, vertebrates (S)
+26	Aoguangviridae	92000	93000	archaea
+27	Apasviridae	108000	109000	archaea
+28	Arenaviridae	1000	8000	freshwater (S), vertebrates
+29	Arenbergviridae	286000	287000	bacteria
+30	Armatusviridae	51000	52000	archaea
+31	Arteriviridae	12000	16000	vertebrates
+32	Artiviridae	6000	9000	invertebrates
+33	Artoviridae	10000	13000	invertebrates, plants, vertebrates
+34	Ascoviridae	119000	200000	invertebrates
+35	Asemoviridae	10000	11000	bacteria
+36	Asfarviridae	170000	194000	invertebrates, vertebrates
+37	Aspiviridae	1000	9000	plants
+38	Assiduviridae	53000	58000	bacteria
+39	Astroviridae	6000	8000	vertebrates
+40	Atkinsviridae	3000	5000	bacteria, plants (S), soil (S)
+41	Autolykiviridae	10000	11000	bacteria
+42	Autonotataviridae	30000	45000	bacteria
+43	Autoscriptoviridae	35000	50000	bacteria
+44	Autosignataviridae	37000	48000	bacteria
+45	Autotranscriptaviridae	31000	45000	bacteria
+46	Avsunviroidae	200	500	plants
+47	Bacilladnaviridae	3000	6000	invertebrates, marine (S), protists
+48	Baculoviridae	81000	179000	invertebrates
+49	Barnaviridae	4000	5000	fungi
+50	Belpaoviridae	4000	11000	invertebrates, vertebrates
+51	Benyviridae	1000	8000	plants
+52	Berryhillviridae	46000	52000	bacteria
+53	Betaflexiviridae	6000	10000	plants
+54	Betaormycoviridae	1000	3000	fungi, protists, protists (S)
+55	Bicaudaviridae	62000	63000	archaea
+56	Bidnaviridae	6000	7000	invertebrates
+57	Birnaviridae	2000	4000	invertebrates, vertebrates
+58	Blumeviridae	3000	5000	bacteria, invertebrates (S), soil (S)
+59	Bornaviridae	8000	12000	vertebrates
+60	Botourmiaviridae	900	6000	fungi, plants, unknown (S)
+61	Botybirnaviridae	5000	7000	fungi, protists (S)
+62	Bromoviridae	1000	4000	plants
+63	Burtonviroviridae	29000	30000	freshwater (S)
+64	Caliciviridae	6000	9000	vertebrates
+65	Carmotetraviridae	6000	7000	invertebrates
+66	Casidaviridae	40000	51000	bacteria
+67	Casjensviridae	54000	64000	bacteria
+68	Caulimoviridae	6000	10000	plants
+69	Chaacviridae	10000	11000	archaea
+70	Chaseviridae	50000	58000	bacteria
+71	Chimalliviridae	211000	317000	bacteria
+72	Chiyouviridae	26000	27000	archaea
+73	Chrysoviridae	800	5000	fungi, invertebrates (S), plants (S)
+74	Chuviridae	1000	13000	invertebrates, vertebrates
+75	Circoviridae	1000	3000	invertebrates, plants (S), vertebrates
+76	Clavaviridae	5000	6000	archaea
+77	Clermontviridae	37000	38000	archaea
+78	Closteroviridae	3000	20000	plants
+79	Colingsworthviridae	40000	46000	bacteria
+80	Connertonviridae	123000	184000	bacteria
+81	Coronaviridae	25000	37000	vertebrates
+82	Corticoviridae	10000	11000	bacteria
+83	Cremegaviridae	14000	18000	vertebrates
+84	Crepuscuviridae	12000	13000	invertebrates
+85	Crevaviridae	83000	96000	bacteria
+86	Cruliviridae	700	7000	invertebrates
+87	Curvulaviridae	1000	3000	fungi
+88	Cystoviridae	2000	8000	bacteria
+89	Deltaflexiviridae	7000	9000	fungi
+90	Deltanormycoviridae	1000	4000	fungi, protists
+91	Demerecviridae	101000	138000	bacteria
+92	Dicistroviridae	8000	11000	invertebrates
+93	Discoviridae	1000	7000	fungi, plants, protists
+94	Dishuiviroviridae	24000	25000	protists
+95	Draupnirviridae	1000	6000	air (S), freshwater (S), invertebrates, invertebrates (S), marine (S), plants, sewage (S), vertebrates
+96	Drexlerviridae	37000	55000	bacteria
+97	Druskaviridae	102000	104000	archaea
+98	Duinviridae	3000	5000	bacteria, invertebrates (S), plants (S), soil (S)
+99	Dumbiviridae	4000	5000	fungi
+100	Duneviridae	39000	47000	bacteria
+101	Ehrlichviridae	48000	53000	bacteria
+102	Ekchuahviridae	71000	81000	archaea
+103	Endolinaviridae	2000	4000	vertebrates
+104	Endornaviridae	9000	18000	fungi, plants, protists
+105	Epsomviridae	659000	660000	bacteria
+106	Eupolintoviridae	12000	13000	invertebrates, vertebrates
+107	Eurekaviridae	17000	18000	archaea
+108	Felixviridae	44000	47000	bacteria
+109	Fervensviridae	31000	32000	archaea
+110	Fiersviridae	3000	6000	bacteria, invertebrates (S), plants (S), soil (S)
+111	Filamentoviridae	101000	138000	invertebrates
+112	Filoviridae	13000	21000	vertebrates
+113	Fimoviridae	900	8000	plants
+114	Finnlakeviridae	9000	10000	bacteria
+115	Flaviviridae	8000	14000	invertebrates, vertebrates, vertebrates
+116	Forsetiviridae	43000	48000	bacteria
+117	Fredfastierviridae	43000	44000	bacteria
+118	Fusagraviridae	8000	11000	fungi, plants, protists
+119	Fusariviridae	5000	11000	fungi, protists
+120	Fuselloviridae	14000	25000	archaea
+121	Fuxiviridae	31000	32000	archaea
+122	Gammaflexiviridae	6000	10000	fungi
+123	Gammaormycoviridae	1000	3000	fungi, protists (S)
+124	Gandrviridae	5000	10000	freshwater (S), invertebrates, vertebrates
+125	Geminiviridae	2000	4000	invertebrates, invertebrates, plants, plants
+126	Genomoviridae	1000	3000	fungi, invertebrates, invertebrates, vertebrates, plants, sewage (S), vertebrates
+127	Geplanaviridae	1000	3000	air (S), freshwater (S), invertebrates, plants, vertebrates
+128	Giardiaviridae	6000	7000	protists
+129	Globuloviridae	18000	29000	archaea
+130	Graaviviridae	39000	43000	archaea
+131	Gresnaviridae	18000	19000	vertebrates
+132	Grimontviridae	75000	113000	bacteria
+133	Guelinviridae	17000	20000	bacteria
+134	Gulliviroviridae	30000	31000	freshwater (S)
+135	Guttaviridae	13000	14000	archaea
+136	Hadakaviridae	800	3000	fungi
+137	Hafunaviridae	56000	77000	archaea
+138	Hakuzoviridae	4000	7000	bacteria
+139	Haloferuviridae	35000	39000	archaea
+140	Halomagnusviridae	143000	144000	archaea
+141	Halspiviridae	14000	15000	archaea
+142	Hantaviridae	1000	7000	vertebrates
+143	Helgolandviridae	37000	38000	bacteria
+144	Hepadnaviridae	3000	4000	vertebrates
+145	Hepeviridae	6000	8000	vertebrates
+146	Herelleviridae	106000	168000	bacteria
+147	Hodgkinviridae	52000	57000	bacteria
+148	Huangdiviridae	26000	27000	archaea
+149	Hydriviridae	1599000	1600000	unknown (S)
+150	Hypoviridae	7000	19000	fungi, invertebrates
+151	Hytrosaviridae	124000	191000	invertebrates
+152	Iflaviridae	8000	11000	invertebrates
+153	Inoviridae	5000	11000	bacteria
+154	Inseviridae	5000	7000	invertebrates
+155	Intestiviridae	89000	99000	bacteria
+156	Iridoviridae	102000	289000	invertebrates, vertebrates
+157	Itzamnaviridae	25000	49000	archaea
+158	Jeanschmidtviridae	207000	357000	bacteria
+159	Kairosviridae	34000	35000	archaea
+160	Kanorauviridae	1000	4000	air (S), freshwater (S), invertebrates, marine (S), plants, sewage (S), unknown (S), vertebrates
+161	Kirkoviridae	2000	5000	vertebrates
+162	Kitaviridae	1000	9000	invertebrates, plants, plants
+163	Kleczkowskaviridae	206000	208000	bacteria
+164	Kolmioviridae	1000	2000	invertebrates, vertebrates
+165	Konkoviridae	1000	7000	plants
+166	Konodaiviridae	56000	58000	bacteria
+167	Krittikaviridae	79000	80000	archaea
+168	Kruegerviridae	84000	88000	bacteria
+169	Kunpengviridae	35000	36000	archaea
+170	Kyanoviridae	144000	253000	bacteria
+171	Lakviridae	476000	548000	bacteria
+172	Lebotiviridae	6000	9000	invertebrates
+173	Leishbuviridae	600	7000	protists
+174	Leisingerviridae	26000	27000	archaea
+175	Lindbergviridae	60000	74000	bacteria
+176	Lipothrixviridae	31000	42000	archaea
+177	Lispiviridae	6000	16000	invertebrates, vertebrates
+178	Ludisviridae	48000	49000	bacteria
+179	Lutetiaviridae	83000	84000	archaea
+180	Madisaviridae	49000	50000	archaea
+181	Madridviridae	19000	20000	bacteria
+182	Mahapunaviridae	1000	3000	freshwater (S), invertebrates, plants, sewage (S), vertebrates
+183	Malacoherpesviridae	207000	212000	invertebrates
+184	Mamonoviridae	362000	382000	protists
+185	Marnaviridae	6000	10000	marine (S), protists
+186	Marseilleviridae	346000	381000	protists
+187	Matonaviridae	9000	10000	vertebrates
+188	Matsushitaviridae	17000	20000	bacteria
+189	Maviroviridae	19000	20000	protists
+190	Mayoviridae	2000	7000	plants
+191	Mazoviaviridae	120000	121000	bacteria
+192	Medioniviridae	25000	26000	invertebrates
+193	Megabirnaviridae	5000	9000	fungi
+194	Megatotiviridae	12000	14000	fungi
+195	Mesomimiviridae	437000	474000	protists
+196	Mesoniviridae	18000	21000	invertebrates
+197	Mestraviridae	8000	9000	bacteria
+198	Mesyanzhinovviridae	55000	65000	bacteria
+199	Metaviridae	4000	88000	fungi, invertebrates, plants, protists, vertebrates
+200	Metaxyviridae	600	2000	plants
+201	Microviridae	4000	7000	bacteria
+202	Mimiviridae	617000	1992000	protists
+203	Mitoviridae	2000	5000	fungi, plants
+204	Molycolviridae	124000	125000	bacteria
+205	Monocitiviridae	6000	7000	fungi
+206	Mononiviridae	41000	42000	invertebrates
+207	Mtkvariviridae	68000	80000	bacteria
+208	Mycoalphaviridae	6000	9000	fungi
+209	Mymonaviridae	5000	12000	fungi, invertebrates, phytobiome (S), soil (S)
+210	Mypoviridae	2000	10000	invertebrates
+211	Myriaviridae	13000	14000	invertebrates
+212	Nairoviridae	1000	15000	invertebrates, invertebrates, vertebrates, vertebrates
+213	Nanghoshaviridae	13000	14000	vertebrates
+214	Nanhypoviridae	18000	19000	vertebrates
+215	Nanoviridae	900	2000	plants
+216	Naomviridae	75000	76000	bacteria
+217	Narnaviridae	2000	3000	fungi
+218	Naryaviridae	1000	3000	air (S), protists (S), vertebrates
+219	Natareviridae	12000	13000	invertebrates
+220	Nenyaviridae	1000	3000	protists (S), vertebrates
+221	Nimaviridae	280000	310000	invertebrates
+222	Nipumfusiviridae	27000	39000	archaea
+223	Nixviridae	41000	50000	bacteria
+224	Nodaviridae	1000	4000	invertebrates, vertebrates
+225	Noraviridae	12000	13000	invertebrates (S)
+226	Nudiviridae	96000	232000	invertebrates
+227	Nyamiviridae	4000	14000	invertebrates, invertebrates, vertebrates, vertebrates
+228	Obscuriviridae	6000	7000	bacteria
+229	Olifoviridae	15000	16000	vertebrates
+230	Omnilimnoviroviridae	23000	24000	freshwater (S)
+231	Oomyviridae	2000	5000	invertebrates, vertebrates
+232	Ootiviridae	5000	6000	protists, protists (S)
+233	Orlajensenviridae	17000	18000	bacteria
+234	Orpheoviridae	1473000	1474000	protists
+235	Orthoherpesviridae	108000	242000	vertebrates
+236	Orthomyxoviridae	500	3000	invertebrates, vertebrates, vertebrates
+237	Orthototiviridae	3000	6000	fungi, invertebrates, plants, protists (S)
+238	Ouroboviridae	1000	3000	freshwater (S), invertebrates, marine (S), plants, protists, vertebrates
+239	Ovaliviridae	23000	24000	archaea
+240	Pachyviridae	71000	79000	bacteria
+241	Pamosaviridae	800	900	plants
+242	Papillomaviridae	5000	9000	vertebrates
+243	Paramyxoviridae	14000	22000	vertebrates
+244	Parnassusviridae	10000	11000	bacteria
+245	Partitiviridae	1000	3000	fungi, plants, protists
+246	Parvoviridae	3000	7000	invertebrates, invertebrates, vertebrates, vertebrates
+247	Paulinoviridae	5000	6000	bacteria
+248	Pecoviridae	2000	4000	vertebrates
+249	Peduoviridae	28000	4858000	bacteria
+250	Peribunyaviridae	700	13000	invertebrates, invertebrates, vertebrates, vertebrates
+251	Permutotetraviridae	5000	6000	invertebrates
+252	Pervagoviridae	72000	73000	bacteria
+253	Phasmaviridae	1000	8000	invertebrates, invertebrates (S)
+254	Phenuiviridae	800	10000	fungi, invertebrates, invertebrates, plants, invertebrates, vertebrates, plants, protists, vertebrates
+255	Phlegiviridae	9000	12000	fungi
+256	Phycodnaviridae	154000	408000	protists
+257	Phypoliviridae	26000	27000	protists
+258	Picobirnaviridae	1000	3000	bacteria, invertebrates (S), bacteria, vertebrates (S)
+259	Picornaviridae	2000	11000	vertebrates
+260	Pigerviridae	53000	54000	archaea
+261	Pistolviridae	5000	7000	vertebrates
+262	Pithoviridae	1000	684000	protists
+263	Plasmaviridae	11000	12000	bacteria
+264	Plectroviridae	4000	9000	bacteria
+265	Pleolipoviridae	7000	17000	archaea
+266	Pneumoviridae	13000	16000	vertebrates
+267	Polycipiviridae	3000	13000	invertebrates
+268	Polydnaviriformidae			invertebrates
+269	Polymycoviridae	800	3000	fungi
+270	Polyomaviridae	3000	8000	vertebrates
+271	Pootjesviridae	143000	159000	bacteria
+272	Portogloboviridae	20000	21000	archaea
+273	Pospiviroidae	200	400	plants
+274	Potyviridae	2000	12000	plants
+275	Poxviridae	127000	360000	invertebrates, vertebrates
+276	Pseudototiviridae	4000	7000	fungi, protists, vertebrates
+277	Pseudoviridae	4000	22000	fungi, invertebrates, plants, protists
+278	Pungoviridae	37000	38000	archaea
+279	Pyrstoviridae	42000	43000	archaea
+280	Qinviridae	1000	7000	invertebrates
+281	Quadriviridae	3000	5000	fungi
+282	Quambiviridae	4000	6000	fungi
+283	Redondoviridae	3000	4000	vertebrates
+284	Retroviridae	2000	14000	vertebrates
+285	Rhabdoviridae	3000	17000	freshwater (S), invertebrates, invertebrates (S), invertebrates, plants, invertebrates, vertebrates, plants, soil (S), unknown (S), vertebrates
+286	Roniviridae	26000	30000	invertebrates
+287	Rountreeviridae	16000	19000	bacteria
+288	Rudiviridae	20000	37000	archaea
+289	Ruviroviridae			vertebrates (S)
+290	Saffermanviridae	39000	45000	bacteria
+291	Salasmaviridae	17000	29000	bacteria
+292	Saparoviridae	52000	55000	archaea
+293	Sarkviridae	39000	45000	bacteria
+294	Sarthroviridae	700	900	invertebrates
+295	Satyavativiridae	86000	87000	archaea
+296	Schitoviridae	59000	80000	bacteria
+297	Schizomimiviridae	370000	1422000	protists
+298	Secoviridae	3000	14000	plants
+299	Sedoreoviridae	500	6000	invertebrates, invertebrates, plants, invertebrates, vertebrates, protists, vertebrates
+300	Shortaselviridae	32000	33000	archaea
+301	Simuloviridae	16000	19000	archaea
+302	Sinhaliviridae	5000	6000	invertebrates
+303	Skuldviridae	11000	12000	archaea
+304	Smacoviridae	2000	4000	air (S), unknown (S)
+305	Soleiviridae	63000	64000	archaea
+306	Solemoviridae	3000	7000	fungi, plants
+307	Solinviviridae	10000	11000	invertebrates
+308	Solspiviridae	3000	6000	bacteria, invertebrates (S), plants (S), soil (S)
+309	Soropartitiviridae	1000	2000	bacteria
+310	Speroviridae	42000	43000	archaea
+311	Sphaerolipoviridae	28000	32000	archaea
+312	Spiciviridae	6000	9000	invertebrates, plants
+313	Spinareoviridae	200	12000	fungi, invertebrates, invertebrates, plants, invertebrates, vertebrates, vertebrates
+314	Spiraviridae	24000	25000	archaea
+315	Splipalmiviridae	300	3000	fungi
+316	Sputniviroviridae	17000	19000	protists
+317	Stackebrandtviridae	55000	62000	bacteria
+318	Stanwilliamsviridae	125000	136000	bacteria
+319	Steigviridae	93000	105000	bacteria
+320	Steitzviridae	3000	6000	bacteria, invertebrates (S), plants (S), soil (S)
+321	Straboviridae	121000	249000	bacteria
+322	Sunviridae	17000	18000	vertebrates
+323	Suolaviridae	35000	36000	archaea
+324	Suoliviridae	92000	105000	bacteria
+325	Tectiviridae	14000	19000	bacteria
+326	Thalassapleoviridae	13000	18000	archaea
+327	Thaspiviridae	27000	29000	archaea
+328	Tobaniviridae	20000	37000	vertebrates
+329	Togaviridae	11000	13000	invertebrates, invertebrates, vertebrates, vertebrates
+330	Tolecusatellitidae	600	2000	plants
+331	Tombusviridae	1000	7000	plants
+332	Tonesaviridae	1000	2000	plants
+333	Tosoviridae	5000	7000	vertebrates
+334	Tospoviridae	700	10000	invertebrates, plants
+335	Toyamaviridae	62000	68000	bacteria
+336	Trautnerviridae	42000	47000	bacteria
+337	Trimbiviridae	4000	5000	fungi
+338	Tristromaviridae	17000	18000	archaea
+339	Tulasviridae	12000	15000	fungi
+340	Turriviridae	16000	18000	archaea
+341	Tymoviridae	6000	8000	plants
+342	Umezonoviridae	28000	32000	bacteria
+343	Unambiviridae	4000	5000	fungi
+344	Ungulaviridae	20000	21000	archaea
+345	Usuviridae	37000	39000	archaea
+346	Vandenendeviridae	84000	102000	bacteria
+347	Verdandiviridae	19000	21000	archaea
+348	Vertoviridae	55000	59000	archaea
+349	Vilmaviridae	68000	85000	bacteria
+350	Vilyaviridae	1000	3000	protists (S), vertebrates
+351	Virgaviridae	1000	8000	plants
+352	Winoviridae	34000	40000	bacteria
+353	Wupedeviridae	1000	12000	invertebrates
+354	Xinmoviridae	9000	16000	invertebrates, vertebrates (S)
+355	Yadokariviridae	2000	7000	fungi, protists
+356	Yadonushiviridae	8000	9000	fungi
+357	Yangangviridae	36000	39000	archaea
+358	Yanlukaviridae	35000	36000	archaea
+359	Yaraviridae	44000	45000	protists
+360	Yueviridae	1000	7000	invertebrates
+361	Zierdtviridae	64000	71000	bacteria
+362	Zobellviridae	38000	50000	bacteria

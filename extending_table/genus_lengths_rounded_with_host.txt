@@ -1,0 +1,3728 @@
+Family	Genus	min_length_rounded	max_length_rounded	Host source
+Abyssoviridae	Alphaabyssovirus	35000	36000	invertebrates
+Ackermannviridae	Agtrevirus	158000	161000	bacteria
+Ackermannviridae	Campanilevirus	147000	148000	bacteria
+Ackermannviridae	Kujavirus	148000	149000	bacteria
+Ackermannviridae	Kuttervirus	143000	163000	bacteria
+Ackermannviridae	Limestonevirus	152000	156000	bacteria
+Ackermannviridae	Miltonvirus	157000	160000	bacteria
+Ackermannviridae	Nezavisimistyvirus	162000	165000	bacteria
+Ackermannviridae	Taipeivirus	154000	161000	bacteria
+Ackermannviridae	Tedavirus	144000	145000	bacteria
+Ackermannviridae	Vapseptimavirus	144000	145000	bacteria
+Adamaviridae	Andorivirus	2000	4000	freshwater (S), invertebrates (S), marine (S)
+Adamaviridae	Caradhivirus	4000	5000	sewage (S)
+Adamaviridae	Celebovirus	2000	3000	invertebrates
+Adamaviridae	Dolmedivirus	2000	3000	vertebrates
+Adamaviridae	Enedivirus	2000	3000	sewage (S)
+Adamaviridae	Harfovirus	2000	3000	marine (S)
+Adamaviridae	Moriavirus	2000	3000	vertebrates
+Adamaviridae	Nimlovirus	1000	2000	vertebrates
+Adamaviridae	Nurnevirus	1000	2000	vertebrates
+Adamaviridae	Pelorivirus	2000	3000	vertebrates
+Adamaviridae	Stoorivirus	2000	3000	invertebrates
+Adamaviridae	Taravirus	2000	3000	freshwater (S)
+Adamaviridae	Telperivirus	1000	2000	invertebrates
+Adamaviridae	Tharbavirus	3000	4000	invertebrates
+Adamaviridae	Ulwavirus	2000	3000	invertebrates
+Adamaviridae	Valarivirus	2000	3000	invertebrates
+Adamaviridae	Vanyarvirus	2000	3000	invertebrates
+Adamaviridae	Zirakzivirus	1000	2000	vertebrates
+Adenoviridae	Aviadenovirus	33000	46000	vertebrates
+Adenoviridae	Barthadenovirus	27000	40000	vertebrates
+Adenoviridae	Ichtadenovirus	48000	49000	vertebrates
+Adenoviridae	Mastadenovirus	27000	39000	vertebrates
+Adenoviridae	Siadenovirus	24000	28000	vertebrates
+Aggregaviridae	Harrekavirus	43000	44000	bacteria
+Ahmunviridae	Yumkaaxvirus	41000	42000	archaea
+Ahpuchviridae	Kisinvirus	71000	72000	archaea
+Aliceevansviridae	Brussowvirus	33000	49000	bacteria
+Aliceevansviridae	Moineauvirus	33000	42000	bacteria
+Aliceevansviridae	Vansinderenvirus	32000	38000	bacteria
+Alisviridae	Honmavirus	33000	36000	bacteria
+Aliusviridae	Obscuruvirus	13000	14000	invertebrates
+Aliusviridae	Ollusvirus	9000	16000	invertebrates
+Alloherpesviridae	Batravirus	207000	232000	vertebrates
+Alloherpesviridae	Cyvirus	248000	296000	vertebrates
+Alloherpesviridae	Ictavirus	134000	143000	vertebrates
+Allomimiviridae	Oceanusvirus	668000	669000	protists
+Alphaflexiviridae	Allexivirus	7000	9000	plants
+Alphaflexiviridae	Botrexvirus	6000	8000	fungi
+Alphaflexiviridae	Lolavirus	7000	8000	plants
+Alphaflexiviridae	Platypuvirus	7000	8000	plants
+Alphaflexiviridae	Potexvirus	5000	8000	plants
+Alphaflexiviridae	Sclerodarnavirus	5000	6000	fungi
+Alphaormycoviridae	Dormycovirus	1000	4000	fungi (S), protists, protists (S)
+Alphaormycoviridae	Phormycovirus	1000	4000	protists, protists (S)
+Alphasatellitidae	Ageyesisatellite	1000	2000	plants
+Alphasatellitidae	Babusatellite	1000	2000	plants
+Alphasatellitidae	Clecrusatellite	1000	2000	plants
+Alphasatellitidae	Clostunsatellite	1000	2000	plants
+Alphasatellitidae	Cocosatellite	1000	2000	plants
+Alphasatellitidae	Colecusatellite	1000	2000	plants
+Alphasatellitidae	Coprasatellite	1000	2000	plants
+Alphasatellitidae	Draflysatellite	1000	2000	invertebrates
+Alphasatellitidae	Fabenesatellite	1000	2000	plants
+Alphasatellitidae	Gosmusatellite	1000	2000	plants
+Alphasatellitidae	Kobbarisatellite	1000	2000	plants
+Alphasatellitidae	Milvetsatellite	1000	2000	plants
+Alphasatellitidae	Mivedwarsatellite	900	2000	plants
+Alphasatellitidae	Muscarsatellite	1000	2000	plants
+Alphasatellitidae	Somasatellite	1000	2000	invertebrates
+Alphasatellitidae	Sophoyesatellite	1000	2000	plants
+Alphasatellitidae	Subclovsatellite	900	2000	plants
+Alphasatellitidae	Whiflysatellite	1000	2000	plants
+Alphatetraviridae	Betatetravirus	6000	7000	invertebrates
+Alphatetraviridae	Omegatetravirus	2000	6000	invertebrates
+Alternaviridae	Alternavirus	1000	4000	fungi
+Alvernaviridae	Dinornavirus	4000	5000	protists
+Amalgaviridae	Amalgavirus	3000	4000	plants
+Amalgaviridae	Unirnavirus	2000	4000	fungi
+Amalgaviridae	Zybavirus	3000	4000	fungi
+Amesuviridae	Temfrudevirus	3000	4000	plants
+Amesuviridae	Yermavirus	2000	3000	plants
+Amnoonviridae	Tilapinevirus	400	2000	vertebrates
+Ampullaviridae	Bottigliavirus	22000	29000	archaea
+Anaerodiviridae	Metforvirus	37000	38000	archaea
+Andersonviridae	Arnovirus	91000	93000	bacteria
+Andersonviridae	Daniellevirus	85000	87000	bacteria
+Andersonviridae	Felixounavirus	78000	91000	bacteria
+Andersonviridae	Kolesnikvirus	84000	85000	bacteria
+Andersonviridae	Mooglevirus	86000	91000	bacteria
+Anelloviridae	Aleptorquevirus	2000	3000	vertebrates
+Anelloviridae	Alphatorquevirus	3000	4000	vertebrates
+Anelloviridae	Ayintorquevirus	2000	3000	vertebrates
+Anelloviridae	Betatorquevirus	1000	3000	vertebrates
+Anelloviridae	Chitorquevirus	2000	3000	vertebrates
+Anelloviridae	Deltatorquevirus	2000	3000	vertebrates
+Anelloviridae	Epsilontorquevirus	3000	4000	vertebrates
+Anelloviridae	Etatorquevirus	1000	3000	vertebrates
+Anelloviridae	Gammatorquevirus	2000	4000	vertebrates
+Anelloviridae	Gimeltorquevirus	1000	3000	vertebrates
+Anelloviridae	Gyrovirus	1000	3000	vertebrates
+Anelloviridae	Hetorquevirus	2000	3000	vertebrates
+Anelloviridae	Iotatorquevirus	2000	3000	vertebrates
+Anelloviridae	Kappatorquevirus	2000	3000	vertebrates
+Anelloviridae	Lambdatorquevirus	2000	3000	vertebrates
+Anelloviridae	Lamedtorquevirus	3000	4000	vertebrates
+Anelloviridae	Memtorquevirus	3000	4000	vertebrates
+Anelloviridae	Mutorquevirus	2000	3000	vertebrates
+Anelloviridae	Nutorquevirus	2000	3000	vertebrates
+Anelloviridae	Omegatorquevirus	2000	3000	vertebrates
+Anelloviridae	Omicrontorquevirus	2000	3000	vertebrates
+Anelloviridae	Petorquevirus	2000	3000	invertebrates, vertebrates
+Anelloviridae	Pitorquevirus	1000	3000	vertebrates
+Anelloviridae	Psitorquevirus	2000	3000	vertebrates
+Anelloviridae	Qoptorquevirus	3000	4000	vertebrates
+Anelloviridae	Rhotorquevirus	2000	3000	vertebrates
+Anelloviridae	Sadetorquevirus	2000	3000	vertebrates
+Anelloviridae	Samektorquevirus	2000	4000	vertebrates
+Anelloviridae	Sigmatorquevirus	2000	3000	vertebrates
+Anelloviridae	Tettorquevirus	2000	3000	vertebrates
+Anelloviridae	Thetatorquevirus	1000	3000	vertebrates
+Anelloviridae	Upsilontorquevirus	1000	3000	vertebrates
+Anelloviridae	Wawtorquevirus	2000	4000	invertebrates, vertebrates
+Anelloviridae	Xitorquevirus	2000	3000	vertebrates
+Anelloviridae	Yodtorquevirus	2000	3000	vertebrates
+Anelloviridae	Zayintorquevirus	2000	3000	vertebrates
+Anelloviridae	Zetatorquevirus	3000	4000	vertebrates
+Anicreviridae	Baranavirus	1000	2000	vertebrates
+Anicreviridae	Ketkevirus	2000	3000	invertebrates
+Anicreviridae	Kopavirus	2000	3000	vertebrates (S)
+Anicreviridae	Manawavirus	2000	3000	invertebrates
+Anicreviridae	Otevirus	2000	3000	invertebrates
+Anicreviridae	Patavirus	2000	3000	invertebrates
+Anicreviridae	Pekavirus	2000	3000	vertebrates
+Anicreviridae	Rakkovirus	2000	3000	invertebrates
+Anicreviridae	Uewvirus	2000	3000	vertebrates
+Aoguangviridae	Aobingvirus	92000	93000	archaea
+Apasviridae	Agnivirus	108000	109000	archaea
+Arenaviridae	Antennavirus	1000	7000	vertebrates
+Arenaviridae	Hartmanivirus	3000	6000	vertebrates
+Arenaviridae	Innmovirus	2000	8000	freshwater (S)
+Arenaviridae	Mammarenavirus	3000	8000	vertebrates
+Arenaviridae	Reptarenavirus	3000	7000	vertebrates
+Arenbergviridae	Wroclawvirus	286000	287000	bacteria
+Armatusviridae	Ariesvirus	51000	52000	archaea
+Arteriviridae	Alphaarterivirus	12000	13000	vertebrates
+Arteriviridae	Betaarterivirus	15000	16000	vertebrates
+Arteriviridae	Deltaarterivirus	15000	16000	vertebrates
+Arteriviridae	Epsilonarterivirus	15000	16000	vertebrates
+Arteriviridae	Etaarterivirus	15000	16000	vertebrates
+Arteriviridae	Gammaarterivirus	14000	15000	vertebrates
+Arteriviridae	Iotaarterivirus	15000	16000	vertebrates
+Arteriviridae	Kappaarterivirus	12000	13000	vertebrates
+Arteriviridae	Lambdaarterivirus	14000	15000	vertebrates
+Arteriviridae	Muarterivirus	13000	14000	vertebrates
+Arteriviridae	Nuarterivirus	14000	15000	vertebrates
+Arteriviridae	Thetaarterivirus	14000	15000	vertebrates
+Arteriviridae	Zetaarterivirus	15000	16000	vertebrates
+Artiviridae	Artivirus	6000	9000	invertebrates
+Artoviridae	Hexartovirus	12000	13000	invertebrates
+Artoviridae	Peropuvirus	10000	13000	invertebrates, plants, vertebrates
+Ascoviridae	Ascovirus	156000	200000	invertebrates
+Ascoviridae	Toursvirus	119000	120000	invertebrates
+Asemoviridae	Elsinorevirus	10000	11000	bacteria
+Asemoviridae	Rumoivirus	10000	11000	bacteria
+Asfarviridae	Asfivirus	170000	194000	invertebrates, vertebrates
+Aspiviridae	Ophiovirus	1000	9000	plants
+Assiduviridae	Cebadecemvirus	53000	54000	bacteria
+Assiduviridae	Cellubavirus	57000	58000	bacteria
+Assiduviridae	Nekkelsvirus	53000	54000	bacteria
+Astroviridae	Avastrovirus	6000	8000	vertebrates
+Astroviridae	Mamastrovirus	6000	7000	vertebrates
+Atkinsviridae	Aastrivirus	3000	4000	soil (S)
+Atkinsviridae	Aldormivirus	3000	4000	bacteria
+Atkinsviridae	Alkesdovirus	3000	5000	bacteria, soil (S)
+Atkinsviridae	Alvostovirus	3000	4000	bacteria
+Atkinsviridae	Andhevirus	3000	4000	bacteria
+Atkinsviridae	Apihcavirus	3000	5000	bacteria, soil (S)
+Atkinsviridae	Arihsbuvirus	3000	4000	bacteria
+Atkinsviridae	Ashurnovirus	3000	4000	soil (S)
+Atkinsviridae	Astuncavirus	3000	4000	soil (S)
+Atkinsviridae	Avantavirus	3000	4000	soil (S)
+Atkinsviridae	Bahdevirus	3000	4000	soil (S)
+Atkinsviridae	Bahdevuvirus	3000	5000	bacteria
+Atkinsviridae	Bahguvirus	3000	4000	soil (S)
+Atkinsviridae	Balsavirus	3000	4000	soil (S)
+Atkinsviridae	Barchevirus	3000	4000	plants (S), soil (S)
+Atkinsviridae	Bardovirus	4000	5000	soil (S)
+Atkinsviridae	Bartovirus	3000	4000	soil (S)
+Atkinsviridae	Bascudevirus	4000	5000	soil (S)
+Atkinsviridae	Batdovirus	3000	4000	soil (S)
+Atkinsviridae	Beahrlevirus	4000	5000	soil (S)
+Atkinsviridae	Behauvirus	4000	5000	soil (S)
+Atkinsviridae	Beheusavirus	4000	5000	soil (S)
+Atkinsviridae	Behntlevirus	4000	5000	soil (S)
+Atkinsviridae	Behrmuvirus	3000	4000	soil (S)
+Atkinsviridae	Bercswevirus	4000	5000	soil (S)
+Atkinsviridae	Bermivirus	4000	5000	soil (S)
+Atkinsviridae	Bexdevirus	3000	5000	soil (S)
+Atkinsviridae	Bidwuvirus	3000	4000	soil (S)
+Atkinsviridae	Bihdfovirus	3000	5000	soil (S)
+Atkinsviridae	Bihshovirus	3000	4000	soil (S)
+Atkinsviridae	Bilifuvirus	3000	4000	bacteria
+Atkinsviridae	Bilsavirus	3000	4000	soil (S)
+Atkinsviridae	Birdonovirus	4000	5000	soil (S)
+Atkinsviridae	Birfovirus	3000	4000	plants (S)
+Atkinsviridae	Birstovirus	4000	5000	soil (S)
+Atkinsviridae	Blictovirus	3000	4000	soil (S)
+Atkinsviridae	Blinduvirus	3000	5000	bacteria, soil (S)
+Atkinsviridae	Bolihivirus	3000	4000	soil (S)
+Atkinsviridae	Bolislovirus	4000	5000	soil (S)
+Atkinsviridae	Boltovirus	3000	4000	soil (S)
+Atkinsviridae	Bouhrtavirus	3000	4000	soil (S)
+Atkinsviridae	Braholevirus	3000	4000	soil (S)
+Atkinsviridae	Bramcovirus	4000	5000	soil (S)
+Atkinsviridae	Bramkuvirus	4000	5000	soil (S)
+Atkinsviridae	Branavirus	4000	5000	soil (S)
+Atkinsviridae	Brandovirus	4000	5000	soil (S)
+Atkinsviridae	Brehdfovirus	4000	5000	soil (S)
+Atkinsviridae	Broetwevirus	4000	5000	soil (S)
+Atkinsviridae	Bruncluvirus	3000	5000	bacteria, soil (S)
+Atkinsviridae	Buckevirus	4000	5000	soil (S)
+Atkinsviridae	Budprovirus	4000	5000	soil (S)
+Atkinsviridae	Buhdlovirus	3000	4000	soil (S)
+Atkinsviridae	Buhpbivirus	3000	4000	soil (S)
+Atkinsviridae	Buhshwavirus	3000	4000	soil (S)
+Atkinsviridae	Bulcivirus	4000	5000	soil (S)
+Atkinsviridae	Bunlevirus	4000	5000	soil (S)
+Atkinsviridae	Buntovirus	3000	4000	soil (S)
+Atkinsviridae	Burdivirus	3000	4000	soil (S)
+Atkinsviridae	Burtuvirus	3000	4000	soil (S)
+Atkinsviridae	Bushuvirus	4000	5000	soil (S)
+Atkinsviridae	Cahtebovirus	3000	5000	bacteria, soil (S)
+Atkinsviridae	Cahwstovirus	4000	5000	soil (S)
+Atkinsviridae	Caldevirus	4000	5000	soil (S)
+Atkinsviridae	Cambruovirus	3000	4000	soil (S)
+Atkinsviridae	Capsdovirus	3000	4000	soil (S)
+Atkinsviridae	Casfavirus	3000	4000	bacteria
+Atkinsviridae	Chadwivirus	3000	4000	soil (S)
+Atkinsviridae	Chahpevirus	3000	4000	soil (S)
+Atkinsviridae	Chatshuvirus	4000	5000	soil (S)
+Atkinsviridae	Chepelevirus	3000	4000	soil (S)
+Atkinsviridae	Cherlevirus	3000	4000	soil (S)
+Atkinsviridae	Cherovirus	3000	4000	soil (S)
+Atkinsviridae	Chinihovirus	3000	4000	bacteria
+Atkinsviridae	Chostevirus	3000	4000	soil (S)
+Atkinsviridae	Chounavirus	4000	5000	bacteria
+Atkinsviridae	Churchovirus	3000	4000	soil (S)
+Atkinsviridae	Cihsnivirus	3000	4000	bacteria
+Atkinsviridae	Clavivirus	3000	4000	soil (S)
+Atkinsviridae	Clifovirus	3000	4000	soil (S)
+Atkinsviridae	Clufdovirus	4000	5000	soil (S)
+Atkinsviridae	Cohrlevirus	3000	4000	soil (S)
+Atkinsviridae	Colishivirus	3000	4000	soil (S)
+Atkinsviridae	Comptovirus	3000	4000	soil (S)
+Atkinsviridae	Comptuvirus	4000	5000	soil (S)
+Atkinsviridae	Coughduvirus	3000	4000	bacteria
+Atkinsviridae	Diydovirus	4000	5000	bacteria
+Atkinsviridae	Dugnivirus	3000	5000	bacteria
+Atkinsviridae	Firunevirus	3000	5000	bacteria, soil (S)
+Atkinsviridae	Gohshovirus	3000	4000	bacteria
+Atkinsviridae	Hehspivirus	4000	5000	bacteria, soil (S)
+Atkinsviridae	Helacdivirus	3000	4000	bacteria
+Atkinsviridae	Hirvovirus	4000	5000	bacteria
+Atkinsviridae	Huhmpluvirus	3000	4000	bacteria
+Atkinsviridae	Huleruivirus	3000	5000	bacteria, soil (S)
+Atkinsviridae	Hysdruvirus	3000	5000	bacteria, soil (S)
+Atkinsviridae	Ichonovirus	3000	4000	bacteria
+Atkinsviridae	Isoihlovirus	4000	5000	bacteria
+Atkinsviridae	Kempsvovirus	3000	5000	bacteria, soil (S)
+Atkinsviridae	Kihrivirus	4000	5000	bacteria
+Atkinsviridae	Kimihcavirus	4000	5000	bacteria
+Atkinsviridae	Kudohovirus	3000	4000	bacteria
+Atkinsviridae	Kuhfotivirus	3000	4000	bacteria
+Atkinsviridae	Lahcomavirus	3000	4000	bacteria, soil (S)
+Atkinsviridae	Lobdovirus	3000	5000	bacteria, soil (S)
+Atkinsviridae	Madisduvirus	3000	4000	bacteria
+Atkinsviridae	Mitdiwavirus	3000	4000	bacteria, soil (S)
+Atkinsviridae	Moloevirus	3000	4000	bacteria
+Atkinsviridae	Monekavirus	3000	4000	bacteria
+Atkinsviridae	Neratovirus	3000	4000	bacteria
+Atkinsviridae	Niginuvirus	3000	4000	bacteria
+Atkinsviridae	Pagohnivirus	3000	4000	bacteria
+Atkinsviridae	Pihngevirus	4000	5000	bacteria, soil (S)
+Atkinsviridae	Pohlydovirus	3000	5000	bacteria
+Atkinsviridae	Psoetuvirus	4000	5000	bacteria
+Atkinsviridae	Scloravirus	3000	4000	bacteria
+Atkinsviridae	Sdribtuvirus	3000	4000	bacteria
+Atkinsviridae	Stupavirus	3000	5000	bacteria
+Atkinsviridae	Wahbolevirus	4000	5000	bacteria, soil (S)
+Atkinsviridae	Wecineivirus	3000	4000	bacteria
+Atkinsviridae	Whodehavirus	4000	5000	bacteria
+Atkinsviridae	Wulosvivirus	3000	4000	bacteria
+Atkinsviridae	Yekorevirus	3000	4000	bacteria, soil (S)
+Atkinsviridae	Yeshinuvirus	4000	5000	bacteria, soil (S)
+Autolykiviridae	Ameliavirus	10000	11000	bacteria
+Autolykiviridae	Livvievirus	10000	11000	bacteria
+Autolykiviridae	Oliviavirus	10000	11000	bacteria
+Autolykiviridae	Paulavirus	10000	11000	bacteria
+Autonotataviridae	Aerosvirus	30000	43000	bacteria
+Autonotataviridae	Aghbyvirus	41000	42000	bacteria
+Autonotataviridae	Ahphunavirus	41000	44000	bacteria
+Autonotataviridae	Ampunavirus	42000	44000	bacteria
+Autonotataviridae	Anchaingvirus	43000	44000	bacteria
+Autonotataviridae	Aqualcavirus	40000	41000	bacteria
+Autonotataviridae	Atoyacvirus	41000	43000	bacteria
+Autonotataviridae	Bifseptvirus	40000	41000	bacteria
+Autonotataviridae	Ceskevirus	44000	45000	bacteria
+Autonotataviridae	Conareevirus	41000	43000	bacteria
+Autonotataviridae	Cotavirus	42000	43000	bacteria
+Autonotataviridae	Cronosvirus	41000	42000	bacteria
+Autonotataviridae	Cullenvirus	43000	44000	bacteria
+Autonotataviridae	Daeravirus	42000	43000	bacteria
+Autonotataviridae	Dcimvirus	44000	45000	bacteria
+Autonotataviridae	Ermolevavirus	42000	43000	bacteria
+Autonotataviridae	Euvesivirus	43000	44000	bacteria
+Autonotataviridae	Higashivirus	41000	44000	bacteria
+Autonotataviridae	Hongshanvirus	43000	44000	bacteria
+Autonotataviridae	Jeruvirus	41000	42000	bacteria
+Autonotataviridae	Jimeivirus	42000	43000	bacteria
+Autonotataviridae	Kalppathivirus	41000	42000	bacteria
+Autonotataviridae	Lullwatervirus	44000	45000	bacteria
+Autonotataviridae	Maltophvirus	43000	44000	bacteria
+Autonotataviridae	Mguuvirus	41000	42000	bacteria
+Autonotataviridae	Napahaivirus	40000	41000	bacteria
+Autonotataviridae	Pakuvirus	42000	43000	bacteria
+Autonotataviridae	Panjvirus	41000	42000	bacteria
+Autonotataviridae	Paternavirus	42000	43000	bacteria
+Autonotataviridae	Pazvirus	42000	44000	bacteria
+Autonotataviridae	Percyvirus	43000	45000	bacteria
+Autonotataviridae	Pienvirus	42000	43000	bacteria
+Autonotataviridae	Pokrovskaiavirus	42000	43000	bacteria
+Autonotataviridae	Pollyceevirus	40000	42000	bacteria
+Autonotataviridae	Ponderosavirus	42000	44000	bacteria
+Autonotataviridae	Pradovirus	42000	45000	bacteria
+Autonotataviridae	Risjevirus	43000	45000	bacteria
+Autonotataviridae	Scottvirus	43000	44000	bacteria
+Autonotataviridae	Smasvirus	43000	44000	bacteria
+Autonotataviridae	Sukuvirus	42000	43000	bacteria
+Autonotataviridae	Wanjuvirus	41000	42000	bacteria
+Autoscriptoviridae	Actinidiaevirus	44000	45000	bacteria
+Autoscriptoviridae	Aristophanesvirus	43000	44000	bacteria
+Autoscriptoviridae	Axyvirus	43000	44000	bacteria
+Autoscriptoviridae	Ayakvirus	44000	45000	bacteria
+Autoscriptoviridae	Bertilvirus	41000	42000	bacteria
+Autoscriptoviridae	Bolekvirus	42000	44000	bacteria
+Autoscriptoviridae	Bonnellvirus	40000	43000	bacteria
+Autoscriptoviridae	Bucovirus	43000	44000	bacteria
+Autoscriptoviridae	Catalonvirus	41000	42000	bacteria
+Autoscriptoviridae	Cepavirus	42000	43000	bacteria
+Autoscriptoviridae	Daemvirus	42000	43000	bacteria
+Autoscriptoviridae	Drulisvirus	39000	50000	bacteria
+Autoscriptoviridae	Friunavirus	39000	47000	bacteria
+Autoscriptoviridae	Jiaoyazivirus	44000	45000	bacteria
+Autoscriptoviridae	Kakivirus	41000	44000	bacteria
+Autoscriptoviridae	Kantovirus	45000	46000	bacteria
+Autoscriptoviridae	Kirikabuvirus	43000	44000	bacteria
+Autoscriptoviridae	Kotilavirus	41000	45000	bacteria
+Autoscriptoviridae	Koutsourovirus	43000	45000	bacteria
+Autoscriptoviridae	Limelightvirus	44000	45000	bacteria
+Autoscriptoviridae	Linggongvirus	42000	43000	bacteria
+Autoscriptoviridae	Maculvirus	35000	45000	bacteria
+Autoscriptoviridae	Micantvirus	43000	44000	bacteria
+Autoscriptoviridae	Mojovirus	41000	42000	bacteria
+Autoscriptoviridae	Natansvirus	41000	42000	bacteria
+Autoscriptoviridae	Novosibovirus	41000	43000	bacteria
+Autoscriptoviridae	Pettyvirus	40000	41000	bacteria
+Autoscriptoviridae	Phikmvvirus	40000	45000	bacteria
+Autoscriptoviridae	Phimunavirus	42000	46000	bacteria
+Autoscriptoviridae	Savitribaivirus	41000	42000	bacteria
+Autoscriptoviridae	Stompvirus	43000	44000	bacteria
+Autoscriptoviridae	Stubburvirus	41000	42000	bacteria
+Autoscriptoviridae	Torinorumvirus	41000	42000	bacteria
+Autoscriptoviridae	Trelivelvirus	43000	44000	bacteria
+Autoscriptoviridae	Tunggulvirus	42000	44000	bacteria
+Autoscriptoviridae	Waewaevirus	43000	44000	bacteria
+Autoscriptoviridae	Zoomievirus	43000	44000	bacteria
+Autosignataviridae	Acadevirus	42000	46000	bacteria
+Autosignataviridae	Axomammavirus	44000	45000	bacteria
+Autosignataviridae	Daolivirus	45000	46000	bacteria
+Autosignataviridae	Eracentumvirus	45000	47000	bacteria
+Autosignataviridae	Gansuvirus	44000	47000	bacteria
+Autosignataviridae	Guangxivirus	45000	46000	bacteria
+Autosignataviridae	Gutovirus	44000	45000	bacteria
+Autosignataviridae	Kaohsiungvirus	42000	47000	bacteria
+Autosignataviridae	Murciavirus	44000	45000	bacteria
+Autosignataviridae	Nerthusvirus	45000	48000	bacteria
+Autosignataviridae	Njordvirus	46000	47000	bacteria
+Autosignataviridae	Rodentiumvirus	43000	46000	bacteria
+Autosignataviridae	Roscoffvirus	45000	46000	bacteria
+Autosignataviridae	Trungvirus	44000	45000	bacteria
+Autosignataviridae	Tuodvirus	44000	45000	bacteria
+Autosignataviridae	Uliginvirus	47000	48000	bacteria
+Autosignataviridae	Ulipvirus	42000	45000	bacteria
+Autosignataviridae	Vectrevirus	37000	47000	bacteria
+Autosignataviridae	Zindervirus	43000	45000	bacteria
+Autotranscriptaviridae	Aarhusvirus	40000	41000	bacteria
+Autotranscriptaviridae	Apdecimavirus	39000	40000	bacteria
+Autotranscriptaviridae	Armandvirus	40000	42000	bacteria
+Autotranscriptaviridae	Bamvirus	40000	41000	bacteria
+Autotranscriptaviridae	Benllochvirus	40000	41000	bacteria
+Autotranscriptaviridae	Berlinvirus	38000	41000	bacteria
+Autotranscriptaviridae	Cankvirus	41000	42000	bacteria
+Autotranscriptaviridae	Caroctavirus	39000	40000	bacteria
+Autotranscriptaviridae	Chatterjeevirus	38000	40000	bacteria
+Autotranscriptaviridae	Coryciavirus	41000	42000	bacteria
+Autotranscriptaviridae	Eapunavirus	39000	40000	bacteria
+Autotranscriptaviridae	Ebriosvirus	38000	40000	bacteria
+Autotranscriptaviridae	Elunavirus	39000	40000	bacteria
+Autotranscriptaviridae	Foetvirus	39000	41000	bacteria
+Autotranscriptaviridae	Ghunavirus	37000	41000	bacteria
+Autotranscriptaviridae	Gundecimvirus	40000	41000	bacteria
+Autotranscriptaviridae	Helsettvirus	38000	41000	bacteria
+Autotranscriptaviridae	Hennigervirus	39000	42000	bacteria
+Autotranscriptaviridae	Jarilovirus	40000	41000	bacteria
+Autotranscriptaviridae	Jelgvirus	40000	41000	bacteria
+Autotranscriptaviridae	Kayfunavirus	37000	42000	bacteria
+Autotranscriptaviridae	Kelmasvirus	40000	41000	bacteria
+Autotranscriptaviridae	Maklayavirus	40000	41000	bacteria
+Autotranscriptaviridae	Minipunavirus	38000	40000	bacteria
+Autotranscriptaviridae	Ningirsuvirus	39000	41000	bacteria
+Autotranscriptaviridae	Pektosvirus	39000	41000	bacteria
+Autotranscriptaviridae	Pfluvirus	40000	41000	bacteria
+Autotranscriptaviridae	Phutvirus	40000	42000	bacteria
+Autotranscriptaviridae	Piedvirus	38000	39000	bacteria
+Autotranscriptaviridae	Pifdecavirus	38000	41000	bacteria
+Autotranscriptaviridae	Pijolavirus	38000	41000	bacteria
+Autotranscriptaviridae	Przondovirus	37000	42000	bacteria
+Autotranscriptaviridae	Rambovirus	40000	41000	bacteria
+Autotranscriptaviridae	Rindgevirus	40000	41000	bacteria
+Autotranscriptaviridae	Sarmavirus	40000	41000	bacteria
+Autotranscriptaviridae	Serkorvirus	35000	41000	bacteria
+Autotranscriptaviridae	Snaubvirus	39000	40000	bacteria
+Autotranscriptaviridae	Solymavirus	39000	41000	bacteria
+Autotranscriptaviridae	Stompelvirus	39000	40000	bacteria
+Autotranscriptaviridae	Teetrevirus	31000	45000	bacteria
+Autotranscriptaviridae	Teseptimavirus	32000	41000	bacteria
+Autotranscriptaviridae	Troedvirus	39000	41000	bacteria
+Autotranscriptaviridae	Unosvirus	39000	40000	bacteria
+Autotranscriptaviridae	Unyawovirus	39000	41000	bacteria
+Autotranscriptaviridae	Waldovirus	41000	42000	bacteria
+Autotranscriptaviridae	Warsawvirus	41000	42000	bacteria
+Autotranscriptaviridae	Wuhanvirus	37000	39000	bacteria
+Autotranscriptaviridae	Yuanmingyuanvirus	39000	40000	bacteria
+Avsunviroidae	Avsunviroid	200	300	plants
+Avsunviroidae	Elaviroid	300	400	plants
+Avsunviroidae	Pelamoviroid	300	500	plants
+Bacilladnaviridae	Aberdnavirus	5000	6000	marine (S)
+Bacilladnaviridae	Diatodnavirus	5000	6000	protists
+Bacilladnaviridae	Keisodnavirus	5000	6000	protists
+Bacilladnaviridae	Kieseladnavirus	4000	5000	invertebrates, marine (S)
+Bacilladnaviridae	Protobacilladnavirus	4000	6000	invertebrates, marine (S), protists
+Bacilladnaviridae	Puahadnavirus	3000	5000	marine (S)
+Bacilladnaviridae	Seawadnavirus	4000	6000	marine (S)
+Baculoviridae	Alphabaculovirus	105000	169000	invertebrates
+Baculoviridae	Betabaculovirus	98000	179000	invertebrates
+Baculoviridae	Deltabaculovirus	108000	109000	invertebrates
+Baculoviridae	Gammabaculovirus	81000	87000	invertebrates
+Barnaviridae	Barnavirus	4000	5000	fungi
+Belpaoviridae	Semotivirus	4000	11000	invertebrates, vertebrates
+Benyviridae	Benyvirus	1000	8000	plants
+Berryhillviridae	Altadenavirus	48000	50000	bacteria
+Berryhillviridae	Ayohtrevirus	46000	47000	bacteria
+Berryhillviridae	Eastwestvirus	50000	51000	bacteria
+Berryhillviridae	Jawnskivirus	49000	51000	bacteria
+Berryhillviridae	Jinkiesvirus	49000	50000	bacteria
+Berryhillviridae	Lilmacvirus	49000	51000	bacteria
+Berryhillviridae	Marthavirus	50000	52000	bacteria
+Berryhillviridae	Sicariusvirus	49000	50000	bacteria
+Berryhillviridae	Vibakivirus	48000	49000	bacteria
+Betaflexiviridae	Banmivirus	7000	8000	plants
+Betaflexiviridae	Capillovirus	6000	8000	plants
+Betaflexiviridae	Carlavirus	7000	10000	plants
+Betaflexiviridae	Chordovirus	8000	9000	plants
+Betaflexiviridae	Citrivirus	8000	9000	plants
+Betaflexiviridae	Divavirus	6000	8000	plants
+Betaflexiviridae	Foveavirus	8000	10000	plants
+Betaflexiviridae	Prunevirus	7000	9000	plants
+Betaflexiviridae	Ravavirus	7000	8000	plants
+Betaflexiviridae	Robigovirus	7000	9000	plants
+Betaflexiviridae	Sustrivirus	8000	9000	plants
+Betaflexiviridae	Tepovirus	6000	7000	plants
+Betaflexiviridae	Trichovirus	7000	9000	plants
+Betaflexiviridae	Vitivirus	6000	8000	plants
+Betaflexiviridae	Wamavirus	8000	9000	plants
+Betaormycoviridae	Stormycovirus	1000	3000	fungi, protists
+Betaormycoviridae	Vormycovirus	1000	3000	fungi, protists (S)
+Bicaudaviridae	Bicaudavirus	62000	63000	archaea
+Bidnaviridae	Bidensovirus	6000	7000	invertebrates
+Birnaviridae	Aquabirnavirus	2000	4000	vertebrates
+Birnaviridae	Avibirnavirus	2000	4000	vertebrates
+Birnaviridae	Blosnavirus	2000	4000	vertebrates
+Birnaviridae	Dronavirus	3000	4000	invertebrates
+Birnaviridae	Entomobirnavirus	3000	4000	invertebrates
+Birnaviridae	Ronavirus	3000	4000	invertebrates
+Birnaviridae	Telnavirus	2000	4000	invertebrates
+Blumeviridae	Alehndavirus	4000	5000	bacteria
+Blumeviridae	Bonghivirus	4000	5000	bacteria
+Blumeviridae	Brahivirus	4000	5000	invertebrates (S)
+Blumeviridae	Chimpavirus	4000	5000	bacteria
+Blumeviridae	Dahmuivirus	4000	5000	bacteria
+Blumeviridae	Dehgumevirus	4000	5000	bacteria
+Blumeviridae	Dehkhevirus	3000	4000	bacteria
+Blumeviridae	Espurtavirus	3000	4000	bacteria
+Blumeviridae	Gifriavirus	3000	4000	bacteria
+Blumeviridae	Hehrovirus	4000	5000	bacteria
+Blumeviridae	Hisehlovirus	4000	5000	invertebrates (S)
+Blumeviridae	Ivolevirus	4000	5000	bacteria
+Blumeviridae	Kahnayevirus	4000	5000	bacteria
+Blumeviridae	Kahraivirus	4000	5000	bacteria
+Blumeviridae	Kemiovirus	4000	5000	bacteria
+Blumeviridae	Kerishovirus	4000	5000	bacteria
+Blumeviridae	Konmavirus	4000	5000	bacteria
+Blumeviridae	Lirnavirus	4000	5000	bacteria
+Blumeviridae	Marskhivirus	4000	5000	bacteria
+Blumeviridae	Nehpavirus	4000	5000	bacteria
+Blumeviridae	Niwtuvirus	4000	5000	soil (S)
+Blumeviridae	Pacehavirus	4000	5000	bacteria, soil (S)
+Blumeviridae	Pahdacivirus	3000	4000	bacteria
+Blumeviridae	Prorsmavirus	4000	5000	invertebrates (S)
+Blumeviridae	Semodevirus	4000	5000	bacteria
+Blumeviridae	Shihwivirus	4000	5000	bacteria
+Blumeviridae	Strotovirus	4000	5000	invertebrates (S)
+Blumeviridae	Wahdswovirus	4000	5000	bacteria
+Blumeviridae	Yenihzavirus	4000	5000	bacteria
+Bornaviridae	Carbovirus	8000	9000	vertebrates
+Bornaviridae	Cartilovirus	11000	12000	vertebrates
+Bornaviridae	Cultervirus	8000	10000	vertebrates
+Bornaviridae	Orthobornavirus	8000	10000	vertebrates
+Botourmiaviridae	Betabotoulivirus	2000	4000	fungi, unknown (S)
+Botourmiaviridae	Betarhizoulivirus	5000	6000	fungi
+Botourmiaviridae	Betascleroulivirus	1000	3000	fungi, unknown (S)
+Botourmiaviridae	Botoulivirus	2000	3000	fungi, unknown (S)
+Botourmiaviridae	Deltascleroulivirus	2000	4000	fungi, unknown (S)
+Botourmiaviridae	Epsilonscleroulivirus	2000	3000	fungi, unknown (S)
+Botourmiaviridae	Gammascleroulivirus	2000	3000	fungi, unknown (S)
+Botourmiaviridae	Magoulivirus	2000	4000	fungi, plants, unknown (S)
+Botourmiaviridae	Ourmiavirus	900	3000	plants
+Botourmiaviridae	Penoulivirus	2000	6000	fungi, plants, unknown (S)
+Botourmiaviridae	Rhizoulivirus	3000	5000	fungi
+Botourmiaviridae	Scleroulivirus	2000	4000	fungi, unknown (S)
+Botybirnaviridae	Botybirnavirus	5000	7000	fungi, protists (S)
+Bromoviridae	Alfamovirus	2000	4000	plants
+Bromoviridae	Anulavirus	2000	4000	plants
+Bromoviridae	Bromovirus	2000	4000	plants
+Bromoviridae	Cucumovirus	2000	4000	plants
+Bromoviridae	Ilarvirus	1000	4000	plants
+Bromoviridae	Oleavirus	2000	4000	plants
+Burtonviroviridae	Burquivirus	29000	30000	freshwater (S)
+Caliciviridae	Bavovirus	7000	8000	vertebrates
+Caliciviridae	Lagovirus	7000	8000	vertebrates
+Caliciviridae	Minovirus	6000	7000	vertebrates
+Caliciviridae	Nacovirus	7000	8000	vertebrates
+Caliciviridae	Nebovirus	7000	8000	vertebrates
+Caliciviridae	Norovirus	7000	8000	vertebrates
+Caliciviridae	Recovirus	6000	7000	vertebrates
+Caliciviridae	Salovirus	7000	8000	vertebrates
+Caliciviridae	Sapovirus	7000	8000	vertebrates
+Caliciviridae	Valovirus	6000	7000	vertebrates
+Caliciviridae	Vesivirus	7000	9000	vertebrates
+Carmotetraviridae	Alphacarmotetravirus	6000	7000	invertebrates
+Casidaviridae	Baileybluvirus	40000	42000	bacteria
+Casidaviridae	Barnstormervirus	46000	48000	bacteria
+Casidaviridae	Cenunavirus	49000	50000	bacteria
+Casidaviridae	Emotionvirus	45000	46000	bacteria
+Casidaviridae	Galvastonvirus	40000	41000	bacteria
+Casidaviridae	Gardenstatevirus	45000	46000	bacteria
+Casidaviridae	Hilgardvirus	43000	44000	bacteria
+Casidaviridae	Honkvirus	50000	51000	bacteria
+Casidaviridae	Liebevirus	43000	46000	bacteria
+Casidaviridae	Mabodamacavirus	48000	49000	bacteria
+Casidaviridae	Manhattanvirus	41000	45000	bacteria
+Casidaviridae	Percivalvirus	47000	49000	bacteria
+Casidaviridae	Swepdovirus	43000	44000	bacteria
+Casidaviridae	Yangvirus	43000	45000	bacteria
+Casidaviridae	Zetavirus	47000	48000	bacteria
+Casjensviridae	Ahduovirus	58000	59000	bacteria
+Casjensviridae	Broinstvirus	56000	57000	bacteria
+Casjensviridae	Cenphatecvirus	60000	61000	bacteria
+Casjensviridae	Chivirus	54000	61000	bacteria
+Casjensviridae	Dunedinvirus	63000	64000	bacteria
+Casjensviridae	Enchivirus	60000	61000	bacteria
+Casjensviridae	Fengtaivirus	62000	63000	bacteria
+Casjensviridae	Gediminasvirus	59000	60000	bacteria
+Casjensviridae	Gwanakrovirus	62000	63000	bacteria
+Casjensviridae	Jacunavirus	61000	62000	bacteria
+Casjensviridae	Kokobelvirus	59000	60000	bacteria
+Casjensviridae	Lavrentievavirus	58000	60000	bacteria
+Casjensviridae	Maxdohrnvirus	57000	58000	bacteria
+Casjensviridae	Nazgulvirus	57000	58000	bacteria
+Casjensviridae	Newforgelanevirus	58000	59000	bacteria
+Casjensviridae	Phobosvirus	56000	59000	bacteria
+Casjensviridae	Redjacvirus	58000	61000	bacteria
+Casjensviridae	Salvovirus	55000	57000	bacteria
+Casjensviridae	Sanovirus	56000	57000	bacteria
+Casjensviridae	Seodaemunguvirus	58000	59000	bacteria
+Casjensviridae	Sessunavirus	60000	61000	bacteria
+Casjensviridae	Sharonstreetvirus	60000	62000	bacteria
+Casjensviridae	Yonseivirus	57000	60000	bacteria
+Casjensviridae	Zhonglingvirus	59000	60000	bacteria
+Caulimoviridae	Badnavirus	6000	10000	plants
+Caulimoviridae	Caulimovirus	7000	9000	plants
+Caulimoviridae	Cavemovirus	7000	9000	plants
+Caulimoviridae	Dioscovirus	8000	9000	plants
+Caulimoviridae	Petuvirus	7000	8000	plants
+Caulimoviridae	Rosadnavirus	9000	10000	plants
+Caulimoviridae	Ruflodivirus	8000	9000	plants
+Caulimoviridae	Solendovirus	7000	9000	plants
+Caulimoviridae	Soymovirus	7000	9000	plants
+Caulimoviridae	Tungrovirus	7000	9000	plants
+Caulimoviridae	Vaccinivirus	9000	10000	plants
+Chaacviridae	Antichaacvirus	10000	11000	archaea
+Chaacviridae	Homochaacvirus	10000	11000	archaea
+Chaseviridae	Carltongylesvirus	51000	55000	bacteria
+Chaseviridae	Faunusvirus	54000	55000	bacteria
+Chaseviridae	Fifivirus	53000	54000	bacteria
+Chaseviridae	Liaoningvirus	53000	54000	bacteria
+Chaseviridae	Loessnervirus	54000	57000	bacteria
+Chaseviridae	Longwangvirus	53000	54000	bacteria
+Chaseviridae	Myducvirus	53000	54000	bacteria
+Chaseviridae	Pahsextavirus	53000	54000	bacteria
+Chaseviridae	Phayathaivirus	50000	52000	bacteria
+Chaseviridae	Sabourvirus	52000	53000	bacteria
+Chaseviridae	Shantouvirus	57000	58000	bacteria
+Chaseviridae	Suwonvirus	53000	56000	bacteria
+Chaseviridae	Yushanvirus	54000	55000	bacteria
+Chimalliviridae	Agricanvirus	271000	274000	bacteria
+Chimalliviridae	Aphroditevirus	237000	243000	bacteria
+Chimalliviridae	Branisovskavirus	253000	254000	bacteria
+Chimalliviridae	Chaoshanvirus	234000	235000	bacteria
+Chimalliviridae	Chiangmaivirus	222000	224000	bacteria
+Chimalliviridae	Derbicusvirus	223000	224000	bacteria
+Chimalliviridae	Elvirus	211000	212000	bacteria
+Chimalliviridae	Eowynvirus	265000	266000	bacteria
+Chimalliviridae	Erskinevirus	243000	247000	bacteria
+Chimalliviridae	Ferozepurvirus	235000	238000	bacteria
+Chimalliviridae	Goslarvirus	237000	238000	bacteria
+Chimalliviridae	Iapetusvirus	218000	219000	bacteria
+Chimalliviridae	Ludhianavirus	259000	263000	bacteria
+Chimalliviridae	Maaswegvirus	307000	308000	bacteria
+Chimalliviridae	Machinavirus	241000	242000	bacteria
+Chimalliviridae	Meadowvirus	262000	263000	bacteria
+Chimalliviridae	Miamivirus	253000	254000	bacteria
+Chimalliviridae	Miltoncavirus	309000	310000	bacteria
+Chimalliviridae	Moabitevirus	273000	277000	bacteria
+Chimalliviridae	Nimduovirus	253000	254000	bacteria
+Chimalliviridae	Noxifervirus	278000	279000	bacteria
+Chimalliviridae	Pawinskivirus	301000	302000	bacteria
+Chimalliviridae	Petsuvirus	276000	277000	bacteria
+Chimalliviridae	Phabiovirus	309000	310000	bacteria
+Chimalliviridae	Phikzvirus	279000	281000	bacteria
+Chimalliviridae	Ripduovirus	279000	280000	bacteria
+Chimalliviridae	Risingsunvirus	235000	236000	bacteria
+Chimalliviridae	Seoulvirus	240000	241000	bacteria
+Chimalliviridae	Serwervirus	316000	317000	bacteria
+Chimalliviridae	Siatvirus	296000	297000	bacteria
+Chimalliviridae	Tepukevirus	305000	306000	bacteria
+Chimalliviridae	Tidunavirus	239000	240000	bacteria
+Chimalliviridae	Wellingtonvirus	244000	245000	bacteria
+Chiyouviridae	Wargodvirus	26000	27000	archaea
+Chrysoviridae	Alphachrysovirus	2000	5000	fungi, invertebrates (S), plants (S)
+Chrysoviridae	Betachrysovirus	800	4000	fungi
+Chuviridae	Boscovirus	2000	7000	invertebrates
+Chuviridae	Chuvivirus	4000	7000	invertebrates
+Chuviridae	Culicidavirus	11000	13000	invertebrates
+Chuviridae	Demapteravirus	2000	9000	invertebrates
+Chuviridae	Doliuvirus	4000	7000	invertebrates
+Chuviridae	Mivirus	4000	12000	invertebrates
+Chuviridae	Morsusvirus	10000	11000	invertebrates
+Chuviridae	Nigecruvirus	10000	12000	invertebrates
+Chuviridae	Odonatavirus	10000	12000	invertebrates
+Chuviridae	Pediavirus	11000	12000	invertebrates
+Chuviridae	Piscichuvirus	1000	12000	invertebrates, vertebrates
+Chuviridae	Pterovirus	4000	8000	invertebrates
+Chuviridae	Rochuvirus	11000	12000	invertebrates
+Chuviridae	Scarabeuvirus	3000	12000	invertebrates
+Chuviridae	Taceavirus	11000	12000	invertebrates
+Chuviridae	Vapochuvirus	11000	12000	invertebrates
+Circoviridae	Circovirus	1000	3000	invertebrates, vertebrates
+Circoviridae	Cyclovirus	1000	3000	invertebrates, plants (S), vertebrates
+Clavaviridae	Clavavirus	5000	6000	archaea
+Clermontviridae	Ventrumvirus	37000	38000	archaea
+Closteroviridae	Ampelovirus	13000	19000	plants
+Closteroviridae	Bluvavirus	17000	18000	plants
+Closteroviridae	Closterovirus	15000	20000	plants
+Closteroviridae	Crinivirus	3000	10000	plants
+Closteroviridae	Olivavirus	18000	19000	plants
+Closteroviridae	Velarivirus	16000	18000	plants
+Colingsworthviridae	Lomovskayavirus	40000	42000	bacteria
+Colingsworthviridae	Sebastisaurusvirus	41000	42000	bacteria
+Colingsworthviridae	Shadyvirus	45000	46000	bacteria
+Colingsworthviridae	Shaekyvirus	45000	46000	bacteria
+Colingsworthviridae	Sycamorevirus	44000	45000	bacteria
+Colingsworthviridae	Tigunavirus	40000	41000	bacteria
+Colingsworthviridae	Vashvirus	41000	42000	bacteria
+Connertonviridae	Firehammervirus	157000	184000	bacteria
+Connertonviridae	Fletchervirus	123000	136000	bacteria
+Coronaviridae	Alphacoronavirus	25000	30000	vertebrates
+Coronaviridae	Alphapironavirus	36000	37000	vertebrates
+Coronaviridae	Betacoronavirus	28000	32000	vertebrates
+Coronaviridae	Deltacoronavirus	25000	27000	vertebrates
+Coronaviridae	Gammacoronavirus	27000	32000	vertebrates
+Corticoviridae	Merivirus	10000	11000	bacteria
+Cremegaviridae	Pontunivirus	14000	15000	vertebrates
+Cremegaviridae	Sicregavirus	17000	18000	vertebrates
+Crepuscuviridae	Aqualaruvirus	12000	13000	invertebrates
+Crevaviridae	Junduvirus	94000	96000	bacteria
+Crevaviridae	Kahucivirus	83000	84000	bacteria
+Crevaviridae	Kingevirus	92000	93000	bacteria
+Cruliviridae	Lincruvirus	700	7000	invertebrates
+Curvulaviridae	Orthocurvulavirus	1000	3000	fungi
+Cystoviridae	Alphacystovirus	3000	8000	bacteria
+Cystoviridae	Betacystovirus	2000	7000	bacteria
+Cystoviridae	Deltacystovirus	2000	7000	bacteria
+Cystoviridae	Epsiloncystovirus	2000	8000	bacteria
+Cystoviridae	Gammacystovirus	2000	7000	bacteria
+Cystoviridae	Orthocystovirus	2000	7000	bacteria
+Cystoviridae	Zetacystovirus	2000	7000	bacteria
+Deltaflexiviridae	Deltaflexivirus	7000	9000	fungi
+Deltanormycoviridae	Bormycovirus	1000	4000	fungi, protists
+Demerecviridae	Cetovirus	128000	129000	bacteria
+Demerecviridae	Epseptimavirus	105000	126000	bacteria
+Demerecviridae	Hongcheonvirus	106000	107000	bacteria
+Demerecviridae	Jesfedecavirus	111000	117000	bacteria
+Demerecviridae	Keyvirus	115000	117000	bacteria
+Demerecviridae	Kononvirus	113000	114000	bacteria
+Demerecviridae	Myunavirus	122000	123000	bacteria
+Demerecviridae	Novosibvirus	104000	105000	bacteria
+Demerecviridae	Pogseptimavirus	112000	114000	bacteria
+Demerecviridae	Priunavirus	109000	119000	bacteria
+Demerecviridae	Shenzhenvirus	115000	116000	bacteria
+Demerecviridae	Sugarlandvirus	106000	124000	bacteria
+Demerecviridae	Tequintavirus	101000	138000	bacteria
+Demerecviridae	Thalassavirus	120000	129000	bacteria
+Demerecviridae	Vipunavirus	111000	112000	bacteria
+Dicistroviridae	Aparavirus	8000	11000	invertebrates
+Dicistroviridae	Cripavirus	9000	11000	invertebrates
+Dicistroviridae	Triatovirus	8000	10000	invertebrates
+Discoviridae	Orthodiscovirus	1000	7000	fungi, plants, protists
+Dishuiviroviridae	Essdubovirus	24000	25000	protists
+Draupnirviridae	Armipotenivirus	2000	3000	vertebrates
+Draupnirviridae	Asperivirus	1000	2000	freshwater (S), invertebrates
+Draupnirviridae	Atroxivirus	1000	2000	invertebrates
+Draupnirviridae	Audacivirus	2000	3000	air (S)
+Draupnirviridae	Audaxivirus	1000	2000	vertebrates
+Draupnirviridae	Bellicusivirus	2000	3000	vertebrates
+Draupnirviridae	Belligerivirus	2000	3000	freshwater (S)
+Draupnirviridae	Citaivirus	2000	3000	vertebrates
+Draupnirviridae	Citataivirus	1000	2000	marine (S), vertebrates
+Draupnirviridae	Citiorivirus	1000	2000	invertebrates
+Draupnirviridae	Durusivirus	2000	3000	invertebrates
+Draupnirviridae	Ferullusivirus	1000	2000	vertebrates
+Draupnirviridae	Fervidivirus	1000	2000	freshwater (S)
+Draupnirviridae	Funestivirus	1000	2000	marine (S), vertebrates
+Draupnirviridae	Incitativirus	1000	2000	vertebrates
+Draupnirviridae	Incitatusivirus	3000	4000	freshwater (S)
+Draupnirviridae	Malificivirus	3000	4000	freshwater (S)
+Draupnirviridae	Mordaxivirus	2000	3000	freshwater (S)
+Draupnirviridae	Nervillivirus	1000	2000	sewage (S)
+Draupnirviridae	Nocentianivirus	1000	2000	sewage (S)
+Draupnirviridae	Periculosovirus	1000	3000	vertebrates
+Draupnirviridae	Pollentivirus	1000	2000	vertebrates
+Draupnirviridae	Potensivirus	1000	2000	sewage (S)
+Draupnirviridae	Properatisvirus	1000	2000	marine (S), vertebrates
+Draupnirviridae	Rapidusivirus	1000	2000	freshwater (S)
+Draupnirviridae	Robaratusivirus	2000	3000	invertebrates (S), vertebrates
+Draupnirviridae	Roburiusivirus	1000	2000	invertebrates
+Draupnirviridae	Strenuaivirus	1000	2000	invertebrates
+Draupnirviridae	Strenuusivirus	1000	3000	vertebrates
+Draupnirviridae	Tetricillivirus	1000	2000	vertebrates
+Draupnirviridae	Torentivirus	2000	4000	freshwater (S), plants, sewage (S), vertebrates
+Draupnirviridae	Valentivirus	1000	2000	invertebrates, vertebrates
+Draupnirviridae	Validivirus	1000	2000	freshwater (S)
+Draupnirviridae	Vegetinivirus	1000	2000	vertebrates
+Draupnirviridae	Vegetivirus	2000	4000	freshwater (S), sewage (S)
+Draupnirviridae	Vehemenivirus	1000	2000	vertebrates
+Draupnirviridae	Velocianivirus	2000	3000	freshwater (S)
+Draupnirviridae	Veloxivirus	1000	2000	vertebrates
+Draupnirviridae	Violenivirus	1000	2000	vertebrates
+Draupnirviridae	Viratusivirus	1000	2000	freshwater (S)
+Draupnirviridae	Virilianivirus	1000	2000	invertebrates
+Draupnirviridae	Volantivirus	3000	6000	freshwater (S)
+Drexlerviridae	Augustepiccardvirus	50000	51000	bacteria
+Drexlerviridae	Badaguanvirus	50000	51000	bacteria
+Drexlerviridae	Baihuvirus	48000	49000	bacteria
+Drexlerviridae	Changchunvirus	49000	52000	bacteria
+Drexlerviridae	Christensenvirus	46000	47000	bacteria
+Drexlerviridae	Eastlansingvirus	47000	48000	bacteria
+Drexlerviridae	Eclunavirus	51000	52000	bacteria
+Drexlerviridae	Guelphvirus	46000	47000	bacteria
+Drexlerviridae	Hanrivervirus	46000	54000	bacteria
+Drexlerviridae	Henuseptimavirus	49000	50000	bacteria
+Drexlerviridae	Hicfunavirus	45000	46000	bacteria
+Drexlerviridae	Inhoffenstrassevirus	43000	44000	bacteria
+Drexlerviridae	Jahatvirus	50000	51000	bacteria
+Drexlerviridae	Jhansiroadvirus	49000	50000	bacteria
+Drexlerviridae	Julespiccardvirus	47000	48000	bacteria
+Drexlerviridae	Kyungwonvirus	48000	50000	bacteria
+Drexlerviridae	Lindendrivevirus	47000	48000	bacteria
+Drexlerviridae	Loudonvirus	44000	46000	bacteria
+Drexlerviridae	Nouzillyvirus	50000	51000	bacteria
+Drexlerviridae	Peekayseptimavirus	52000	53000	bacteria
+Drexlerviridae	Pocisvirus	48000	49000	bacteria
+Drexlerviridae	Rogunavirus	43000	48000	bacteria
+Drexlerviridae	Rtpvirus	46000	48000	bacteria
+Drexlerviridae	Sadiyavirus	48000	49000	bacteria
+Drexlerviridae	Sauletekiovirus	51000	52000	bacteria
+Drexlerviridae	Sertoctavirus	49000	50000	bacteria
+Drexlerviridae	Tlsvirus	46000	53000	bacteria
+Drexlerviridae	Tunavirus	48000	52000	bacteria
+Drexlerviridae	Veterinaerplatzvirus	43000	48000	bacteria
+Drexlerviridae	Vilniusvirus	51000	52000	bacteria
+Drexlerviridae	Warwickvirus	48000	52000	bacteria
+Drexlerviridae	Webervirus	37000	55000	bacteria
+Drexlerviridae	Wilsonroadvirus	48000	49000	bacteria
+Druskaviridae	Hacavirus	103000	104000	archaea
+Druskaviridae	Tredecimvirus	102000	103000	archaea
+Duinviridae	Apeevirus	4000	5000	bacteria, soil (S)
+Duinviridae	Beshanovirus	3000	4000	bacteria
+Duinviridae	Cartwavirus	3000	4000	invertebrates (S)
+Duinviridae	Cubpivirus	3000	5000	invertebrates (S)
+Duinviridae	Derlivirus	3000	4000	plants (S)
+Duinviridae	Dirlevirus	4000	5000	invertebrates (S)
+Duinviridae	Kahshuvirus	3000	4000	bacteria
+Duinviridae	Kohmavirus	3000	4000	bacteria
+Duinviridae	Samuneavirus	3000	4000	bacteria
+Duinviridae	Tehuhdavirus	4000	5000	bacteria
+Dumbiviridae	Orthodumbivirus	4000	5000	fungi
+Duneviridae	Ingelinevirus	42000	43000	bacteria
+Duneviridae	Labanvirus	43000	44000	bacteria
+Duneviridae	Unahavirus	39000	47000	bacteria
+Ehrlichviridae	Anathvirus	52000	53000	bacteria
+Ehrlichviridae	Andromedavirus	48000	51000	bacteria
+Ehrlichviridae	Chennaivirus	51000	52000	bacteria
+Ehrlichviridae	Dazunavirus	49000	50000	bacteria
+Ehrlichviridae	Gettysburgvirus	52000	53000	bacteria
+Ehrlichviridae	Nairobivirus	50000	51000	bacteria
+Ehrlichviridae	Suttonboningtonvirus	51000	52000	bacteria
+Ekchuahviridae	Kukulkanvirus	71000	81000	archaea
+Endolinaviridae	Bovdisavirus	2000	3000	vertebrates
+Endolinaviridae	Camdisavirus	2000	4000	vertebrates
+Endolinaviridae	Chidisavirus	3000	4000	vertebrates
+Endolinaviridae	Hudisavirus	2000	3000	vertebrates
+Endornaviridae	Alphaendornavirus	11000	18000	fungi, plants, protists
+Endornaviridae	Betaendornavirus	9000	13000	fungi
+Epsomviridae	Wendovervirus	659000	660000	bacteria
+Eupolintoviridae	Alphadintovirus	12000	13000	invertebrates
+Eupolintoviridae	Betadintovirus	12000	13000	vertebrates
+Eurekaviridae	Hesperidvirus	17000	18000	archaea
+Felixviridae	Certevirus	44000	45000	bacteria
+Felixviridae	Chronisvirus	45000	46000	bacteria
+Felixviridae	Nakavirus	46000	47000	bacteria
+Fervensviridae	Deepoceanvirus	31000	32000	archaea
+Fiersviridae	Amubhivirus	3000	5000	bacteria, soil (S)
+Fiersviridae	Andhasavirus	3000	5000	bacteria, soil (S)
+Fiersviridae	Andhaxevirus	3000	5000	bacteria, soil (S)
+Fiersviridae	Ashucavirus	3000	4000	bacteria, soil (S)
+Fiersviridae	Bahscuvirus	3000	4000	bacteria
+Fiersviridae	Behevivirus	3000	4000	bacteria
+Fiersviridae	Behlfluvirus	4000	5000	bacteria
+Fiersviridae	Bihdovirus	4000	5000	bacteria
+Fiersviridae	Bisdanovirus	3000	4000	bacteria
+Fiersviridae	Blafavirus	4000	5000	bacteria
+Fiersviridae	Bohnovirus	3000	4000	bacteria
+Fiersviridae	Bohwovirus	4000	5000	bacteria
+Fiersviridae	Boschuvirus	3000	4000	bacteria
+Fiersviridae	Breudwovirus	4000	5000	bacteria
+Fiersviridae	Buhdavirus	3000	4000	bacteria
+Fiersviridae	Cahdavirus	3000	5000	bacteria, soil (S)
+Fiersviridae	Cahrpivirus	3000	4000	bacteria
+Fiersviridae	Caloevirus	3000	5000	bacteria, soil (S)
+Fiersviridae	Cauhldivirus	4000	5000	bacteria, soil (S)
+Fiersviridae	Cehakivirus	3000	4000	bacteria
+Fiersviridae	Chaedoavirus	3000	4000	bacteria
+Fiersviridae	Chahsmivirus	3000	5000	bacteria, plants (S), soil (S)
+Fiersviridae	Chihyovirus	3000	4000	bacteria
+Fiersviridae	Chobevirus	3000	4000	bacteria
+Fiersviridae	Choctavirus	3000	4000	bacteria
+Fiersviridae	Cintrevirus	3000	4000	bacteria, soil (S)
+Fiersviridae	Cunavirus	3000	4000	bacteria, invertebrates (S)
+Fiersviridae	Dahmuvirus	3000	4000	bacteria
+Fiersviridae	Darnbovirus	3000	4000	bacteria
+Fiersviridae	Decadevirus	4000	5000	bacteria, plants (S)
+Fiersviridae	Denfovirus	3000	4000	bacteria
+Fiersviridae	Depandovirus	4000	5000	bacteria
+Fiersviridae	Dihsdivirus	3000	4000	bacteria
+Fiersviridae	Dohlivirus	4000	5000	bacteria
+Fiersviridae	Dortuvirus	3000	4000	bacteria
+Fiersviridae	Dorudgevirus	3000	4000	bacteria
+Fiersviridae	Dosmizivirus	3000	4000	bacteria, soil (S)
+Fiersviridae	Draycavirus	3000	4000	bacteria
+Fiersviridae	Dreytovirus	3000	4000	bacteria
+Fiersviridae	Duhcivirus	3000	4000	bacteria, soil (S)
+Fiersviridae	Dunchevirus	3000	4000	bacteria
+Fiersviridae	Dursuvirus	3000	4000	bacteria, soil (S)
+Fiersviridae	Eahsevirus	3000	4000	bacteria, soil (S)
+Fiersviridae	Eahvevirus	4000	5000	soil (S)
+Fiersviridae	Eedhovirus	3000	4000	invertebrates (S)
+Fiersviridae	Eerlswovirus	4000	5000	bacteria
+Fiersviridae	Eistcuvirus	3000	4000	invertebrates (S)
+Fiersviridae	Emesvirus	3000	4000	bacteria
+Fiersviridae	Empivirus	3000	4000	bacteria
+Fiersviridae	Etongtovirus	3000	4000	invertebrates (S)
+Fiersviridae	Fagihyuvirus	3000	4000	bacteria, soil (S)
+Fiersviridae	Fenycovirus	3000	4000	soil (S)
+Fiersviridae	Fihluvirus	4000	5000	soil (S)
+Fiersviridae	Firnpuvirus	3000	4000	soil (S)
+Fiersviridae	Fiyodovirus	3000	4000	bacteria
+Fiersviridae	Flehknovirus	4000	5000	invertebrates (S)
+Fiersviridae	Frinctavirus	3000	4000	invertebrates (S)
+Fiersviridae	Fulbrouvirus	3000	4000	plants (S)
+Fiersviridae	Gahlovirus	3000	4000	bacteria
+Fiersviridae	Galoycavirus	3000	4000	plants (S)
+Fiersviridae	Garovuvirus	3000	4000	bacteria
+Fiersviridae	Gehnevirus	3000	4000	bacteria
+Fiersviridae	Giydovirus	3000	4000	plants (S)
+Fiersviridae	Glyciruvirus	3000	4000	bacteria
+Fiersviridae	Gmuhndevirus	3000	4000	bacteria
+Fiersviridae	Gorodievirus	4000	5000	bacteria
+Fiersviridae	Grandpovirus	3000	4000	plants (S)
+Fiersviridae	Greatevirus	3000	4000	plants (S)
+Fiersviridae	Greatpavirus	3000	4000	plants (S)
+Fiersviridae	Grehavirus	3000	4000	plants (S)
+Fiersviridae	Grendovirus	3000	4000	plants (S)
+Fiersviridae	Grendvuvirus	4000	5000	bacteria
+Fiersviridae	Gunawavirus	3000	4000	bacteria
+Fiersviridae	Haeldovirus	3000	4000	bacteria, plants (S)
+Fiersviridae	Hagavirus	3000	4000	bacteria
+Fiersviridae	Hahdsevirus	3000	4000	bacteria
+Fiersviridae	Hahmbtovirus	3000	4000	plants (S)
+Fiersviridae	Hahsevirus	3000	4000	bacteria, soil (S)
+Fiersviridae	Halcalevirus	3000	4000	bacteria
+Fiersviridae	Hampdavirus	4000	5000	plants (S)
+Fiersviridae	Hamptovirus	4000	5000	plants (S)
+Fiersviridae	Helfovirus	3000	4000	plants (S)
+Fiersviridae	Herbuvirus	3000	4000	invertebrates (S)
+Fiersviridae	Hihdivirus	4000	5000	bacteria
+Fiersviridae	Hihlwaovirus	4000	5000	soil (S)
+Fiersviridae	Hirbarovirus	3000	4000	plants (S)
+Fiersviridae	Hirtshivirus	4000	5000	invertebrates (S)
+Fiersviridae	Hisilivirus	3000	4000	invertebrates (S)
+Fiersviridae	Hisilovirus	3000	4000	invertebrates (S)
+Fiersviridae	Hitdovirus	3000	4000	invertebrates (S)
+Fiersviridae	Hohnivirus	3000	4000	soil (S)
+Fiersviridae	Honleyivirus	3000	4000	soil (S)
+Fiersviridae	Honolovirus	3000	4000	soil (S)
+Fiersviridae	Hudnivirus	3000	4000	soil (S)
+Fiersviridae	Huhnivirus	3000	4000	soil (S)
+Fiersviridae	Huhnuvirus	4000	5000	soil (S)
+Fiersviridae	Hukohnovirus	3000	4000	bacteria
+Fiersviridae	Hurlivirus	3000	4000	soil (S)
+Fiersviridae	Icumivirus	3000	4000	bacteria, soil (S)
+Fiersviridae	Ideskevirus	3000	4000	bacteria
+Fiersviridae	Idlucavirus	3000	4000	soil (S)
+Fiersviridae	Imeberivirus	3000	4000	bacteria
+Fiersviridae	Ineyimevirus	3000	4000	bacteria
+Fiersviridae	Iruqauvirus	3000	4000	bacteria
+Fiersviridae	Ishugivirus	3000	4000	bacteria
+Fiersviridae	Jiesduavirus	3000	4000	bacteria, plants (S)
+Fiersviridae	Johnovirus	3000	4000	bacteria
+Fiersviridae	Jupbevirus	4000	5000	bacteria, soil (S)
+Fiersviridae	Kahfsdivirus	4000	5000	bacteria
+Fiersviridae	Keghovirus	3000	5000	bacteria, plants (S), soil (S)
+Fiersviridae	Kehmevirus	3000	4000	bacteria
+Fiersviridae	Kehrevirus	3000	4000	soil (S)
+Fiersviridae	Kemicevirus	3000	4000	bacteria
+Fiersviridae	Kihryuvirus	3000	4000	bacteria
+Fiersviridae	Kinehtovirus	3000	4000	soil (S)
+Fiersviridae	Kinolwovirus	3000	4000	soil (S)
+Fiersviridae	Kirnavirus	3000	4000	bacteria
+Fiersviridae	Kiwsmaevirus	3000	4000	bacteria
+Fiersviridae	Kongskuvirus	4000	5000	soil (S)
+Fiersviridae	Konkivirus	3000	4000	bacteria
+Fiersviridae	Konwavirus	3000	4000	soil (S)
+Fiersviridae	Koteshevirus	3000	4000	bacteria, plants (S), soil (S)
+Fiersviridae	Kowinovirus	3000	4000	bacteria
+Fiersviridae	Kuhshuvirus	3000	4000	bacteria
+Fiersviridae	Kungsnevirus	3000	4000	plants (S), soil (S)
+Fiersviridae	Kungspuvirus	3000	4000	soil (S)
+Fiersviridae	Lahbwuvirus	4000	5000	soil (S)
+Fiersviridae	Lahdbrovirus	4000	5000	soil (S)
+Fiersviridae	Langlevirus	3000	4000	soil (S)
+Fiersviridae	Leahmovirus	4000	5000	soil (S)
+Fiersviridae	Lecwavirus	4000	5000	soil (S)
+Fiersviridae	Lehamuvirus	4000	5000	soil (S)
+Fiersviridae	Lighthovirus	3000	4000	soil (S)
+Fiersviridae	Lihdtlovirus	3000	4000	soil (S)
+Fiersviridae	Lihtdlivirus	3000	5000	bacteria, soil (S)
+Fiersviridae	Litdlevirus	3000	4000	soil (S)
+Fiersviridae	Loamavirus	4000	5000	soil (S)
+Fiersviridae	Loghdhuvirus	3000	4000	bacteria
+Fiersviridae	Lohmavirus	3000	4000	bacteria
+Fiersviridae	Lohngkovirus	3000	4000	bacteria, plants (S), soil (S)
+Fiersviridae	Lohwevirus	3000	4000	soil (S)
+Fiersviridae	Lohwovirus	3000	4000	soil (S)
+Fiersviridae	Longmavirus	3000	4000	plants (S), soil (S)
+Fiersviridae	Longovirus	3000	5000	plants (S), soil (S)
+Fiersviridae	Loslovirus	3000	4000	bacteria
+Fiersviridae	Lowerquvirus	3000	4000	soil (S)
+Fiersviridae	Lowsuvirus	3000	4000	bacteria, soil (S)
+Fiersviridae	Loxlovirus	3000	4000	soil (S)
+Fiersviridae	Ludtlevirus	3000	4000	soil (S)
+Fiersviridae	Ludtlovirus	3000	4000	soil (S)
+Fiersviridae	Ludtovirus	4000	5000	bacteria, soil (S)
+Fiersviridae	Lunjlavirus	3000	4000	soil (S)
+Fiersviridae	Luthavirus	3000	5000	bacteria, plants (S), soil (S)
+Fiersviridae	Lyejrivirus	3000	5000	soil (S)
+Fiersviridae	Mahqeavirus	3000	4000	bacteria, plants (S), soil (S)
+Fiersviridae	Mahraivirus	3000	4000	bacteria
+Fiersviridae	Mahrtovirus	3000	4000	soil (S)
+Fiersviridae	Manrohovirus	3000	4000	bacteria
+Fiersviridae	Martavirus	4000	5000	bacteria
+Fiersviridae	Martovirus	3000	4000	soil (S)
+Fiersviridae	Maxstovirus	4000	5000	soil (S)
+Fiersviridae	Meblowovirus	3000	4000	bacteria
+Fiersviridae	Mehraxmevirus	3000	4000	bacteria, soil (S)
+Fiersviridae	Mehrevirus	3000	4000	soil (S)
+Fiersviridae	Mekintivirus	3000	4000	bacteria
+Fiersviridae	Merlkluvirus	4000	5000	soil (S)
+Fiersviridae	Methovirus	4000	5000	bacteria
+Fiersviridae	Mihkrovirus	3000	5000	bacteria, invertebrates (S), plants (S), soil (S)
+Fiersviridae	Mincetevirus	3000	5000	soil (S)
+Fiersviridae	Mintuvirus	3000	4000	bacteria, soil (S)
+Fiersviridae	Mohredovirus	4000	5000	soil (S)
+Fiersviridae	Molcatevirus	3000	5000	soil (S)
+Fiersviridae	Molvevirus	4000	5000	soil (S)
+Fiersviridae	Monkskivirus	3000	5000	soil (S)
+Fiersviridae	Moxhuvirus	3000	4000	soil (S)
+Fiersviridae	Mutledovirus	3000	4000	soil (S)
+Fiersviridae	Muyegivirus	3000	4000	bacteria
+Fiersviridae	Nadsecevirus	3000	4000	bacteria
+Fiersviridae	Naneatavirus	3000	4000	soil (S)
+Fiersviridae	Napdanuvirus	3000	4000	soil (S)
+Fiersviridae	Nedhivirus	4000	5000	soil (S)
+Fiersviridae	Nehwtovirus	3000	4000	bacteria, soil (S)
+Fiersviridae	Newbovirus	3000	5000	soil (S)
+Fiersviridae	Newpuvirus	3000	4000	soil (S)
+Fiersviridae	Niankuvirus	3000	4000	bacteria
+Fiersviridae	Niuhvovirus	3000	4000	bacteria
+Fiersviridae	Niwnhavirus	3000	4000	soil (S)
+Fiersviridae	Niwtovirus	3000	4000	soil (S)
+Fiersviridae	Nohmivirus	3000	5000	soil (S)
+Fiersviridae	Nohrdovirus	3000	4000	bacteria, soil (S)
+Fiersviridae	Northevirus	3000	4000	soil (S)
+Fiersviridae	Oceshuvirus	3000	4000	bacteria
+Fiersviridae	Oldperovirus	3000	4000	soil (S)
+Fiersviridae	Olmsdivirus	4000	5000	bacteria
+Fiersviridae	Omohevirus	3000	4000	bacteria
+Fiersviridae	Onohmuvirus	3000	4000	bacteria
+Fiersviridae	Opdykovirus	3000	4000	bacteria
+Fiersviridae	Overwhuvirus	4000	5000	soil (S)
+Fiersviridae	Owenocuvirus	3000	4000	bacteria, soil (S)
+Fiersviridae	Oxychlovirus	3000	5000	bacteria, soil (S)
+Fiersviridae	Pailtovirus	3000	4000	soil (S)
+Fiersviridae	Paloswovirus	3000	4000	soil (S)
+Fiersviridae	Palsdevirus	3000	4000	bacteria
+Fiersviridae	Paysduvirus	3000	4000	bacteria
+Fiersviridae	Pedhlovirus	3000	4000	soil (S)
+Fiersviridae	Pehohrivirus	4000	5000	bacteria
+Fiersviridae	Pehsaduvirus	4000	5000	bacteria
+Fiersviridae	Pepevirus	3000	4000	bacteria, invertebrates (S), soil (S)
+Fiersviridae	Perrunavirus	3000	4000	bacteria, invertebrates (S), soil (S)
+Fiersviridae	Philtcovirus	3000	4000	bacteria
+Fiersviridae	Phobpsivirus	3000	5000	bacteria, soil (S)
+Fiersviridae	Piceduvirus	3000	4000	soil (S)
+Fiersviridae	Pihlevirus	4000	5000	soil (S)
+Fiersviridae	Pilordavirus	4000	5000	soil (S)
+Fiersviridae	Piponevirus	3000	5000	bacteria, soil (S)
+Fiersviridae	Pohlevirus	3000	5000	bacteria, soil (S)
+Fiersviridae	Poncivirus	3000	4000	bacteria, soil (S)
+Fiersviridae	Prihavirus	3000	5000	soil (S)
+Fiersviridae	Prihovirus	3000	4000	soil (S)
+Fiersviridae	Prisdovirus	3000	4000	soil (S)
+Fiersviridae	Prosdovirus	3000	4000	soil (S)
+Fiersviridae	Pruncivirus	3000	4000	soil (S)
+Fiersviridae	Psimevirus	3000	4000	bacteria, soil (S)
+Fiersviridae	Pudlivirus	3000	4000	bacteria
+Fiersviridae	Punlevirus	3000	4000	soil (S)
+Fiersviridae	Qubevirus	4000	5000	bacteria
+Fiersviridae	Quihndavirus	3000	5000	soil (S)
+Fiersviridae	Radbaivirus	3000	6000	bacteria, soil (S)
+Fiersviridae	Rahdfavirus	3000	4000	soil (S)
+Fiersviridae	Ratlevirus	3000	4000	soil (S)
+Fiersviridae	Redbauvirus	3000	4000	soil (S)
+Fiersviridae	Rehihmevirus	3000	4000	bacteria
+Fiersviridae	Rehudzovirus	3000	4000	bacteria
+Fiersviridae	Ridwavirus	3000	4000	soil (S)
+Fiersviridae	Rusvolovirus	4000	5000	bacteria
+Fiersviridae	Rytunovirus	3000	4000	soil (S)
+Fiersviridae	Sahwbrivirus	3000	4000	soil (S)
+Fiersviridae	Sambuevirus	3000	4000	plants (S), soil (S)
+Fiersviridae	Saudhavirus	4000	5000	bacteria
+Fiersviridae	Sbehrnivirus	3000	4000	soil (S)
+Fiersviridae	Scuadavirus	3000	4000	bacteria
+Fiersviridae	Sdadlevirus	4000	5000	soil (S)
+Fiersviridae	Sdoctuvirus	3000	4000	soil (S)
+Fiersviridae	Sdohnivirus	3000	4000	soil (S)
+Fiersviridae	Sdredfovirus	3000	4000	soil (S)
+Fiersviridae	Sdredtuvirus	3000	4000	soil (S)
+Fiersviridae	Sdretovirus	4000	5000	soil (S)
+Fiersviridae	Seckivirus	3000	4000	soil (S)
+Fiersviridae	Sehpovirus	3000	4000	bacteria
+Fiersviridae	Selfuvirus	3000	4000	soil (S)
+Fiersviridae	Seybrovirus	3000	4000	bacteria
+Fiersviridae	Shebanavirus	4000	5000	bacteria
+Fiersviridae	Shehrpovirus	3000	4000	soil (S)
+Fiersviridae	Shestuvirus	3000	4000	soil (S)
+Fiersviridae	Shihovirus	3000	4000	bacteria, plants (S), soil (S)
+Fiersviridae	Shipsduvirus	3000	4000	soil (S)
+Fiersviridae	Shodtevirus	3000	4000	soil (S)
+Fiersviridae	Sholavirus	3000	4000	bacteria
+Fiersviridae	Shomudavirus	4000	5000	bacteria
+Fiersviridae	Shrewlivirus	3000	4000	soil (S)
+Fiersviridae	Shuldovirus	3000	4000	soil (S)
+Fiersviridae	Shutevirus	3000	4000	soil (S)
+Fiersviridae	Shutovirus	3000	4000	soil (S)
+Fiersviridae	Sincthavirus	3000	5000	bacteria, soil (S)
+Fiersviridae	Skhembuvirus	3000	4000	bacteria
+Fiersviridae	Smudhfivirus	4000	5000	bacteria
+Fiersviridae	Snitdevirus	3000	4000	soil (S)
+Fiersviridae	Soetuvirus	3000	4000	bacteria
+Fiersviridae	Stanolovirus	3000	4000	soil (S)
+Fiersviridae	Stehlmavirus	3000	4000	bacteria, soil (S)
+Fiersviridae	Sterodovirus	4000	5000	soil (S)
+Fiersviridae	Stoartovirus	3000	4000	soil (S)
+Fiersviridae	Stretavirus	4000	5000	soil (S)
+Fiersviridae	Stritovirus	3000	4000	soil (S)
+Fiersviridae	Suhtovirus	3000	4000	soil (S)
+Fiersviridae	Swihdzovirus	3000	4000	bacteria
+Fiersviridae	Tahluvirus	4000	5000	bacteria
+Fiersviridae	Tapikevirus	3000	4000	bacteria, soil (S)
+Fiersviridae	Teciucevirus	3000	4000	bacteria
+Fiersviridae	Tehnexuvirus	3000	4000	bacteria, soil (S)
+Fiersviridae	Temblevirus	3000	4000	soil (S)
+Fiersviridae	Templevirus	4000	5000	soil (S)
+Fiersviridae	Templovirus	3000	4000	soil (S)
+Fiersviridae	Tenwovirus	3000	4000	bacteria
+Fiersviridae	Thiwvovirus	3000	4000	bacteria
+Fiersviridae	Thiyevirus	3000	4000	bacteria
+Fiersviridae	Thobivirus	3000	4000	bacteria
+Fiersviridae	Thurlavirus	3000	5000	soil (S)
+Fiersviridae	Ticahravirus	3000	4000	bacteria
+Fiersviridae	Todtivirus	3000	4000	soil (S)
+Fiersviridae	Tohvovirus	3000	4000	bacteria, soil (S)
+Fiersviridae	Trotivirus	3000	5000	bacteria, plants (S), soil (S)
+Fiersviridae	Trucevirus	3000	5000	bacteria, soil (S)
+Fiersviridae	Tudmivirus	4000	5000	soil (S)
+Fiersviridae	Tysohivirus	3000	4000	bacteria
+Fiersviridae	Ulinhavirus	3000	5000	bacteria
+Fiersviridae	Upborqevirus	3000	4000	bacteria
+Fiersviridae	Ureyisuvirus	3000	4000	bacteria
+Fiersviridae	Ushumevirus	3000	4000	bacteria
+Fiersviridae	Vohsuavirus	3000	5000	bacteria, plants (S), soil (S)
+Fiersviridae	Whietlevirus	4000	5000	bacteria, soil (S)
+Fiersviridae	Whilavirus	4000	5000	bacteria
+Fiersviridae	Wohudhevirus	3000	4000	bacteria
+Fiersviridae	Wyahnevirus	3000	4000	bacteria
+Fiersviridae	Yahnavirus	3000	4000	bacteria, soil (S)
+Fiersviridae	Yemegivirus	3000	4000	bacteria
+Fiersviridae	Yohcadevirus	3000	4000	bacteria
+Fiersviridae	Yuhrihovirus	3000	4000	bacteria, soil (S)
+Filamentoviridae	Alphafilamentovirus	111000	112000	invertebrates
+Filamentoviridae	Betafilamentovirus	101000	138000	invertebrates
+Filoviridae	Cuevavirus	18000	19000	vertebrates
+Filoviridae	Dianlovirus	18000	21000	vertebrates
+Filoviridae	Orthoebolavirus	18000	20000	vertebrates
+Filoviridae	Orthomarburgvirus	19000	20000	vertebrates
+Filoviridae	Striavirus	17000	18000	vertebrates
+Filoviridae	Tapjovirus	16000	17000	vertebrates
+Filoviridae	Thamnovirus	13000	15000	vertebrates
+Fimoviridae	Emaravirus	900	8000	plants
+Finnlakeviridae	Finnlakevirus	9000	10000	bacteria
+Flaviviridae	Hepacivirus	8000	11000	vertebrates
+Flaviviridae	Orthoflavivirus	10000	12000	invertebrates, vertebrates, vertebrates
+Flaviviridae	Pegivirus	8000	12000	vertebrates
+Flaviviridae	Pestivirus	11000	14000	vertebrates
+Forsetiviridae	Freyavirus	43000	48000	bacteria
+Fredfastierviridae	Jamesmcgillvirus	43000	44000	bacteria
+Fusagraviridae	Fusagravirus	8000	11000	fungi, plants, protists
+Fusariviridae	Alphafusarivirus	5000	8000	fungi, protists
+Fusariviridae	Betafusarivirus	6000	11000	fungi
+Fusariviridae	Gammafusarivirus	6000	7000	fungi
+Fuselloviridae	Alphafusellovirus	14000	18000	archaea
+Fuselloviridae	Betafusellovirus	15000	25000	archaea
+Fuxiviridae	Taijivirus	31000	32000	archaea
+Gammaflexiviridae	Gammaflexivirus	7000	10000	fungi
+Gammaflexiviridae	Mycoflexivirus	6000	7000	fungi
+Gammaflexiviridae	Xylavirus	9000	10000	fungi
+Gammaormycoviridae	Hormycovirus	1000	3000	fungi
+Gammaormycoviridae	Tormycovirus	1000	3000	fungi, protists (S)
+Gandrviridae	Atripovirus	6000	7000	vertebrates
+Gandrviridae	Meliavirus	5000	6000	freshwater (S)
+Gandrviridae	Oreadivirus	9000	10000	freshwater (S)
+Gandrviridae	Oreiadivirus	6000	7000	freshwater (S)
+Gandrviridae	Satyrivirus	6000	7000	invertebrates
+Gandrviridae	Sthenivirus	6000	7000	vertebrates
+Gandrviridae	Thisbivirus	5000	6000	freshwater (S)
+Gandrviridae	Thyiavirus	7000	8000	freshwater (S)
+Geminiviridae	Becurtovirus	2000	3000	plants
+Geminiviridae	Begomovirus	2000	3000	invertebrates, plants, plants
+Geminiviridae	Capulavirus	2000	3000	plants
+Geminiviridae	Citlodavirus	3000	4000	invertebrates, plants
+Geminiviridae	Curtovirus	2000	4000	plants
+Geminiviridae	Eragrovirus	2000	3000	plants
+Geminiviridae	Grablovirus	3000	4000	plants
+Geminiviridae	Maldovirus	2000	3000	plants
+Geminiviridae	Mastrevirus	2000	3000	invertebrates, plants
+Geminiviridae	Mulcrilevirus	2000	4000	plants
+Geminiviridae	Opunvirus	2000	3000	plants
+Geminiviridae	Topilevirus	2000	3000	plants
+Geminiviridae	Topocuvirus	2000	3000	plants
+Geminiviridae	Turncurtovirus	2000	3000	plants
+Geminiviridae	Welwivirus	2000	3000	plants
+Genomoviridae	Gemycircularvirus	2000	3000	fungi, invertebrates, plants, sewage (S), vertebrates
+Genomoviridae	Gemyduguivirus	2000	3000	invertebrates, plants, vertebrates
+Genomoviridae	Gemygorvirus	2000	3000	plants, sewage (S), vertebrates
+Genomoviridae	Gemykibivirus	1000	3000	invertebrates, plants, sewage (S), vertebrates
+Genomoviridae	Gemykolovirus	2000	3000	invertebrates, plants, vertebrates
+Genomoviridae	Gemykrogvirus	2000	3000	invertebrates, sewage (S), vertebrates
+Genomoviridae	Gemykroznavirus	2000	3000	invertebrates, vertebrates, plants, vertebrates
+Genomoviridae	Gemytondvirus	2000	3000	vertebrates
+Genomoviridae	Gemytripvirus	1000	2000	fungi
+Genomoviridae	Gemyvongvirus	2000	3000	vertebrates
+Geplanaviridae	Acciovirus	2000	3000	freshwater (S), invertebrates
+Geplanaviridae	Aguamentivirus	2000	3000	invertebrates, vertebrates
+Geplanaviridae	Alohovirus	2000	3000	plants, vertebrates
+Geplanaviridae	Aparevirus	2000	3000	air (S)
+Geplanaviridae	Avadavirus	2000	3000	vertebrates
+Geplanaviridae	Densaugvirus	2000	3000	freshwater (S)
+Geplanaviridae	Diffindovirus	2000	3000	invertebrates
+Geplanaviridae	Engorgivirus	2000	3000	invertebrates, vertebrates
+Geplanaviridae	Episkevirus	2000	3000	freshwater (S), plants
+Geplanaviridae	Expellivirus	2000	3000	vertebrates
+Geplanaviridae	Impedivirus	2000	3000	invertebrates, vertebrates
+Geplanaviridae	Lumovirus	2000	3000	plants
+Geplanaviridae	Oblivivirus	1000	2000	freshwater (S)
+Geplanaviridae	Patrovirus	2000	3000	freshwater (S)
+Geplanaviridae	Protegovirus	2000	3000	vertebrates
+Geplanaviridae	Riddikuvirus	2000	3000	freshwater (S), plants
+Geplanaviridae	Stupevirus	2000	3000	plants
+Geplanaviridae	Wingardivirus	2000	3000	freshwater (S), vertebrates
+Giardiaviridae	Giardiavirus	6000	7000	protists
+Globuloviridae	Alphaglobulovirus	18000	29000	archaea
+Graaviviridae	Beejeyvirus	42000	43000	archaea
+Graaviviridae	Seejivirus	39000	40000	archaea
+Gresnaviridae	Cyclophivirus	18000	19000	vertebrates
+Grimontviridae	Aquaneticvirus	85000	86000	bacteria
+Grimontviridae	Crifsvirus	75000	77000	bacteria
+Grimontviridae	Dalianvirus	112000	113000	bacteria
+Grimontviridae	Lahexavirus	97000	103000	bacteria
+Grimontviridae	Libingvirus	86000	87000	bacteria
+Grimontviridae	Lundtoftevirus	76000	77000	bacteria
+Grimontviridae	Moazamivirus	89000	90000	bacteria
+Grimontviridae	Privateervirus	90000	93000	bacteria
+Guelinviridae	Brucesealvirus	17000	19000	bacteria
+Guelinviridae	Gregsiragusavirus	17000	20000	bacteria
+Guelinviridae	Hzauvirus	18000	19000	bacteria
+Guelinviridae	Susfortunavirus	18000	20000	bacteria
+Gulliviroviridae	Invirovirus	30000	31000	freshwater (S)
+Guttaviridae	Betaguttavirus	13000	14000	archaea
+Hadakaviridae	Hadakavirus	800	3000	fungi
+Hafunaviridae	Haloferacalesvirus	74000	77000	archaea
+Hafunaviridae	Laminvirus	61000	62000	archaea
+Hafunaviridae	Mincapvirus	68000	69000	archaea
+Hafunaviridae	Minorvirus	56000	57000	archaea
+Hakuzoviridae	Atsuirnavirus	4000	7000	bacteria
+Haloferuviridae	Dpdavirus	36000	37000	archaea
+Haloferuviridae	Retbasiphovirus	38000	39000	archaea
+Haloferuviridae	Saldibavirus	35000	36000	archaea
+Halomagnusviridae	Hagravirus	143000	144000	archaea
+Halspiviridae	Salterprovirus	14000	15000	archaea
+Hantaviridae	Actinovirus	1000	7000	vertebrates
+Hantaviridae	Agnathovirus	3000	7000	vertebrates
+Hantaviridae	Loanvirus	1000	7000	vertebrates
+Hantaviridae	Mobatvirus	1000	7000	vertebrates
+Hantaviridae	Orthohantavirus	1000	7000	vertebrates
+Hantaviridae	Percilovirus	1000	7000	vertebrates
+Hantaviridae	Reptillovirus	1000	7000	vertebrates
+Hantaviridae	Thottimvirus	1000	7000	vertebrates
+Helgolandviridae	Leefvirus	37000	38000	bacteria
+Hepadnaviridae	Avihepadnavirus	3000	4000	vertebrates
+Hepadnaviridae	Herpetohepadnavirus	3000	4000	vertebrates
+Hepadnaviridae	Metahepadnavirus	3000	4000	vertebrates
+Hepadnaviridae	Orthohepadnavirus	3000	4000	vertebrates
+Hepadnaviridae	Parahepadnavirus	3000	4000	vertebrates
+Hepeviridae	Avihepevirus	6000	7000	vertebrates
+Hepeviridae	Chirohepevirus	6000	7000	vertebrates
+Hepeviridae	Paslahepevirus	7000	8000	vertebrates
+Hepeviridae	Piscihepevirus	7000	8000	vertebrates
+Hepeviridae	Rocahepevirus	6000	7000	vertebrates
+Herelleviridae	Agatevirus	149000	161000	bacteria
+Herelleviridae	Baoshanvirus	142000	150000	bacteria
+Herelleviridae	Bastillevirus	153000	161000	bacteria
+Herelleviridae	Bequatrovirus	162000	168000	bacteria
+Herelleviridae	Caeruleovirus	152000	166000	bacteria
+Herelleviridae	Eldridgevirus	165000	166000	bacteria
+Herelleviridae	Elpedvirus	145000	146000	bacteria
+Herelleviridae	Goettingenvirus	161000	162000	bacteria
+Herelleviridae	Grisebachstrassevirus	156000	157000	bacteria
+Herelleviridae	Harbinvirus	137000	143000	bacteria
+Herelleviridae	Hopescreekvirus	106000	107000	bacteria
+Herelleviridae	Jeonjuvirus	153000	154000	bacteria
+Herelleviridae	Kayvirus	127000	149000	bacteria
+Herelleviridae	Klumppvirus	127000	128000	bacteria
+Herelleviridae	Kochikohdavirus	130000	148000	bacteria
+Herelleviridae	Matervirus	164000	165000	bacteria
+Herelleviridae	Moonbeamvirus	161000	162000	bacteria
+Herelleviridae	Mooreparkvirus	142000	143000	bacteria
+Herelleviridae	Nitunavirus	152000	157000	bacteria
+Herelleviridae	Okubovirus	132000	147000	bacteria
+Herelleviridae	Pecentumvirus	131000	139000	bacteria
+Herelleviridae	Salchichonvirus	131000	132000	bacteria
+Herelleviridae	Schiekvirus	145000	157000	bacteria
+Herelleviridae	Sciuriunavirus	139000	140000	bacteria
+Herelleviridae	Sepunavirus	139000	141000	bacteria
+Herelleviridae	Shalavirus	138000	139000	bacteria
+Herelleviridae	Silviavirus	131000	137000	bacteria
+Herelleviridae	Siminovitchvirus	137000	139000	bacteria
+Herelleviridae	Siophivirus	146000	147000	bacteria
+Herelleviridae	Tsarbombavirus	154000	163000	bacteria
+Herelleviridae	Twortvirus	130000	131000	bacteria
+Herelleviridae	Tybeckvirus	136000	137000	bacteria
+Herelleviridae	Watanabevirus	140000	141000	bacteria
+Herelleviridae	Wphvirus	156000	163000	bacteria
+Hodgkinviridae	Fuzzbustervirus	54000	55000	bacteria
+Hodgkinviridae	Kozievirus	53000	54000	bacteria
+Hodgkinviridae	Margaeryvirus	55000	57000	bacteria
+Hodgkinviridae	Meganvirus	55000	56000	bacteria
+Hodgkinviridae	Mementomorivirus	55000	56000	bacteria
+Hodgkinviridae	Metamorphoovirus	53000	55000	bacteria
+Hodgkinviridae	Quhwahvirus	52000	54000	bacteria
+Huangdiviridae	Xuanyuanvirus	26000	27000	archaea
+Hydriviridae	Alphahydrivirus	1599000	1600000	unknown (S)
+Hypoviridae	Alphahypovirus	12000	15000	fungi, invertebrates
+Hypoviridae	Betahypovirus	9000	12000	fungi
+Hypoviridae	Deltahypovirus	8000	10000	invertebrates
+Hypoviridae	Epsilonhypovirus	12000	15000	fungi
+Hypoviridae	Etahypovirus	12000	13000	fungi
+Hypoviridae	Gammahypovirus	10000	12000	fungi
+Hypoviridae	Thetahypovirus	15000	19000	fungi
+Hypoviridae	Zetahypovirus	7000	8000	fungi
+Hytrosaviridae	Glossinavirus	190000	191000	invertebrates
+Hytrosaviridae	Muscavirus	124000	125000	invertebrates
+Iflaviridae	Iflavirus	8000	11000	invertebrates
+Inoviridae	Affertcholeramvirus	5000	11000	bacteria
+Inoviridae	Anademivirus	5000	6000	bacteria
+Inoviridae	Capistrivirus	7000	8000	bacteria
+Inoviridae	Coriovirus	7000	8000	bacteria
+Inoviridae	Fibrovirus	6000	8000	bacteria
+Inoviridae	Habenivirus	6000	10000	bacteria
+Inoviridae	Infulavirus	8000	9000	bacteria
+Inoviridae	Inovirus	6000	7000	bacteria
+Inoviridae	Lineavirus	6000	7000	bacteria
+Inoviridae	Lophivirus	6000	7000	bacteria
+Inoviridae	Parhipatevirus	5000	6000	bacteria
+Inoviridae	Porrectionivirus	7000	8000	bacteria
+Inoviridae	Primolicivirus	7000	11000	bacteria
+Inoviridae	Psecadovirus	6000	7000	bacteria
+Inoviridae	Restivirus	6000	8000	bacteria
+Inoviridae	Saetivirus	8000	9000	bacteria
+Inoviridae	Scuticavirus	7000	8000	bacteria
+Inoviridae	Siphunculivirus	5000	6000	bacteria
+Inoviridae	Staminivirus	6000	7000	bacteria
+Inoviridae	Subteminivirus	7000	8000	bacteria
+Inoviridae	Tertilicivirus	5000	6000	bacteria
+Inoviridae	Vasivirus	6000	7000	bacteria
+Inoviridae	Versovirus	6000	11000	bacteria
+Inoviridae	Vicialiavirus	7000	8000	bacteria
+Inoviridae	Villovirus	6000	8000	bacteria
+Inoviridae	Xylivirus	7000	9000	bacteria
+Inseviridae	Insevirus	5000	7000	invertebrates
+Intestiviridae	Carjivirus	97000	99000	bacteria
+Intestiviridae	Dabirmavirus	92000	93000	bacteria
+Intestiviridae	Delmidovirus	89000	94000	bacteria
+Intestiviridae	Diorhovirus	91000	93000	bacteria
+Intestiviridae	Drivevirus	93000	94000	bacteria
+Intestiviridae	Endlipuvirus	91000	92000	bacteria
+Intestiviridae	Fohxhuevirus	92000	93000	bacteria
+Intestiviridae	Hacihdavirus	92000	93000	bacteria
+Intestiviridae	Jahgtovirus	93000	98000	bacteria
+Intestiviridae	Rudgehvirus	90000	91000	bacteria
+Intestiviridae	Whopevirus	94000	95000	bacteria
+Intestiviridae	Wotdevirus	90000	91000	bacteria
+Iridoviridae	Chloriridovirus	163000	206000	invertebrates
+Iridoviridae	Daphniairidovirus	288000	289000	invertebrates
+Iridoviridae	Decapodiridovirus	165000	166000	invertebrates
+Iridoviridae	Iridovirus	212000	221000	invertebrates
+Iridoviridae	Lymphocystivirus	102000	212000	vertebrates
+Iridoviridae	Megalocytivirus	110000	113000	vertebrates
+Iridoviridae	Ranavirus	103000	141000	vertebrates
+Itzamnaviridae	Demiitzamnavirus	25000	26000	archaea
+Itzamnaviridae	Pletoitzamnavirus	48000	49000	archaea
+Jeanschmidtviridae	Bajunvirus	207000	208000	bacteria
+Jeanschmidtviridae	Bertelyvirus	317000	323000	bacteria
+Jeanschmidtviridae	Colossusvirus	279000	309000	bacteria
+Jeanschmidtviridae	Kikimoravirus	312000	322000	bacteria
+Jeanschmidtviridae	Marchewkavirus	348000	357000	bacteria
+Jeanschmidtviridae	Poindextervirus	220000	224000	bacteria
+Jeanschmidtviridae	Shapirovirus	215000	220000	bacteria
+Kairosviridae	Nadirvirus	34000	35000	archaea
+Kanorauviridae	Chinseivirus	2000	3000	sewage (S)
+Kanorauviridae	Chiunvirus	2000	3000	invertebrates, marine (S), vertebrates
+Kanorauviridae	Doseivirus	2000	3000	sewage (S)
+Kanorauviridae	Kaiwanvirus	2000	4000	freshwater (S), sewage (S)
+Kanorauviridae	Kajamanuvirus	2000	3000	freshwater (S), vertebrates
+Kanorauviridae	Kronovirus	2000	3000	freshwater (S)
+Kanorauviridae	Ninurtavirus	2000	4000	air (S), freshwater (S), invertebrates, marine (S), sewage (S), vertebrates
+Kanorauviridae	Phainonvirus	2000	3000	freshwater (S), unknown (S), vertebrates
+Kanorauviridae	Raagevirus	2000	3000	vertebrates
+Kanorauviridae	Sadornvirus	2000	3000	marine (S)
+Kanorauviridae	Sagusvirus	2000	4000	freshwater (S), vertebrates
+Kanorauviridae	Sakkuthvirus	1000	4000	freshwater (S), invertebrates, vertebrates
+Kanorauviridae	Sanchirvirus	2000	3000	freshwater (S)
+Kanorauviridae	Sanivirus	1000	4000	freshwater (S), plants
+Kanorauviridae	Saothovirus	2000	3000	freshwater (S), vertebrates
+Kanorauviridae	Savurvirus	2000	3000	freshwater (S)
+Kanorauviridae	Scythevirus	1000	4000	freshwater (S)
+Kanorauviridae	Seetinvirus	3000	4000	freshwater (S)
+Kanorauviridae	Shabtayvirus	2000	4000	freshwater (S), plants
+Kanorauviridae	Shanivirus	2000	4000	air (S), freshwater (S), invertebrates, sewage (S), unknown (S)
+Kanorauviridae	Sickelvirus	2000	3000	invertebrates, vertebrates
+Kanorauviridae	Tuxingvirus	2000	3000	vertebrates
+Kanorauviridae	Zohalivirus	2000	3000	vertebrates
+Kanorauviridae	Zuhalvirus	2000	3000	vertebrates
+Kirkoviridae	Aglavirus	3000	4000	vertebrates
+Kirkoviridae	Denevirus	4000	5000	vertebrates
+Kirkoviridae	Edravirus	3000	4000	vertebrates
+Kirkoviridae	Halavirus	3000	4000	vertebrates
+Kirkoviridae	Irmovirus	4000	5000	vertebrates
+Kirkoviridae	Luinilvirus	3000	4000	vertebrates
+Kirkoviridae	Melianvirus	2000	3000	vertebrates
+Kirkoviridae	Nessavirus	2000	3000	vertebrates
+Kirkoviridae	Ossirvirus	3000	4000	vertebrates
+Kirkoviridae	Yavannavirus	4000	5000	vertebrates
+Kitaviridae	Blunervirus	1000	6000	plants
+Kitaviridae	Cilevirus	3000	9000	invertebrates, plants, plants
+Kitaviridae	Higrevirus	2000	9000	plants
+Kleczkowskaviridae	Cuauhnahuacvirus	206000	208000	bacteria
+Kolmioviridae	Daazvirus	1000	2000	vertebrates
+Kolmioviridae	Dagazvirus	1000	2000	vertebrates
+Kolmioviridae	Daletvirus	1000	2000	vertebrates
+Kolmioviridae	Dalvirus	1000	2000	vertebrates
+Kolmioviridae	Deevirus	1000	2000	vertebrates
+Kolmioviridae	Deltavirus	1000	2000	vertebrates
+Kolmioviridae	Dobrovirus	1000	2000	vertebrates
+Kolmioviridae	Donvirus	1000	2000	invertebrates
+Kolmioviridae	Perideltavirus	1000	2000	vertebrates
+Kolmioviridae	Perithurisazvirus	1000	2000	vertebrates
+Kolmioviridae	Thurisazvirus	1000	2000	vertebrates
+Konkoviridae	Olpivirus	1000	7000	plants
+Konodaiviridae	Akedovirus	56000	57000	bacteria
+Konodaiviridae	Satomivirus	57000	58000	bacteria
+Konodaiviridae	Shienvirus	56000	57000	bacteria
+Krittikaviridae	Velanvirus	79000	80000	archaea
+Kruegerviridae	Cafassovirus	86000	88000	bacteria
+Kruegerviridae	Vanleevirus	84000	85000	bacteria
+Kunpengviridae	Dafengvirus	35000	36000	archaea
+Kyanoviridae	Acionnavirus	170000	171000	bacteria
+Kyanoviridae	Ahtivirus	179000	180000	bacteria
+Kyanoviridae	Alisovirus	172000	173000	bacteria
+Kyanoviridae	Anaposvirus	198000	199000	bacteria
+Kyanoviridae	Atlauavirus	196000	224000	bacteria
+Kyanoviridae	Bellamyvirus	204000	205000	bacteria
+Kyanoviridae	Bristolvirus	194000	195000	bacteria
+Kyanoviridae	Brizovirus	174000	176000	bacteria
+Kyanoviridae	Chalconvirus	189000	191000	bacteria
+Kyanoviridae	Charybdisvirus	198000	199000	bacteria
+Kyanoviridae	Cymopoleiavirus	186000	187000	bacteria
+Kyanoviridae	Emcearvirus	177000	178000	bacteria
+Kyanoviridae	Galenevirus	172000	173000	bacteria
+Kyanoviridae	Gibbetvirus	194000	195000	bacteria
+Kyanoviridae	Glaucusvirus	176000	177000	bacteria
+Kyanoviridae	Greenvirus	182000	183000	bacteria
+Kyanoviridae	Haifavirus	197000	198000	bacteria
+Kyanoviridae	Huanghaivirus	167000	168000	bacteria
+Kyanoviridae	Kanaloavirus	174000	175000	bacteria
+Kyanoviridae	Leucotheavirus	178000	179000	bacteria
+Kyanoviridae	Libanvirus	188000	189000	bacteria
+Kyanoviridae	Lipsvirus	232000	233000	bacteria
+Kyanoviridae	Lowelvirus	179000	180000	bacteria
+Kyanoviridae	Macariavirus	174000	175000	bacteria
+Kyanoviridae	Makaravirus	167000	168000	bacteria
+Kyanoviridae	Makelovirus	144000	145000	bacteria
+Kyanoviridae	Mazuvirus	216000	217000	bacteria
+Kyanoviridae	Namakavirus	176000	177000	bacteria
+Kyanoviridae	Neptunevirus	171000	175000	bacteria
+Kyanoviridae	Nereusvirus	154000	173000	bacteria
+Kyanoviridae	Neritesvirus	171000	172000	bacteria
+Kyanoviridae	Nerrivikvirus	175000	176000	bacteria
+Kyanoviridae	Nilusvirus	190000	191000	bacteria
+Kyanoviridae	Nodensvirus	196000	197000	bacteria
+Kyanoviridae	Ormenosvirus	177000	178000	bacteria
+Kyanoviridae	Palaemonvirus	182000	183000	bacteria
+Kyanoviridae	Pontusvirus	175000	176000	bacteria
+Kyanoviridae	Potamoivirus	191000	193000	bacteria
+Kyanoviridae	Ronodorvirus	178000	180000	bacteria
+Kyanoviridae	Salacisavirus	252000	253000	bacteria
+Kyanoviridae	Scyllavirus	192000	193000	bacteria
+Kyanoviridae	Sedonavirus	189000	190000	bacteria
+Kyanoviridae	Serangoonvirus	240000	241000	bacteria
+Kyanoviridae	Shandvirus	151000	175000	bacteria
+Kyanoviridae	Shenzhenivirus	177000	178000	bacteria
+Kyanoviridae	Sokavirus	185000	186000	bacteria
+Kyanoviridae	Tamkungvirus	181000	182000	bacteria
+Kyanoviridae	Tefnutvirus	171000	172000	bacteria
+Kyanoviridae	Thaumasvirus	176000	177000	bacteria
+Kyanoviridae	Thetisvirus	174000	175000	bacteria
+Kyanoviridae	Vellamovirus	191000	198000	bacteria
+Kyanoviridae	Yellowseavirus	180000	181000	bacteria
+Kyanoviridae	Yushanluvirus	187000	188000	bacteria
+Kyanoviridae	Zhoulongquanvirus	228000	229000	bacteria
+Lakviridae	Amboselivirus	547000	548000	bacteria
+Lakviridae	Hatfieldvirus	476000	477000	bacteria
+Lakviridae	Vetruanivirus	517000	542000	bacteria
+Lebotiviridae	Lebotivirus	6000	9000	invertebrates
+Leishbuviridae	Shilevirus	600	7000	protists
+Leisingerviridae	Psimunavirus	26000	27000	archaea
+Lindbergviridae	Bcepfunavirus	72000	73000	bacteria
+Lindbergviridae	Carpasinavirus	61000	62000	bacteria
+Lindbergviridae	Gladiolivirus	68000	69000	bacteria
+Lindbergviridae	Irusalimvirus	70000	71000	bacteria
+Lindbergviridae	Kylevirus	73000	74000	bacteria
+Lindbergviridae	Myosmarvirus	68000	69000	bacteria
+Lindbergviridae	Pbunavirus	60000	69000	bacteria
+Lindbergviridae	Plutovirus	67000	68000	bacteria
+Lindbergviridae	Tabernariusvirus	67000	68000	bacteria
+Lindbergviridae	Wifcevirus	66000	73000	bacteria
+Lipothrixviridae	Alphalipothrixvirus	37000	39000	archaea
+Lipothrixviridae	Betalipothrixvirus	36000	42000	archaea
+Lipothrixviridae	Deltalipothrixvirus	31000	32000	archaea
+Lispiviridae	Acridvirus	13000	14000	invertebrates
+Lispiviridae	Aleyavirus	13000	14000	invertebrates
+Lispiviridae	Aleybvirus	13000	14000	invertebrates
+Lispiviridae	Anicalvirus	12000	13000	invertebrates
+Lispiviridae	Anidravirus	12000	13000	invertebrates
+Lispiviridae	Aranavirus	7000	8000	invertebrates
+Lispiviridae	Aranbvirus	9000	10000	invertebrates
+Lispiviridae	Arlivirus	9000	14000	invertebrates
+Lispiviridae	Artemvirus	10000	13000	invertebrates
+Lispiviridae	Avesvirus	15000	16000	invertebrates
+Lispiviridae	Birfecvirus	11000	12000	vertebrates
+Lispiviridae	Canmovirus	13000	14000	invertebrates
+Lispiviridae	Copasivirus	6000	13000	invertebrates
+Lispiviridae	Cybitervirus	10000	11000	invertebrates
+Lispiviridae	Damravirus	14000	15000	invertebrates
+Lispiviridae	Ganiavirus	10000	11000	invertebrates
+Lispiviridae	Hemipvirus	7000	15000	invertebrates
+Lispiviridae	Leocovirus	12000	13000	invertebrates
+Lispiviridae	Nematovirus	9000	10000	invertebrates
+Lispiviridae	Phelinovirus	12000	13000	invertebrates
+Lispiviridae	Rivapovirus	13000	14000	invertebrates
+Lispiviridae	Robevirus	10000	11000	invertebrates
+Lispiviridae	Sanstrivirus	12000	13000	invertebrates
+Lispiviridae	Stylovirus	14000	15000	invertebrates
+Lispiviridae	Supelovirus	6000	7000	invertebrates
+Lispiviridae	Synelinevirus	11000	12000	invertebrates
+Lispiviridae	Usmuvirus	11000	12000	invertebrates
+Lispiviridae	Weflthvirus	14000	15000	invertebrates
+Lispiviridae	Xenophyvirus	7000	8000	invertebrates
+Ludisviridae	Ludisvirus	48000	49000	bacteria
+Lutetiaviridae	Classicovirus	83000	84000	archaea
+Madisaviridae	Clampvirus	49000	50000	archaea
+Madridviridae	Cepunavirus	19000	20000	bacteria
+Mahapunaviridae	Acamarivirus	1000	3000	freshwater (S), invertebrates, vertebrates
+Mahapunaviridae	Amalthevirus	2000	3000	vertebrates
+Mahapunaviridae	Anthevirus	2000	3000	freshwater (S), invertebrates, sewage (S), vertebrates
+Mahapunaviridae	Cursavirus	2000	3000	freshwater (S), vertebrates
+Mahapunaviridae	Elnathivirus	2000	3000	freshwater (S)
+Mahapunaviridae	Enifivirus	1000	2000	vertebrates
+Mahapunaviridae	Fuluvirus	1000	3000	invertebrates, vertebrates
+Mahapunaviridae	Garivirus	2000	2000	vertebrates
+Mahapunaviridae	Himalivirus	2000	3000	vertebrates
+Mahapunaviridae	Janusivirus	2000	3000	plants, vertebrates
+Mahapunaviridae	Thebevirus	2000	3000	vertebrates
+Malacoherpesviridae	Aurivirus	211000	212000	invertebrates
+Malacoherpesviridae	Ostreavirus	207000	208000	invertebrates
+Mamonoviridae	Medusavirus	362000	382000	protists
+Marnaviridae	Bacillarnavirus	8000	10000	protists
+Marnaviridae	Kusarnavirus	8000	9000	protists
+Marnaviridae	Labyrnavirus	9000	10000	protists
+Marnaviridae	Locarnavirus	8000	10000	marine (S)
+Marnaviridae	Marnavirus	8000	9000	protists
+Marnaviridae	Salisharnavirus	6000	9000	marine (S)
+Marnaviridae	Sogarnavirus	7000	10000	marine (S), protists
+Marseilleviridae	Losannavirus	346000	381000	protists
+Marseilleviridae	Marseillevirus	368000	369000	protists
+Matonaviridae	Rubivirus	9000	10000	vertebrates
+Matsushitaviridae	Hukuchivirus	17000	20000	bacteria
+Maviroviridae	Mavirus	19000	20000	protists
+Mayoviridae	Idaeovirus	2000	6000	plants
+Mayoviridae	Pteridovirus	2000	7000	plants
+Mazoviaviridae	Dabrowskivirus	120000	121000	bacteria
+Medioniviridae	Bolenivirus	25000	26000	invertebrates
+Megabirnaviridae	Megabirnavirus	5000	9000	fungi
+Megatotiviridae	Megatotivirus	12000	14000	fungi
+Mesomimiviridae	Tethysvirus	437000	474000	protists
+Mesoniviridae	Alphamesonivirus	19000	21000	invertebrates
+Mesoniviridae	Nasenivirus	18000	19000	invertebrates
+Mesoniviridae	Tocinivirus	20000	21000	invertebrates
+Mesoniviridae	Tofonivirus	19000	20000	invertebrates
+Mestraviridae	Anticleavirus	8000	9000	bacteria
+Mestraviridae	Polymedevirus	8000	9000	bacteria
+Mesyanzhinovviridae	Abidjanvirus	56000	60000	bacteria
+Mesyanzhinovviridae	Bosavirus	62000	65000	bacteria
+Mesyanzhinovviridae	Docaquintavirus	56000	57000	bacteria
+Mesyanzhinovviridae	Donnerlittchenvirus	58000	59000	bacteria
+Mesyanzhinovviridae	Elanorvirus	62000	63000	bacteria
+Mesyanzhinovviridae	Epaquintavirus	64000	65000	bacteria
+Mesyanzhinovviridae	Ghuizhouvirus	61000	62000	bacteria
+Mesyanzhinovviridae	Keylargovirus	63000	64000	bacteria
+Mesyanzhinovviridae	Mallosvirus	59000	60000	bacteria
+Mesyanzhinovviridae	Pamexvirus	55000	58000	bacteria
+Mesyanzhinovviridae	Vojvodinavirus	59000	63000	bacteria
+Mesyanzhinovviridae	Xooduovirus	60000	62000	bacteria
+Mesyanzhinovviridae	Yuavirus	58000	63000	bacteria
+Metaviridae	Errantivirus	5000	9000	invertebrates
+Metaviridae	Metavirus	4000	88000	fungi, invertebrates, plants, protists, vertebrates
+Metaxyviridae	Cofodevirus	600	2000	plants
+Microviridae	Alphatrevirus	6000	7000	bacteria
+Microviridae	Bdellomicrovirus	4000	5000	bacteria
+Microviridae	Chlamydiamicrovirus	4000	5000	bacteria
+Microviridae	Enterogokushovirus	4000	5000	bacteria
+Microviridae	Gequatrovirus	5000	6000	bacteria
+Microviridae	Sinsheimervirus	5000	6000	bacteria
+Microviridae	Spiromicrovirus	4000	5000	bacteria
+Mimiviridae	Cotonvirus	1476000	1477000	protists
+Mimiviridae	Fadolivirus	1573000	1574000	protists
+Mimiviridae	Megavirus	1208000	1276000	protists
+Mimiviridae	Mimivirus	1181000	1222000	protists
+Mimiviridae	Moumouvirus	1016000	1099000	protists
+Mimiviridae	Rheavirus	617000	618000	protists
+Mimiviridae	Theiavirus	1385000	1386000	protists
+Mimiviridae	Tupanvirus	1439000	1517000	protists
+Mimiviridae	Yasminevirus	1991000	1992000	protists
+Mitoviridae	Duamitovirus	2000	5000	fungi, plants
+Mitoviridae	Kvaramitovirus	2000	3000	fungi
+Mitoviridae	Triamitovirus	2000	4000	fungi
+Mitoviridae	Unuamitovirus	2000	4000	fungi
+Molycolviridae	Mollyvirus	124000	125000	bacteria
+Monocitiviridae	Monocitivirus	6000	7000	fungi
+Mononiviridae	Alphamononivirus	41000	42000	invertebrates
+Mtkvariviridae	Kuravirus	68000	80000	bacteria
+Mtkvariviridae	Nieuwekanaalvirus	76000	77000	bacteria
+Mtkvariviridae	Suseptimavirus	75000	80000	bacteria
+Mycoalphaviridae	Alphasclernavirus	6000	8000	fungi
+Mycoalphaviridae	Betasclernavirus	7000	9000	fungi
+Mymonaviridae	Auricularimonavirus	10000	12000	fungi
+Mymonaviridae	Botrytimonavirus	9000	11000	fungi
+Mymonaviridae	Hubramonavirus	7000	11000	fungi, phytobiome (S), soil (S)
+Mymonaviridae	Lentimonavirus	10000	12000	fungi
+Mymonaviridae	Penicillimonavirus	6000	7000	fungi
+Mymonaviridae	Phyllomonavirus	9000	10000	invertebrates
+Mymonaviridae	Plasmopamonavirus	6000	12000	fungi
+Mymonaviridae	Rhizomonavirus	9000	10000	phytobiome (S)
+Mymonaviridae	Sclerotimonavirus	5000	11000	fungi, phytobiome (S), soil (S)
+Mypoviridae	Hubavirus	2000	10000	invertebrates
+Myriaviridae	Myriavirus	13000	14000	invertebrates
+Nairoviridae	Norwavirus	3000	15000	vertebrates
+Nairoviridae	Ocetevirus	2000	13000	invertebrates
+Nairoviridae	Orthonairovirus	1000	13000	invertebrates, invertebrates, vertebrates, vertebrates
+Nairoviridae	Shaspivirus	1000	14000	invertebrates
+Nairoviridae	Sitinavirus	3000	15000	invertebrates
+Nairoviridae	Striwavirus	2000	13000	invertebrates
+Nairoviridae	Xinspivirus	2000	13000	invertebrates
+Nanghoshaviridae	Chimshavirus	13000	14000	vertebrates
+Nanhypoviridae	Sajorinivirus	18000	19000	vertebrates
+Nanoviridae	Babuvirus	1000	2000	plants
+Nanoviridae	Nanovirus	900	2000	plants
+Naomviridae	Noahvirus	75000	76000	bacteria
+Narnaviridae	Narnavirus	2000	3000	fungi
+Naryaviridae	Arkenivirus	1000	2000	vertebrates
+Naryaviridae	Beornivirus	1000	2000	vertebrates
+Naryaviridae	Mallornivirus	1000	2000	vertebrates
+Naryaviridae	Menegrothvirus	2000	3000	protists (S)
+Naryaviridae	Mirkivirus	2000	3000	vertebrates
+Naryaviridae	Nauglamirvirus	1000	2000	protists (S)
+Naryaviridae	Nimphelosvirus	1000	3000	protists (S)
+Naryaviridae	Phialvirus	1000	2000	protists (S)
+Naryaviridae	Sindarvirus	2000	3000	air (S)
+Naryaviridae	Thengelvirus	2000	3000	air (S)
+Naryaviridae	Tirithivirus	1000	2000	vertebrates
+Natareviridae	Charybdivirus	12000	13000	invertebrates
+Nenyaviridae	Angainorvirus	1000	2000	protists (S)
+Nenyaviridae	Cirilivirus	1000	2000	vertebrates
+Nenyaviridae	Galvornvirus	2000	3000	protists (S)
+Nenyaviridae	Mazarbulvirus	2000	3000	protists (S)
+Nenyaviridae	Mithrilvirus	1000	2000	protists (S)
+Nenyaviridae	Valinorvirus	1000	2000	protists (S)
+Nimaviridae	Whispovirus	280000	310000	invertebrates
+Nipumfusiviridae	Baiafusivirus	29000	39000	archaea
+Nipumfusiviridae	Marefusivirus	27000	36000	archaea
+Nipumfusiviridae	Terrafusivirus	30000	33000	archaea
+Nipumfusiviridae	Yangshanfusivirus	37000	38000	archaea
+Nixviridae	Dewhirstvirus	47000	50000	bacteria
+Nixviridae	Excelsiorvirus	42000	43000	bacteria
+Nixviridae	Haasevirus	44000	47000	bacteria
+Nixviridae	Nixvirus	41000	42000	bacteria
+Nixviridae	Schifferlevirus	43000	46000	bacteria
+Nodaviridae	Alphanodavirus	1000	4000	invertebrates
+Nodaviridae	Betanodavirus	1000	4000	vertebrates
+Noraviridae	Orthonoravirus	12000	13000	invertebrates (S)
+Nudiviridae	Alphanudivirus	96000	184000	invertebrates
+Nudiviridae	Betanudivirus	228000	232000	invertebrates
+Nudiviridae	Deltanudivirus	145000	146000	invertebrates
+Nudiviridae	Gammanudivirus	107000	133000	invertebrates
+Nyamiviridae	Berhavirus	8000	12000	invertebrates
+Nyamiviridae	Crustavirus	7000	10000	invertebrates
+Nyamiviridae	Formivirus	9000	11000	invertebrates
+Nyamiviridae	Nyavirus	8000	14000	invertebrates, invertebrates, vertebrates, vertebrates
+Nyamiviridae	Orinovirus	9000	10000	invertebrates
+Nyamiviridae	Socyvirus	11000	12000	invertebrates
+Nyamiviridae	Tapwovirus	4000	6000	invertebrates
+Obscuriviridae	Cebaduodecimvirus	6000	7000	bacteria
+Obscuriviridae	Omtjevirus	6000	7000	bacteria
+Olifoviridae	Kukrinivirus	15000	16000	vertebrates
+Omnilimnoviroviridae	Panaquavirovirus	23000	24000	freshwater (S)
+Oomyviridae	Avoomyvirus	2000	5000	invertebrates, vertebrates
+Oomyviridae	Nicoomyvirus	3000	5000	invertebrates, vertebrates
+Oomyviridae	Swoomyvirus	3000	4000	invertebrates, vertebrates
+Ootiviridae	Ootivirus	5000	6000	protists, protists (S)
+Orlajensenviridae	Bonaevitaevirus	17000	18000	bacteria
+Orlajensenviridae	Efekovirus	17000	18000	bacteria
+Orlajensenviridae	Paopuvirus	17000	18000	bacteria
+Orpheoviridae	Alphaorpheovirus	1473000	1474000	protists
+Orthoherpesviridae	Bossavirus	167000	168000	vertebrates
+Orthoherpesviridae	Cytomegalovirus	196000	242000	vertebrates
+Orthoherpesviridae	Iltovirus	120000	164000	vertebrates
+Orthoherpesviridae	Lymphocryptovirus	149000	172000	vertebrates
+Orthoherpesviridae	Macavirus	130000	145000	vertebrates
+Orthoherpesviridae	Manticavirus	109000	117000	vertebrates
+Orthoherpesviridae	Mardivirus	159000	205000	vertebrates
+Orthoherpesviridae	Muromegalovirus	202000	231000	vertebrates
+Orthoherpesviridae	Patagivirus	166000	167000	vertebrates
+Orthoherpesviridae	Percavirus	122000	185000	vertebrates
+Orthoherpesviridae	Proboscivirus	180000	206000	vertebrates
+Orthoherpesviridae	Quwivirus	195000	234000	vertebrates
+Orthoherpesviridae	Rhadinovirus	108000	138000	vertebrates
+Orthoherpesviridae	Roseolovirus	128000	174000	vertebrates
+Orthoherpesviridae	Scutavirus	160000	161000	vertebrates
+Orthoherpesviridae	Simplexvirus	124000	158000	vertebrates
+Orthoherpesviridae	Varicellovirus	124000	152000	vertebrates
+Orthomyxoviridae	Alphainfluenzavirus	800	3000	vertebrates
+Orthomyxoviridae	Betainfluenzavirus	1000	3000	vertebrates
+Orthomyxoviridae	Deltainfluenzavirus	800	3000	vertebrates
+Orthomyxoviridae	Gammainfluenzavirus	900	3000	vertebrates
+Orthomyxoviridae	Isavirus	700	3000	vertebrates
+Orthomyxoviridae	Mykissvirus	500	3000	vertebrates
+Orthomyxoviridae	Quaranjavirus	500	3000	invertebrates, vertebrates
+Orthomyxoviridae	Sardinovirus	700	3000	vertebrates
+Orthomyxoviridae	Thogotovirus	800	3000	invertebrates, vertebrates, vertebrates
+Orthototiviridae	Totivirus	3000	6000	fungi, invertebrates, plants, protists (S)
+Ouroboviridae	Aretevirus	2000	3000	invertebrates, vertebrates
+Ouroboviridae	Boebeisivirus	2000	3000	freshwater (S), vertebrates
+Ouroboviridae	Demetevirus	2000	3000	plants, vertebrates
+Ouroboviridae	Doliovirus	2000	3000	vertebrates
+Ouroboviridae	Dorisivirus	1000	3000	invertebrates, vertebrates
+Ouroboviridae	Eurynomevirus	2000	3000	invertebrates
+Ouroboviridae	Gorgovirus	2000	3000	vertebrates
+Ouroboviridae	Heravirus	1000	2000	invertebrates
+Ouroboviridae	Horusivirus	1000	2000	freshwater (S), vertebrates
+Ouroboviridae	Ioniavirus	1000	2000	invertebrates
+Ouroboviridae	Kadmovirus	2000	3000	vertebrates
+Ouroboviridae	Kreonivirus	1000	2000	vertebrates
+Ouroboviridae	Lamposivirus	1000	3000	freshwater (S), invertebrates
+Ouroboviridae	Mantiovirus	1000	3000	invertebrates, vertebrates
+Ouroboviridae	Naiadivirus	2000	3000	freshwater (S)
+Ouroboviridae	Otosivirus	2000	3000	freshwater (S)
+Ouroboviridae	Patroklovirus	2000	3000	marine (S)
+Ouroboviridae	Perimedevirus	2000	3000	invertebrates
+Ouroboviridae	Peronelivirus	2000	3000	invertebrates, vertebrates
+Ouroboviridae	Persevirus	1000	2000	plants, vertebrates
+Ouroboviridae	Proteusivirus	1000	2000	vertebrates
+Ouroboviridae	Pylenevirus	2000	3000	invertebrates
+Ouroboviridae	Pythorivirus	1000	2000	invertebrates
+Ouroboviridae	Rhipevirus	2000	3000	invertebrates
+Ouroboviridae	Stentovirus	2000	3000	vertebrates
+Ouroboviridae	Styxivirus	2000	3000	protists
+Ouroboviridae	Tantalovirus	1000	2000	vertebrates
+Ouroboviridae	Taphiavirus	2000	3000	vertebrates
+Ouroboviridae	Telemovirus	2000	3000	vertebrates
+Ouroboviridae	Tethyvirus	1000	2000	invertebrates
+Ovaliviridae	Alphaovalivirus	23000	24000	archaea
+Pachyviridae	Bacelvirus	72000	73000	bacteria
+Pachyviridae	Baltivirus	71000	76000	bacteria
+Pachyviridae	Gundelvirus	78000	79000	bacteria
+Pamosaviridae	Papanivirus	800	900	plants
+Papillomaviridae	Alefpapillomavirus	5000	6000	vertebrates
+Papillomaviridae	Alphapapillomavirus	7000	9000	vertebrates
+Papillomaviridae	Betapapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Chipapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Deltapapillomavirus	7000	9000	vertebrates
+Papillomaviridae	Dyochipapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Dyodeltapapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Dyoepsilonpapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Dyoetapapillomavirus	8000	9000	vertebrates
+Papillomaviridae	Dyoiotapapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Dyokappapapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Dyolambdapapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Dyomupapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Dyonupapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Dyoomegapapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Dyoomikronpapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Dyophipapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Dyopipapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Dyopsipapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Dyorhopapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Dyosigmapapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Dyotaupapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Dyothetapapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Dyoupsilonpapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Dyoxipapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Dyozetapapillomavirus	6000	8000	vertebrates
+Papillomaviridae	Epsilonpapillomavirus	7000	9000	vertebrates
+Papillomaviridae	Etapapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Gammapapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Iotapapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Kappapapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Lambdapapillomavirus	8000	9000	vertebrates
+Papillomaviridae	Mupapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Nupapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Omegapapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Omikronpapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Phipapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Pipapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Psipapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Rhopapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Sigmapapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Taupapillomavirus	7000	9000	vertebrates
+Papillomaviridae	Thetapapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Treisdeltapapillomavirus	8000	9000	vertebrates
+Papillomaviridae	Treisepsilonpapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Treisetapapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Treisiotapapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Treiskappapapillomavirus	8000	9000	vertebrates
+Papillomaviridae	Treisthetapapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Treiszetapapillomavirus	8000	9000	vertebrates
+Papillomaviridae	Upsilonpapillomavirus	7000	9000	vertebrates
+Papillomaviridae	Xipapillomavirus	7000	8000	vertebrates
+Papillomaviridae	Zetapapillomavirus	7000	8000	vertebrates
+Paramyxoviridae	Aquaparamyxovirus	16000	17000	vertebrates
+Paramyxoviridae	Bovinavirus	16000	17000	vertebrates
+Paramyxoviridae	Cynoglossusvirus	15000	16000	vertebrates
+Paramyxoviridae	Ferlavirus	15000	16000	vertebrates
+Paramyxoviridae	Henipavirus	16000	19000	vertebrates
+Paramyxoviridae	Hippocavirus	14000	15000	vertebrates
+Paramyxoviridae	Hoplichthysvirus	15000	16000	vertebrates
+Paramyxoviridae	Jeilongvirus	16000	21000	vertebrates
+Paramyxoviridae	Metaavulavirus	14000	18000	vertebrates
+Paramyxoviridae	Morbillivirus	15000	17000	vertebrates
+Paramyxoviridae	Narmovirus	15000	17000	vertebrates
+Paramyxoviridae	Orthoavulavirus	14000	17000	vertebrates
+Paramyxoviridae	Orthorubulavirus	15000	18000	vertebrates
+Paramyxoviridae	Paraavulavirus	15000	17000	vertebrates
+Paramyxoviridae	Parahenipavirus	18000	20000	vertebrates
+Paramyxoviridae	Parajeilongvirus	15000	20000	vertebrates
+Paramyxoviridae	Paramorbillivirus	14000	17000	vertebrates
+Paramyxoviridae	Pararubulavirus	15000	16000	vertebrates
+Paramyxoviridae	Respirovirus	15000	16000	vertebrates
+Paramyxoviridae	Salemvirus	16000	17000	vertebrates
+Paramyxoviridae	Scoliodonvirus	21000	22000	vertebrates
+Paramyxoviridae	Synodonvirus	16000	17000	vertebrates
+Paramyxoviridae	Tupaivirus	17000	18000	vertebrates
+Parnassusviridae	Corycianvirus	10000	11000	bacteria
+Partitiviridae	Alphapartitivirus	1000	3000	fungi, plants
+Partitiviridae	Betapartitivirus	2000	3000	fungi, plants
+Partitiviridae	Cryspovirus	1000	2000	protists
+Partitiviridae	Deltapartitivirus	1000	2000	plants
+Partitiviridae	Gammapartitivirus	1000	2000	fungi
+Parvoviridae	Amdoparvovirus	4000	5000	vertebrates
+Parvoviridae	Aquambidensovirus	5000	7000	invertebrates
+Parvoviridae	Artiparvovirus	4000	5000	vertebrates
+Parvoviridae	Aveparvovirus	4000	7000	vertebrates
+Parvoviridae	Blattambidensovirus	4000	7000	invertebrates, invertebrates, vertebrates
+Parvoviridae	Bocaparvovirus	4000	6000	vertebrates
+Parvoviridae	Brevihamaparvovirus	3000	5000	invertebrates
+Parvoviridae	Chaphamaparvovirus	3000	5000	vertebrates
+Parvoviridae	Copiparvovirus	5000	7000	vertebrates
+Parvoviridae	Dependoparvovirus	4000	6000	vertebrates
+Parvoviridae	Diciambidensovirus	4000	6000	invertebrates
+Parvoviridae	Erythroparvovirus	4000	6000	vertebrates
+Parvoviridae	Hemiambidensovirus	4000	6000	invertebrates
+Parvoviridae	Hepanhamaparvovirus	6000	7000	invertebrates
+Parvoviridae	Ichtchaphamaparvovirus	4000	5000	vertebrates
+Parvoviridae	Iteradensovirus	4000	6000	invertebrates
+Parvoviridae	Loriparvovirus	4000	5000	vertebrates
+Parvoviridae	Metalloincertoparvovirus	4000	5000	invertebrates
+Parvoviridae	Miniambidensovirus	4000	5000	invertebrates
+Parvoviridae	Muscodensovirus	4000	6000	invertebrates
+Parvoviridae	Pefuambidensovirus	5000	6000	invertebrates
+Parvoviridae	Penstylhamaparvovirus	3000	4000	invertebrates
+Parvoviridae	Protoambidensovirus	4000	7000	invertebrates, invertebrates, vertebrates
+Parvoviridae	Protoparvovirus	4000	6000	vertebrates
+Parvoviridae	Sandeparvovirus	4000	5000	vertebrates
+Parvoviridae	Scindoambidensovirus	3000	6000	invertebrates
+Parvoviridae	Tetraparvovirus	5000	6000	vertebrates
+Parvoviridae	Tetuambidensovirus	3000	5000	invertebrates
+Paulinoviridae	Bifilivirus	5000	6000	bacteria
+Paulinoviridae	Thomixvirus	5000	6000	bacteria
+Pecoviridae	Amaruvirus	2000	4000	vertebrates
+Pecoviridae	Capamivirus	2000	3000	vertebrates
+Pecoviridae	Cinchivirus	2000	4000	vertebrates
+Pecoviridae	Intivirus	2000	3000	vertebrates
+Pecoviridae	Macochavirus	2000	3000	vertebrates
+Pecoviridae	Quillavirus	2000	3000	vertebrates
+Pecoviridae	Tambotovirus	2000	3000	vertebrates
+Pecoviridae	Yaviravirus	2000	3000	vertebrates
+Peduoviridae	Aptresvirus	36000	39000	bacteria
+Peduoviridae	Aresaunavirus	38000	40000	bacteria
+Peduoviridae	Arsenicumvirus	40000	41000	bacteria
+Peduoviridae	Arsyunavirus	40000	41000	bacteria
+Peduoviridae	Baylorvirus	34000	37000	bacteria
+Peduoviridae	Bielevirus	32000	34000	bacteria
+Peduoviridae	Bracchivirus	32000	33000	bacteria
+Peduoviridae	Catalunyavirus	35000	36000	bacteria
+Peduoviridae	Citexvirus	35000	38000	bacteria
+Peduoviridae	Dagavirus	39000	40000	bacteria
+Peduoviridae	Duodecimduovirus	36000	37000	bacteria
+Peduoviridae	Duonihilunusvirus	29000	34000	bacteria
+Peduoviridae	Eganvirus	29000	32000	bacteria
+Peduoviridae	Elveevirus	33000	38000	bacteria
+Peduoviridae	Entnonagintavirus	29000	30000	bacteria
+Peduoviridae	Evevirus	29000	30000	bacteria
+Peduoviridae	Felsduovirus	34000	4858000	bacteria
+Peduoviridae	Finvirus	33000	34000	bacteria
+Peduoviridae	Firavirus	36000	37000	bacteria
+Peduoviridae	Gegavirus	33000	34000	bacteria
+Peduoviridae	Gegevirus	39000	40000	bacteria
+Peduoviridae	Gemsvirus	33000	34000	bacteria
+Peduoviridae	Graikaemvirus	32000	33000	bacteria
+Peduoviridae	Hpunavirus	31000	33000	bacteria
+Peduoviridae	Inibicvirus	44000	45000	bacteria
+Peduoviridae	Irrigatiovirus	30000	31000	bacteria
+Peduoviridae	Irtavirus	30000	33000	bacteria
+Peduoviridae	Kapieceevirus	32000	33000	bacteria
+Peduoviridae	Kayeltresvirus	37000	41000	bacteria
+Peduoviridae	Kisquattuordecimvirus	32000	33000	bacteria
+Peduoviridae	Kisquinquevirus	37000	38000	bacteria
+Peduoviridae	Longwoodvirus	33000	34000	bacteria
+Peduoviridae	Maltschvirus	36000	37000	bacteria
+Peduoviridae	Mersinvirus			bacteria
+Peduoviridae	Nampongvirus	35000	36000	bacteria
+Peduoviridae	Novemvirus	31000	32000	bacteria
+Peduoviridae	Peduovirus	28000	34000	bacteria
+Peduoviridae	Phitrevirus	32000	33000	bacteria
+Peduoviridae	Piscesmortuivirus	37000	38000	bacteria
+Peduoviridae	Playavirus	32000	33000	bacteria
+Peduoviridae	Plazymidvirus	36000	41000	bacteria
+Peduoviridae	Quadragintavirus	30000	31000	bacteria
+Peduoviridae	Reginaelenavirus	35000	36000	bacteria
+Peduoviridae	Reipivirus	38000	39000	bacteria
+Peduoviridae	Sanguivirus	32000	33000	bacteria
+Peduoviridae	Senquatrovirus	33000	34000	bacteria
+Peduoviridae	Seongnamvirus	28000	29000	bacteria
+Peduoviridae	Simpcentumvirus	33000	34000	bacteria
+Peduoviridae	Tigrvirus	35000	38000	bacteria
+Peduoviridae	Tresduoquattuorvirus	29000	30000	bacteria
+Peduoviridae	Valbvirus	36000	37000	bacteria
+Peduoviridae	Vimunumvirus	34000	35000	bacteria
+Peduoviridae	Vulnificusvirus	33000	34000	bacteria
+Peduoviridae	Wadgaonvirus	39000	40000	bacteria
+Peduoviridae	Xuanwuvirus	31000	38000	bacteria
+Peduoviridae	Yongunavirus	33000	34000	bacteria
+Peduoviridae	Yulgyerivirus	32000	33000	bacteria
+Peribunyaviridae	Gryffinivirus	1000	8000	invertebrates, invertebrates, vertebrates
+Peribunyaviridae	Herbevirus	1000	8000	invertebrates
+Peribunyaviridae	Khurdivirus	900	7000	invertebrates, vertebrates
+Peribunyaviridae	Lakivirus	1000	8000	invertebrates
+Peribunyaviridae	Lambavirus	1000	7000	vertebrates
+Peribunyaviridae	Orthobunyavirus	700	13000	invertebrates, invertebrates, vertebrates, vertebrates
+Peribunyaviridae	Pacuvirus	800	7000	invertebrates, vertebrates
+Peribunyaviridae	Shangavirus	1000	8000	invertebrates
+Permutotetraviridae	Alphapermutotetravirus	5000	6000	invertebrates
+Pervagoviridae	Callevirus	72000	73000	bacteria
+Phasmaviridae	Cicadellivirus	1000	8000	invertebrates
+Phasmaviridae	Feravirus	1000	7000	invertebrates
+Phasmaviridae	Hymovirus	1000	7000	invertebrates
+Phasmaviridae	Jonvirus	1000	7000	invertebrates, invertebrates (S)
+Phasmaviridae	Orthophasmavirus	1000	7000	invertebrates, invertebrates (S)
+Phasmaviridae	Sawastrivirus	1000	8000	invertebrates
+Phasmaviridae	Wuhivirus	1000	8000	invertebrates
+Phenuiviridae	Bandavirus	1000	7000	invertebrates, invertebrates, vertebrates, vertebrates
+Phenuiviridae	Beidivirus	1000	7000	invertebrates
+Phenuiviridae	Bocivirus	1000	7000	fungi, protists
+Phenuiviridae	Citricivirus	1000	8000	invertebrates
+Phenuiviridae	Coguvirus	2000	7000	plants
+Phenuiviridae	Entovirus	2000	8000	fungi
+Phenuiviridae	Goukovirus	1000	7000	invertebrates
+Phenuiviridae	Horwuvirus	800	10000	invertebrates
+Phenuiviridae	Hudivirus	1000	7000	invertebrates
+Phenuiviridae	Hudovirus	1000	8000	invertebrates
+Phenuiviridae	Ixovirus	1000	7000	invertebrates
+Phenuiviridae	Laulavirus	1000	8000	invertebrates, protists
+Phenuiviridae	Lentinuvirus	2000	8000	fungi
+Phenuiviridae	Mechlorovirus	1000	10000	invertebrates, plants, plants
+Phenuiviridae	Mobuvirus	1000	8000	invertebrates
+Phenuiviridae	Phasivirus	800	7000	invertebrates
+Phenuiviridae	Phlebovirus	1000	7000	invertebrates, invertebrates, vertebrates, vertebrates
+Phenuiviridae	Pidchovirus	1000	8000	invertebrates
+Phenuiviridae	Rubodvirus	1000	9000	plants
+Phenuiviridae	Tanzavirus	1000	7000	vertebrates
+Phenuiviridae	Tenuivirus	1000	10000	invertebrates, plants, plants
+Phenuiviridae	Uukuvirus	1000	7000	invertebrates, invertebrates, vertebrates
+Phenuiviridae	Wenrivirus	1000	7000	invertebrates
+Phlegiviridae	Phlegivirus	9000	12000	fungi
+Phycodnaviridae	Chlorovirus	288000	369000	protists
+Phycodnaviridae	Coccolithovirus	407000	408000	protists
+Phycodnaviridae	Phaeovirus	154000	336000	protists
+Phycodnaviridae	Prasinovirus	186000	187000	protists
+Phycodnaviridae	Raphidovirus	274000	275000	protists
+Phypoliviridae	Tetrivirus	26000	27000	protists
+Picobirnaviridae	Orthopicobirnavirus	1000	3000	bacteria, invertebrates (S), bacteria, vertebrates (S)
+Picornaviridae	Aalivirus	8000	9000	vertebrates
+Picornaviridae	Ailurivirus	8000	9000	vertebrates
+Picornaviridae	Ampivirus	9000	10000	vertebrates
+Picornaviridae	Anativirus	8000	9000	vertebrates
+Picornaviridae	Aphthovirus	6000	9000	vertebrates
+Picornaviridae	Aquamavirus	6000	7000	vertebrates
+Picornaviridae	Avihepatovirus	7000	8000	vertebrates
+Picornaviridae	Avisivirus	7000	8000	vertebrates
+Picornaviridae	Boosepivirus	7000	8000	vertebrates
+Picornaviridae	Bopivirus	7000	8000	vertebrates
+Picornaviridae	Caecilivirus	8000	9000	vertebrates
+Picornaviridae	Cardiovirus	7000	9000	vertebrates
+Picornaviridae	Cosavirus	6000	8000	vertebrates
+Picornaviridae	Crahelivirus	7000	8000	vertebrates
+Picornaviridae	Crohivirus	7000	8000	vertebrates
+Picornaviridae	Danipivirus	8000	9000	vertebrates
+Picornaviridae	Dicipivirus	8000	9000	vertebrates
+Picornaviridae	Diresapivirus	6000	8000	vertebrates
+Picornaviridae	Enterovirus	6000	8000	vertebrates
+Picornaviridae	Erbovirus	8000	9000	vertebrates
+Picornaviridae	Felipivirus	7000	8000	vertebrates
+Picornaviridae	Fipivirus	7000	9000	vertebrates
+Picornaviridae	Gallivirus	8000	9000	vertebrates
+Picornaviridae	Gruhelivirus	7000	8000	vertebrates
+Picornaviridae	Grusopivirus	7000	8000	vertebrates
+Picornaviridae	Harkavirus	8000	9000	vertebrates
+Picornaviridae	Hemipivirus	7000	8000	vertebrates
+Picornaviridae	Hepatovirus	6000	8000	vertebrates
+Picornaviridae	Hunnivirus	7000	8000	vertebrates
+Picornaviridae	Kobuvirus	6000	9000	vertebrates
+Picornaviridae	Kunsagivirus	7000	8000	vertebrates
+Picornaviridae	Limnipivirus	7000	9000	vertebrates
+Picornaviridae	Livupivirus	7000	8000	vertebrates
+Picornaviridae	Ludopivirus	8000	9000	vertebrates
+Picornaviridae	Malagasivirus	7000	8000	vertebrates
+Picornaviridae	Marsupivirus	6000	7000	vertebrates
+Picornaviridae	Megrivirus	8000	11000	vertebrates
+Picornaviridae	Mischivirus	6000	9000	vertebrates
+Picornaviridae	Mosavirus	6000	9000	vertebrates
+Picornaviridae	Mupivirus	8000	9000	vertebrates
+Picornaviridae	Myrropivirus	7000	8000	vertebrates
+Picornaviridae	Orivirus	7000	8000	vertebrates
+Picornaviridae	Oscivirus	7000	8000	vertebrates
+Picornaviridae	Parabovirus	7000	9000	vertebrates
+Picornaviridae	Parechovirus	2000	8000	vertebrates
+Picornaviridae	Pasivirus	6000	7000	vertebrates
+Picornaviridae	Passerivirus	8000	10000	vertebrates
+Picornaviridae	Pemapivirus	9000	10000	vertebrates
+Picornaviridae	Poecivirus	7000	8000	vertebrates
+Picornaviridae	Potamipivirus	7000	9000	vertebrates
+Picornaviridae	Pygoscepivirus	7000	8000	vertebrates
+Picornaviridae	Rabovirus	7000	8000	vertebrates
+Picornaviridae	Rafivirus	7000	8000	vertebrates
+Picornaviridae	Rajidapivirus	7000	8000	vertebrates
+Picornaviridae	Rohelivirus	7000	8000	vertebrates
+Picornaviridae	Rosavirus	8000	10000	vertebrates
+Picornaviridae	Sakobuvirus	7000	8000	vertebrates
+Picornaviridae	Salivirus	7000	8000	vertebrates
+Picornaviridae	Sapelovirus	7000	9000	vertebrates
+Picornaviridae	Senecavirus	7000	8000	vertebrates
+Picornaviridae	Shanbavirus	7000	8000	vertebrates
+Picornaviridae	Sicinivirus	8000	10000	vertebrates
+Picornaviridae	Symapivirus	8000	9000	vertebrates
+Picornaviridae	Teschovirus	6000	8000	vertebrates
+Picornaviridae	Torchivirus	7000	8000	vertebrates
+Picornaviridae	Tottorivirus	7000	8000	vertebrates
+Picornaviridae	Tremovirus	7000	9000	vertebrates
+Picornaviridae	Tropivirus	8000	9000	vertebrates
+Pigerviridae	Somnumvirus	53000	54000	archaea
+Pistolviridae	Pistolvirus	5000	7000	vertebrates
+Pithoviridae	Alphacedratvirus	1000	624000	protists
+Pithoviridae	Alphapithovirus	610000	684000	protists
+Plasmaviridae	Plasmavirus	11000	12000	bacteria
+Plectroviridae	Plectrovirus	4000	5000	bacteria
+Plectroviridae	Suturavirus	6000	7000	bacteria
+Plectroviridae	Vespertiliovirus	7000	9000	bacteria
+Plectroviridae	Virgulavirus	7000	8000	bacteria
+Pleolipoviridae	Alphapleolipovirus	7000	11000	archaea
+Pleolipoviridae	Betapleolipovirus	8000	17000	archaea
+Pleolipoviridae	Gammapleolipovirus	16000	17000	archaea
+Pneumoviridae	Metapneumovirus	13000	14000	vertebrates
+Pneumoviridae	Orthopneumovirus	14000	16000	vertebrates
+Polycipiviridae	Chipolycivirus	11000	12000	invertebrates
+Polycipiviridae	Hupolycivirus	10000	11000	invertebrates
+Polycipiviridae	Sopolycivirus	3000	13000	invertebrates
+Polydnaviriformidae	Bracoviriform			invertebrates
+Polydnaviriformidae	Ichnoviriform			invertebrates
+Polymycoviridae	Polymycovirus	800	3000	fungi
+Polyomaviridae	Alphapolyomavirus	4000	6000	vertebrates
+Polyomaviridae	Betapolyomavirus	4000	6000	vertebrates
+Polyomaviridae	Deltapolyomavirus	4000	6000	vertebrates
+Polyomaviridae	Epsilonpolyomavirus	4000	5000	vertebrates
+Polyomaviridae	Etapolyomavirus	3000	4000	vertebrates
+Polyomaviridae	Gammapolyomavirus	4000	6000	vertebrates
+Polyomaviridae	Thetapolyomavirus	5000	8000	vertebrates
+Polyomaviridae	Zetapolyomavirus	5000	6000	vertebrates
+Pootjesviridae	Emnonavirus	149000	150000	bacteria
+Pootjesviridae	Heverleevirus	151000	152000	bacteria
+Pootjesviridae	Innesvirus	156000	159000	bacteria
+Pootjesviridae	Rollinsvirus	143000	144000	bacteria
+Pootjesviridae	Trinifflemingvirus	152000	155000	bacteria
+Portogloboviridae	Alphaportoglobovirus	20000	21000	archaea
+Pospiviroidae	Apscaviroid	200	400	plants
+Pospiviroidae	Cocadviroid	200	300	plants
+Pospiviroidae	Coleviroid	200	400	plants
+Pospiviroidae	Hostuviroid	300	400	plants
+Pospiviroidae	Pospiviroid	300	400	plants
+Potyviridae	Arepavirus	9000	10000	plants
+Potyviridae	Bevemovirus	8000	9000	plants
+Potyviridae	Brambyvirus	10000	11000	plants
+Potyviridae	Bymovirus	2000	8000	plants
+Potyviridae	Celavirus	11000	12000	plants
+Potyviridae	Ipomovirus	8000	11000	plants
+Potyviridae	Macluravirus	8000	9000	plants
+Potyviridae	Phragmivirus	9000	10000	plants
+Potyviridae	Poacevirus	9000	11000	plants
+Potyviridae	Potyvirus	9000	11000	plants
+Potyviridae	Roymovirus	9000	10000	plants
+Potyviridae	Rymovirus	9000	10000	plants
+Potyviridae	Tritimovirus	9000	10000	plants
+Poxviridae	Alphaentomopoxvirus	245000	246000	invertebrates
+Poxviridae	Avipoxvirus	188000	360000	vertebrates
+Poxviridae	Betaentomopoxvirus	228000	308000	invertebrates
+Poxviridae	Capripoxvirus	149000	151000	vertebrates
+Poxviridae	Centapoxvirus	175000	205000	vertebrates
+Poxviridae	Cervidpoxvirus	166000	167000	vertebrates
+Poxviridae	Crocodylidpoxvirus	190000	191000	vertebrates
+Poxviridae	Deltaentomopoxvirus	236000	237000	invertebrates
+Poxviridae	Epsilonentomopoxvirus	252000	253000	invertebrates
+Poxviridae	Leporipoxvirus	159000	162000	vertebrates
+Poxviridae	Macropopoxvirus	167000	171000	vertebrates
+Poxviridae	Molluscipoxvirus	190000	191000	vertebrates
+Poxviridae	Mustelpoxvirus	127000	128000	vertebrates
+Poxviridae	Orthopoxvirus	185000	225000	vertebrates
+Poxviridae	Oryzopoxvirus	185000	186000	vertebrates
+Poxviridae	Parapoxvirus	127000	146000	vertebrates
+Poxviridae	Pteropopoxvirus	133000	134000	vertebrates
+Poxviridae	Salmonpoxvirus	241000	242000	vertebrates
+Poxviridae	Sciuripoxvirus	148000	149000	vertebrates
+Poxviridae	Suipoxvirus	146000	147000	vertebrates
+Poxviridae	Vespertilionpoxvirus	176000	177000	vertebrates
+Poxviridae	Yatapoxvirus	134000	145000	vertebrates
+Pseudototiviridae	Eimeriavirus	5000	7000	protists, vertebrates
+Pseudototiviridae	Leishmaniavirus	5000	6000	protists
+Pseudototiviridae	Trichomonasvirus	4000	6000	protists
+Pseudototiviridae	Victorivirus	4000	6000	fungi
+Pseudoviridae	Hemivirus	4000	7000	fungi, invertebrates, protists
+Pseudoviridae	Pseudovirus	4000	22000	fungi, plants
+Pseudoviridae	Sirevirus	8000	17000	plants
+Pungoviridae	Flagovirus	37000	38000	archaea
+Pyrstoviridae	Hatrivirus	42000	43000	archaea
+Qinviridae	Yingvirus	1000	7000	invertebrates
+Quadriviridae	Quadrivirus	3000	5000	fungi
+Quambiviridae	Orthoquambivirus	4000	6000	fungi
+Redondoviridae	Torbevirus	3000	4000	vertebrates
+Retroviridae	Alpharetrovirus	2000	10000	vertebrates
+Retroviridae	Betaretrovirus	7000	9000	vertebrates
+Retroviridae	Bovispumavirus	12000	13000	vertebrates
+Retroviridae	Deltaretrovirus	8000	10000	vertebrates
+Retroviridae	Epsilonretrovirus	12000	13000	vertebrates
+Retroviridae	Equispumavirus	12000	13000	vertebrates
+Retroviridae	Felispumavirus	11000	12000	vertebrates
+Retroviridae	Gammaretrovirus	3000	9000	vertebrates
+Retroviridae	Lentivirus	7000	11000	vertebrates
+Retroviridae	Prosimiispumavirus	12000	13000	vertebrates
+Retroviridae	Simiispumavirus	11000	14000	vertebrates
+Rhabdoviridae	Almendravirus	10000	12000	invertebrates
+Rhabdoviridae	Alphacrustrhavirus	11000	12000	invertebrates
+Rhabdoviridae	Alphacytorhabdovirus	12000	15000	freshwater (S), invertebrates, invertebrates, plants, plants
+Rhabdoviridae	Alphadrosrhavirus	14000	16000	invertebrates
+Rhabdoviridae	Alphagymnorhavirus	10000	13000	plants
+Rhabdoviridae	Alphahymrhavirus	11000	13000	invertebrates, invertebrates (S)
+Rhabdoviridae	Alphanemrhavirus	10000	12000	invertebrates, vertebrates
+Rhabdoviridae	Alphanucleorhabdovirus	12000	15000	plants, soil (S)
+Rhabdoviridae	Alphapaprhavirus	11000	14000	invertebrates, invertebrates (S)
+Rhabdoviridae	Alphaplatrhavirus	11000	16000	invertebrates, invertebrates (S), vertebrates
+Rhabdoviridae	Alpharicinrhavirus	10000	14000	invertebrates, invertebrates (S)
+Rhabdoviridae	Alphathriprhavirus	12000	14000	invertebrates
+Rhabdoviridae	Amplylivirus	12000	13000	invertebrates (S), vertebrates
+Rhabdoviridae	Arurhavirus	11000	13000	invertebrates
+Rhabdoviridae	Barhavirus	12000	13000	invertebrates
+Rhabdoviridae	Betacytorhabdovirus	9000	17000	invertebrates, invertebrates, plants, plants, soil (S)
+Rhabdoviridae	Betagymnorhavirus	10000	11000	plants
+Rhabdoviridae	Betahymrhavirus	12000	14000	invertebrates, invertebrates (S)
+Rhabdoviridae	Betanemrhavirus	13000	14000	invertebrates
+Rhabdoviridae	Betanucleorhabdovirus	12000	16000	plants
+Rhabdoviridae	Betapaprhavirus	13000	14000	invertebrates
+Rhabdoviridae	Betaplatrhavirus	9000	13000	invertebrates, vertebrates
+Rhabdoviridae	Betaricinrhavirus	11000	14000	invertebrates, invertebrates (S)
+Rhabdoviridae	Betathriprhavirus	10000	11000	invertebrates (S)
+Rhabdoviridae	Caligrhavirus	11000	12000	invertebrates
+Rhabdoviridae	Cetarhavirus	10000	12000	vertebrates
+Rhabdoviridae	Curiovirus	12000	14000	invertebrates
+Rhabdoviridae	Deltanucleorhabdovirus	14000	15000	plants
+Rhabdoviridae	Dichorhavirus	5000	7000	invertebrates, plants
+Rhabdoviridae	Ephemerovirus	14000	17000	invertebrates, invertebrates (S), invertebrates, vertebrates, vertebrates
+Rhabdoviridae	Gammacytorhabdovirus	9000	13000	plants, unknown (S)
+Rhabdoviridae	Gammahymrhavirus	13000	14000	invertebrates (S)
+Rhabdoviridae	Gammanucleorhabdovirus	13000	14000	plants
+Rhabdoviridae	Gammaplatrhavirus	10000	12000	invertebrates, vertebrates
+Rhabdoviridae	Gammaricinrhavirus	13000	14000	invertebrates (S)
+Rhabdoviridae	Hapavirus	12000	16000	invertebrates, invertebrates, vertebrates
+Rhabdoviridae	Ledantevirus	10000	12000	invertebrates, invertebrates (S), invertebrates, vertebrates, vertebrates
+Rhabdoviridae	Lostrhavirus	11000	12000	invertebrates, invertebrates (S)
+Rhabdoviridae	Lyssavirus	11000	13000	vertebrates
+Rhabdoviridae	Margarhavirus	16000	17000	invertebrates
+Rhabdoviridae	Merhavirus	11000	13000	invertebrates, invertebrates (S)
+Rhabdoviridae	Mousrhavirus	11000	12000	invertebrates
+Rhabdoviridae	Novirhabdovirus	11000	12000	vertebrates
+Rhabdoviridae	Ohlsrhavirus	11000	12000	invertebrates, invertebrates (S)
+Rhabdoviridae	Perhabdovirus	11000	12000	vertebrates
+Rhabdoviridae	Primrhavirus	12000	13000	invertebrates (S)
+Rhabdoviridae	Replylivirus	11000	12000	vertebrates
+Rhabdoviridae	Sawgrhavirus	11000	12000	invertebrates
+Rhabdoviridae	Scophrhavirus	10000	12000	vertebrates
+Rhabdoviridae	Sigmavirus	11000	15000	invertebrates, invertebrates (S), vertebrates
+Rhabdoviridae	Siniperhavirus	11000	12000	vertebrates
+Rhabdoviridae	Sprivivirus	11000	12000	vertebrates
+Rhabdoviridae	Sripuvirus	11000	12000	invertebrates, vertebrates
+Rhabdoviridae	Stangrhavirus	13000	15000	invertebrates (S)
+Rhabdoviridae	Sunrhavirus	10000	13000	invertebrates, invertebrates, vertebrates, vertebrates
+Rhabdoviridae	Tibrovirus	12000	14000	invertebrates, invertebrates, vertebrates, vertebrates
+Rhabdoviridae	Trirhavirus	3000	7000	plants
+Rhabdoviridae	Tupavirus	11000	13000	invertebrates, vertebrates, vertebrates
+Rhabdoviridae	Uniorhavirus	12000	13000	invertebrates
+Rhabdoviridae	Varicosavirus	3000	8000	plants, soil (S)
+Rhabdoviridae	Vesiculovirus	10000	12000	invertebrates, invertebrates, vertebrates, vertebrates
+Rhabdoviridae	Zarhavirus	11000	12000	invertebrates
+Roniviridae	Nimanivirus	29000	30000	invertebrates
+Roniviridae	Okavirus	26000	27000	invertebrates
+Rountreeviridae	Andhravirus	18000	19000	bacteria
+Rountreeviridae	Copernicusvirus	17000	19000	bacteria
+Rountreeviridae	Fischettivirus	16000	17000	bacteria
+Rountreeviridae	Minhovirus	18000	19000	bacteria
+Rountreeviridae	Negarvirus	18000	19000	bacteria
+Rountreeviridae	Rosenblumvirus	16000	19000	bacteria
+Rudiviridae	Azorudivirus	28000	29000	archaea
+Rudiviridae	Hoswirudivirus	20000	30000	archaea
+Rudiviridae	Icerudivirus	32000	36000	archaea
+Rudiviridae	Itarudivirus	24000	25000	archaea
+Rudiviridae	Japarudivirus	34000	35000	archaea
+Rudiviridae	Mexirudivirus	27000	28000	archaea
+Rudiviridae	Usarudivirus	32000	37000	archaea
+Ruviroviridae	Oviruvirus			vertebrates (S)
+Saffermanviridae	Arthrovirus	44000	45000	bacteria
+Saffermanviridae	Kozyakovvirus	41000	42000	bacteria
+Saffermanviridae	Morrisvirus	40000	42000	bacteria
+Saffermanviridae	Wumpquatrovirus	39000	41000	bacteria
+Saffermanviridae	Wumptrevirus	42000	44000	bacteria
+Salasmaviridae	Bahkauvirus	17000	18000	bacteria
+Salasmaviridae	Beecentumtrevirus	18000	19000	bacteria
+Salasmaviridae	Bundooravirus	18000	19000	bacteria
+Salasmaviridae	Claudivirus	24000	28000	bacteria
+Salasmaviridae	Gaunavirus	20000	22000	bacteria
+Salasmaviridae	Harambevirus	21000	22000	bacteria
+Salasmaviridae	Hemphillvirus	25000	28000	bacteria
+Salasmaviridae	Huangshavirus	28000	29000	bacteria
+Salasmaviridae	Karezivirus	20000	21000	bacteria
+Salasmaviridae	Klosterneuburgvirus	27000	28000	bacteria
+Salasmaviridae	Layangcvirus	28000	29000	bacteria
+Salasmaviridae	Mingyongvirus	18000	19000	bacteria
+Salasmaviridae	Salasvirus	19000	22000	bacteria
+Saparoviridae	Halohivirus	52000	53000	archaea
+Saparoviridae	Samsavirus	54000	55000	archaea
+Sarkviridae	Cornellvirus	40000	45000	bacteria
+Sarkviridae	Jerseyvirus	40000	45000	bacteria
+Sarkviridae	Kagunavirus	40000	45000	bacteria
+Sarkviridae	Otakuvirus	39000	40000	bacteria
+Sarkviridae	Seretavirus	42000	43000	bacteria
+Sarthroviridae	Macronovirus	700	900	invertebrates
+Satyavativiridae	Vyasavirus	86000	87000	archaea
+Schitoviridae	Acanvirus	77000	79000	bacteria
+Schitoviridae	Aorunvirus	73000	75000	bacteria
+Schitoviridae	Baltimorevirus	75000	76000	bacteria
+Schitoviridae	Cavevirus	73000	74000	bacteria
+Schitoviridae	Cbunavirus	74000	77000	bacteria
+Schitoviridae	Cyamitesvirus	77000	79000	bacteria
+Schitoviridae	Dendoorenvirus	73000	74000	bacteria
+Schitoviridae	Dongdastvirus	72000	75000	bacteria
+Schitoviridae	Eceepunavirus	59000	60000	bacteria
+Schitoviridae	Efbeekayvirus	76000	77000	bacteria
+Schitoviridae	Electravirus	78000	79000	bacteria
+Schitoviridae	Enquatrovirus	70000	71000	bacteria
+Schitoviridae	Exceevirus	79000	80000	bacteria
+Schitoviridae	Galateavirus	78000	79000	bacteria
+Schitoviridae	Gamaleyavirus	68000	75000	bacteria
+Schitoviridae	Gonggongvirus	75000	76000	bacteria
+Schitoviridae	Huelvavirus	75000	76000	bacteria
+Schitoviridae	Inbricusvirus	70000	71000	bacteria
+Schitoviridae	Ithacavirus	72000	73000	bacteria
+Schitoviridae	Johnsonvirus	75000	76000	bacteria
+Schitoviridae	Jwalphavirus	72000	73000	bacteria
+Schitoviridae	Kaypoctavirus	73000	74000	bacteria
+Schitoviridae	Littlefixvirus	74000	75000	bacteria
+Schitoviridae	Litunavirus	72000	74000	bacteria
+Schitoviridae	Luzseptimavirus	73000	75000	bacteria
+Schitoviridae	Matsuvirus	76000	77000	bacteria
+Schitoviridae	Moovirus	72000	73000	bacteria
+Schitoviridae	Oliverunavirus	75000	76000	bacteria
+Schitoviridae	Pacinivirus	66000	69000	bacteria
+Schitoviridae	Penintadodekavirus	68000	69000	bacteria
+Schitoviridae	Petruschkyvirus	70000	71000	bacteria
+Schitoviridae	Philippevirus	74000	75000	bacteria
+Schitoviridae	Pokkenvirus	74000	77000	bacteria
+Schitoviridae	Pollockvirus	68000	69000	bacteria
+Schitoviridae	Pomeroyivirus	74000	75000	bacteria
+Schitoviridae	Pourcelvirus	73000	74000	bacteria
+Schitoviridae	Presleyvirus	77000	78000	bacteria
+Schitoviridae	Pylasvirus	70000	71000	bacteria
+Schitoviridae	Raunefjordenvirus	74000	75000	bacteria
+Schitoviridae	Riverridervirus	76000	77000	bacteria
+Schitoviridae	Shizishanvirus	72000	73000	bacteria
+Schitoviridae	Stoningtonvirus	76000	77000	bacteria
+Schitoviridae	Triduovirus	70000	71000	bacteria
+Schitoviridae	Varunavirus	73000	74000	bacteria
+Schitoviridae	Vicoquintavirus	74000	75000	bacteria
+Schitoviridae	Waedenswilvirus	74000	75000	bacteria
+Schitoviridae	Xoxocotlavirus	76000	77000	bacteria
+Schitoviridae	Yonginvirus	75000	76000	bacteria
+Schitoviridae	Zicotriavirus	69000	71000	bacteria
+Schitoviridae	Zurivirus	75000	76000	bacteria
+Schizomimiviridae	Biavirus	1421000	1422000	protists
+Schizomimiviridae	Kratosvirus	370000	371000	protists
+Secoviridae	Cheravirus	3000	8000	plants
+Secoviridae	Comovirus	3000	7000	plants
+Secoviridae	Fabavirus	3000	7000	plants
+Secoviridae	Mersevirus	3000	7000	plants
+Secoviridae	Nepovirus	3000	9000	plants
+Secoviridae	Sadwavirus	3000	8000	plants
+Secoviridae	Sequivirus	9000	11000	plants
+Secoviridae	Stralarivirus	3000	8000	plants
+Secoviridae	Torradovirus	4000	8000	plants
+Secoviridae	Waikavirus	11000	14000	plants
+Sedoreoviridae	Cardoreovirus	500	4000	invertebrates
+Sedoreoviridae	Crabreovirus	1000	5000	invertebrates
+Sedoreoviridae	Mimoreovirus	700	6000	protists
+Sedoreoviridae	Orbivirus	700	5000	invertebrates, invertebrates, vertebrates, vertebrates
+Sedoreoviridae	Phytoreovirus	800	5000	invertebrates, plants
+Sedoreoviridae	Rotavirus	500	4000	vertebrates
+Sedoreoviridae	Seadornavirus	700	4000	invertebrates, invertebrates, vertebrates
+Shortaselviridae	Lonfivirus	32000	33000	archaea
+Simuloviridae	Yingchengvirus	16000	19000	archaea
+Sinhaliviridae	Sinaivirus	5000	6000	invertebrates
+Skuldviridae	Delusorvirus	11000	12000	archaea
+Smacoviridae	Babosmacovirus	2000	3000	unknown (S)
+Smacoviridae	Bonzesmacovirus	2000	3000	unknown (S)
+Smacoviridae	Bostasmacovirus	2000	3000	unknown (S)
+Smacoviridae	Bovismacovirus	2000	3000	unknown (S)
+Smacoviridae	Cosmacovirus	2000	3000	unknown (S)
+Smacoviridae	Dragsmacovirus	2000	3000	unknown (S)
+Smacoviridae	Drosmacovirus	2000	3000	unknown (S)
+Smacoviridae	Felismacovirus	2000	3000	unknown (S)
+Smacoviridae	Huchismacovirus	2000	3000	unknown (S)
+Smacoviridae	Inpeasmacovirus	2000	3000	unknown (S)
+Smacoviridae	Porprismacovirus	2000	4000	air (S), unknown (S)
+Smacoviridae	Simismacovirus	2000	3000	unknown (S)
+Soleiviridae	Eilatmyovirus	63000	64000	archaea
+Solemoviridae	Enamovirus	5000	7000	plants
+Solemoviridae	Hubsclerovirus	4000	5000	fungi
+Solemoviridae	Polemovirus	4000	5000	plants
+Solemoviridae	Polerovirus	5000	7000	plants
+Solemoviridae	Sobemovirus	3000	5000	plants
+Solinviviridae	Invictavirus	10000	11000	invertebrates
+Solinviviridae	Nyfulvavirus	10000	11000	invertebrates
+Solspiviridae	Andihavirus	4000	5000	bacteria
+Solspiviridae	Begindovirus	3000	4000	soil (S)
+Solspiviridae	Dibaevirus	3000	4000	bacteria
+Solspiviridae	Dilzevirus	4000	5000	bacteria
+Solspiviridae	Duridgovirus	3000	4000	soil (S)
+Solspiviridae	Eosonovirus	3000	4000	bacteria
+Solspiviridae	Etdyvivirus	3000	4000	bacteria
+Solspiviridae	Fahrmivirus	3000	5000	bacteria, soil (S)
+Solspiviridae	Hinehbovirus	3000	4000	bacteria
+Solspiviridae	Insbruvirus	4000	5000	bacteria
+Solspiviridae	Jargovirus	4000	5000	bacteria
+Solspiviridae	Lunjuvirus	4000	5000	soil (S)
+Solspiviridae	Mahshuvirus	3000	4000	bacteria
+Solspiviridae	Mintinovirus	4000	5000	bacteria
+Solspiviridae	Puhrivirus	4000	5000	bacteria
+Solspiviridae	Puirovirus	3000	4000	bacteria
+Solspiviridae	Sexopuavirus	4000	5000	bacteria
+Solspiviridae	Thiuhmevirus	4000	5000	bacteria
+Solspiviridae	Tohkunevirus	4000	5000	bacteria
+Solspiviridae	Tyrahlevirus	3000	4000	bacteria
+Solspiviridae	Upirshuvirus	3000	5000	bacteria
+Solspiviridae	Vendavirus	4000	5000	bacteria
+Solspiviridae	Voulevirus	3000	4000	bacteria, soil (S)
+Solspiviridae	Wahlkovirus	3000	5000	bacteria, soil (S)
+Solspiviridae	Wahpevirus	3000	4000	soil (S)
+Solspiviridae	Wahrwivirus	3000	6000	invertebrates (S), soil (S)
+Solspiviridae	Wahtivirus	3000	5000	soil (S)
+Solspiviridae	Warmivirus	4000	5000	soil (S)
+Solspiviridae	Waspevirus	3000	4000	soil (S)
+Solspiviridae	Wedhlevirus	3000	4000	soil (S)
+Solspiviridae	Wehlfuvirus	3000	4000	plants (S), soil (S)
+Solspiviridae	Wehsdovirus	3000	4000	soil (S)
+Solspiviridae	Welesbovirus	3000	4000	soil (S)
+Solspiviridae	Weothlivirus	3000	4000	plants (S)
+Solspiviridae	Whahdcavirus	3000	5000	bacteria, plants (S), soil (S)
+Solspiviridae	Whochfovirus	3000	4000	soil (S)
+Solspiviridae	Whotchuvirus	3000	4000	soil (S)
+Solspiviridae	Whotnavirus	3000	4000	soil (S)
+Solspiviridae	Wihbtavirus	3000	4000	soil (S)
+Solspiviridae	Wihlevirus	3000	4000	soil (S)
+Solspiviridae	Windevirus	3000	4000	soil (S)
+Solspiviridae	Witirovirus	3000	5000	plants (S), soil (S)
+Solspiviridae	Wixfuvirus	4000	5000	soil (S)
+Solspiviridae	Woatevirus	3000	4000	soil (S)
+Solspiviridae	Wohlvevirus	4000	5000	soil (S)
+Solspiviridae	Wohtovirus	3000	5000	soil (S)
+Solspiviridae	Wolstavirus	3000	4000	soil (S)
+Solspiviridae	Woshavirus	3000	4000	soil (S)
+Solspiviridae	Wostovirus	3000	4000	soil (S)
+Solspiviridae	Wruxevirus	4000	5000	soil (S)
+Solspiviridae	Wulfhavirus	3000	4000	soil (S)
+Solspiviridae	Wulmkuvirus	4000	5000	soil (S)
+Solspiviridae	Wulouvirus	3000	4000	soil (S)
+Solspiviridae	Wulvevirus	3000	4000	soil (S)
+Solspiviridae	Wurmloivirus	3000	4000	soil (S)
+Soropartitiviridae	Caliparnavirus	1000	2000	bacteria
+Speroviridae	Glazvirus	42000	43000	archaea
+Sphaerolipoviridae	Alphasphaerolipovirus	28000	32000	archaea
+Spiciviridae	Spicivirus	6000	9000	invertebrates, plants
+Spinareoviridae	Aquareovirus	700	12000	vertebrates
+Spinareoviridae	Coltivirus	600	5000	invertebrates, vertebrates, vertebrates
+Spinareoviridae	Cypovirus	200	5000	invertebrates
+Spinareoviridae	Dinovernavirus	1000	4000	invertebrates
+Spinareoviridae	Fijivirus	1000	5000	invertebrates, invertebrates, plants
+Spinareoviridae	Idnoreovirus			invertebrates
+Spinareoviridae	Mycoreovirus	700	5000	fungi
+Spinareoviridae	Orthoreovirus	800	5000	invertebrates, vertebrates
+Spinareoviridae	Oryzavirus	1000	4000	invertebrates, plants
+Spiraviridae	Alphaspiravirus	24000	25000	archaea
+Splipalmiviridae	Delepalmivirus	300	3000	fungi
+Splipalmiviridae	Divipalmivirus	700	3000	fungi
+Splipalmiviridae	Jakapalmivirus	800	3000	fungi
+Sputniviroviridae	Sputnikvirus	17000	19000	protists
+Stackebrandtviridae	Clownvirus	58000	59000	bacteria
+Stackebrandtviridae	Dexdertvirus	55000	57000	bacteria
+Stackebrandtviridae	Kroosvirus	57000	59000	bacteria
+Stackebrandtviridae	Leonardvirus	56000	60000	bacteria
+Stackebrandtviridae	Lilbeanievirus	59000	60000	bacteria
+Stackebrandtviridae	Vividuovirus	57000	61000	bacteria
+Stackebrandtviridae	Wizardvirus	57000	61000	bacteria
+Stackebrandtviridae	Zitchvirus	58000	62000	bacteria
+Stanwilliamsviridae	Annadreamyvirus	125000	131000	bacteria
+Stanwilliamsviridae	Coruscantvirus	133000	134000	bacteria
+Stanwilliamsviridae	Faustvirus	130000	131000	bacteria
+Stanwilliamsviridae	Gilsonvirus	128000	130000	bacteria
+Stanwilliamsviridae	Karimacvirus	131000	134000	bacteria
+Stanwilliamsviridae	Samistivirus	131000	136000	bacteria
+Stanwilliamsviridae	Tomasvirus	134000	135000	bacteria
+Stanwilliamsviridae	Wakandavirus	126000	128000	bacteria
+Stanwilliamsviridae	Wilnyevirus	127000	128000	bacteria
+Steigviridae	Akihdevirus	100000	101000	bacteria
+Steigviridae	Kahnovirus	93000	99000	bacteria
+Steigviridae	Kehishuvirus	100000	103000	bacteria
+Steigviridae	Kolpuevirus	99000	101000	bacteria
+Steigviridae	Lahndsivirus	102000	103000	bacteria
+Steigviridae	Lebriduvirus	104000	105000	bacteria
+Steigviridae	Mahlunavirus	95000	96000	bacteria
+Steigviridae	Mahstovirus	101000	102000	bacteria
+Steigviridae	Pamirivirus	101000	102000	bacteria
+Steigviridae	Paundivirus	99000	100000	bacteria
+Steigviridae	Pipoluvirus	101000	102000	bacteria
+Steigviridae	Wulfhauvirus	99000	100000	bacteria
+Steitzviridae	Adahmuvirus	3000	4000	bacteria
+Steitzviridae	Alcestovirus	3000	4000	soil (S)
+Steitzviridae	Alehxovirus	3000	4000	bacteria, soil (S)
+Steitzviridae	Alvestavirus	3000	4000	soil (S)
+Steitzviridae	Asdankavirus	3000	4000	soil (S)
+Steitzviridae	Ashcevirus	3000	4000	bacteria, soil (S)
+Steitzviridae	Austrovirus	3000	4000	bacteria
+Steitzviridae	Badtivirus	3000	4000	soil (S)
+Steitzviridae	Bahrchivirus	3000	4000	soil (S)
+Steitzviridae	Bahxtivirus	3000	4000	soil (S)
+Steitzviridae	Bartuvirus	3000	4000	soil (S)
+Steitzviridae	Behrmavirus	3000	4000	soil (S)
+Steitzviridae	Beiedevirus	3000	4000	soil (S)
+Steitzviridae	Beirlevirus	4000	5000	soil (S)
+Steitzviridae	Bepbevirus	3000	4000	soil (S)
+Steitzviridae	Berdovirus	3000	4000	bacteria
+Steitzviridae	Bertovirus	4000	5000	soil (S)
+Steitzviridae	Bescotivirus	3000	4000	soil (S)
+Steitzviridae	Bicehmovirus	3000	5000	bacteria, invertebrates (S), soil (S)
+Steitzviridae	Bidwovirus	3000	4000	soil (S)
+Steitzviridae	Bihckevirus	3000	4000	bacteria
+Steitzviridae	Bihndovirus	3000	4000	soil (S)
+Steitzviridae	Bilsivirus	3000	4000	soil (S)
+Steitzviridae	Bircswevirus	3000	4000	soil (S)
+Steitzviridae	Bishavirus	4000	5000	soil (S)
+Steitzviridae	Bishovirus	3000	4000	soil (S)
+Steitzviridae	Blacdavirus	3000	4000	soil (S)
+Steitzviridae	Boaesivirus	3000	4000	soil (S)
+Steitzviridae	Bohlehivirus	3000	4000	soil (S)
+Steitzviridae	Boldovirus	3000	4000	soil (S)
+Steitzviridae	Bourtovirus	3000	4000	soil (S)
+Steitzviridae	Bridfovirus	3000	4000	soil (S)
+Steitzviridae	Brikhyavirus	3000	4000	bacteria
+Steitzviridae	Brimcuvirus	3000	5000	soil (S)
+Steitzviridae	Brimkuvirus	3000	4000	soil (S)
+Steitzviridae	Broedwivirus	3000	5000	soil (S)
+Steitzviridae	Buhdprovirus	3000	4000	soil (S)
+Steitzviridae	Buhrmuvirus	3000	4000	soil (S)
+Steitzviridae	Bulkovirus	3000	4000	soil (S)
+Steitzviridae	Bushwuavirus	3000	4000	bacteria
+Steitzviridae	Butlevirus	3000	4000	soil (S)
+Steitzviridae	Cahrlavirus	3000	4000	bacteria
+Steitzviridae	Campduvirus	3000	4000	soil (S)
+Steitzviridae	Capbuvirus	3000	4000	soil (S)
+Steitzviridae	Casfovirus	3000	5000	soil (S)
+Steitzviridae	Cawstavirus	4000	5000	soil (S)
+Steitzviridae	Cebevirus	3000	4000	bacteria
+Steitzviridae	Chebevirus	3000	4000	soil (S)
+Steitzviridae	Chiruvirus	3000	4000	soil (S)
+Steitzviridae	Chitwivirus	3000	4000	soil (S)
+Steitzviridae	Churkhuvirus	3000	4000	bacteria
+Steitzviridae	Clavevirus	3000	4000	soil (S)
+Steitzviridae	Clofavirus	3000	4000	soil (S)
+Steitzviridae	Cumbruovirus	3000	4000	soil (S)
+Steitzviridae	Cumpduvirus	3000	4000	soil (S)
+Steitzviridae	Curdwovirus	4000	5000	soil (S)
+Steitzviridae	Danchavirus	3000	4000	soil (S)
+Steitzviridae	Darsivirus	3000	4000	soil (S)
+Steitzviridae	Dordavirus	3000	4000	soil (S)
+Steitzviridae	Drayduvirus	3000	4000	soil (S)
+Steitzviridae	Dreycovirus	3000	4000	soil (S)
+Steitzviridae	Eastcovirus	3000	4000	soil (S)
+Steitzviridae	Eerlswavirus	4000	5000	bacteria
+Steitzviridae	Eidhovirus	3000	4000	soil (S)
+Steitzviridae	Endehruvirus	3000	4000	bacteria, soil (S)
+Steitzviridae	Etingtavirus	4000	5000	soil (S)
+Steitzviridae	Fagihovirus	3000	5000	bacteria, soil (S)
+Steitzviridae	Fejonovirus	3000	4000	bacteria
+Steitzviridae	Ferahgovirus	3000	4000	bacteria
+Steitzviridae	Fluruvirus	4000	6000	bacteria, soil (S)
+Steitzviridae	Frobavirus	3000	4000	bacteria, soil (S)
+Steitzviridae	Fudhoevirus	3000	5000	bacteria, soil (S)
+Steitzviridae	Gahmegovirus	4000	5000	bacteria
+Steitzviridae	Garnievirus	3000	4000	bacteria, soil (S)
+Steitzviridae	Gehrmavirus	3000	4000	bacteria, soil (S)
+Steitzviridae	Gihfavirus	3000	5000	bacteria, soil (S)
+Steitzviridae	Giliycovirus	3000	5000	bacteria, soil (S)
+Steitzviridae	Greatavirus	4000	5000	soil (S)
+Steitzviridae	Grehevirus	3000	4000	soil (S)
+Steitzviridae	Grehndovirus	4000	5000	soil (S)
+Steitzviridae	Gulmivirus	3000	4000	bacteria, soil (S)
+Steitzviridae	Hahkesevirus	4000	5000	bacteria
+Steitzviridae	Hahselevirus	3000	4000	soil (S)
+Steitzviridae	Hampduvirus	3000	5000	soil (S)
+Steitzviridae	Hanolevirus	3000	4000	soil (S)
+Steitzviridae	Harbevirus	3000	4000	soil (S)
+Steitzviridae	Hardshivirus	3000	5000	soil (S)
+Steitzviridae	Hihlwovirus	3000	5000	soil (S)
+Steitzviridae	Hilfovirus	3000	4000	soil (S)
+Steitzviridae	Hirbovirus	4000	5000	soil (S)
+Steitzviridae	Hisolavirus	3000	4000	soil (S)
+Steitzviridae	Hodnevirus	3000	6000	bacteria, invertebrates (S), soil (S)
+Steitzviridae	Hohnuvirus	3000	4000	soil (S)
+Steitzviridae	Hohrdovirus	3000	5000	bacteria, soil (S)
+Steitzviridae	Huhbevirus	3000	6000	bacteria, invertebrates (S), soil (S)
+Steitzviridae	Huohcivirus	4000	5000	bacteria, soil (S)
+Steitzviridae	Huylevirus	4000	5000	bacteria, soil (S)
+Steitzviridae	Hyjrovirus	3000	4000	bacteria, soil (S)
+Steitzviridae	Iwahcevirus	3000	4000	bacteria
+Steitzviridae	Kecuhnavirus	3000	5000	bacteria, invertebrates (S), soil (S)
+Steitzviridae	Kihsiravirus	3000	4000	bacteria
+Steitzviridae	Kinglevirus	3000	4000	bacteria
+Steitzviridae	Kingscavirus	4000	5000	soil (S)
+Steitzviridae	Koroslivirus	3000	4000	soil (S)
+Steitzviridae	Laimuvirus	3000	4000	bacteria
+Steitzviridae	Lazuovirus	3000	4000	bacteria, soil (S)
+Steitzviridae	Lehemavirus	3000	4000	soil (S)
+Steitzviridae	Lidbrovirus	3000	4000	soil (S)
+Steitzviridae	Lidtloavirus	3000	5000	bacteria, soil (S)
+Steitzviridae	Lihvevirus	3000	4000	bacteria
+Steitzviridae	Limaivirus	4000	5000	bacteria
+Steitzviridae	Lipwuvirus	3000	4000	soil (S)
+Steitzviridae	Litdlovirus	3000	4000	soil (S)
+Steitzviridae	Litlevirus	3000	4000	soil (S)
+Steitzviridae	Loecwouvirus	3000	4000	soil (S)
+Steitzviridae	Lohwivirus	3000	4000	soil (S)
+Steitzviridae	Loimivirus	3000	4000	soil (S)
+Steitzviridae	Lomnativirus	3000	4000	bacteria
+Steitzviridae	Loptevirus	3000	4000	bacteria, soil (S)
+Steitzviridae	Lughthovirus	3000	5000	bacteria, soil (S)
+Steitzviridae	Luhtdivirus	3000	4000	bacteria
+Steitzviridae	Luwerquvirus	3000	4000	soil (S)
+Steitzviridae	Mahdsavirus	3000	4000	bacteria
+Steitzviridae	Merlclivirus	4000	5000	soil (S)
+Steitzviridae	Mertavirus	3000	4000	soil (S)
+Steitzviridae	Metsavirus	4000	5000	bacteria
+Steitzviridae	Minusuvirus	3000	5000	bacteria, soil (S)
+Steitzviridae	Mixstovirus	3000	4000	soil (S)
+Steitzviridae	Mocruvirus	3000	4000	bacteria
+Steitzviridae	Mohrtavirus	3000	4000	soil (S)
+Steitzviridae	Molucevirus	3000	4000	bacteria, soil (S)
+Steitzviridae	Nehumivirus	3000	4000	bacteria, soil (S)
+Steitzviridae	Nehwbovirus	4000	5000	soil (S)
+Steitzviridae	Nethevirus	3000	4000	soil (S)
+Steitzviridae	Nuhnehevirus	3000	4000	soil (S)
+Steitzviridae	Oldborovirus	4000	5000	bacteria, soil (S)
+Steitzviridae	Ovirwhivirus	3000	4000	soil (S)
+Steitzviridae	Pahspavirus	3000	4000	bacteria, soil (S)
+Steitzviridae	Pidhluvirus	4000	5000	soil (S)
+Steitzviridae	Pihckevirus	3000	4000	soil (S)
+Steitzviridae	Pinlevirus	4000	5000	soil (S)
+Steitzviridae	Pirifovirus	3000	5000	bacteria, soil (S)
+Steitzviridae	Podtsbuvirus	3000	4000	bacteria
+Steitzviridae	Pohlodivirus	4000	5000	bacteria
+Steitzviridae	Prihuvirus	3000	4000	soil (S)
+Steitzviridae	Psiaduvirus	3000	4000	bacteria, soil (S)
+Steitzviridae	Puduphavirus	3000	4000	bacteria, soil (S)
+Steitzviridae	Quihndovirus	3000	5000	soil (S)
+Steitzviridae	Retlevirus	3000	4000	soil (S)
+Steitzviridae	Rodtovirus	3000	4000	bacteria, soil (S)
+Steitzviridae	Rydonovirus	3000	5000	soil (S)
+Steitzviridae	Sahlfavirus	3000	4000	soil (S)
+Steitzviridae	Sderotavirus	3000	4000	soil (S)
+Steitzviridae	Sdrodtuvirus	3000	4000	soil (S)
+Steitzviridae	Sehcuvirus	3000	4000	soil (S)
+Steitzviridae	Sempoevirus	3000	4000	soil (S)
+Steitzviridae	Setdovirus	3000	4000	soil (S)
+Steitzviridae	Shiltuvirus	3000	4000	soil (S)
+Steitzviridae	Shrewlevirus	3000	4000	soil (S)
+Steitzviridae	Sidiruavirus	3000	4000	bacteria
+Steitzviridae	Sperdavirus	4000	5000	bacteria
+Steitzviridae	Stehnavirus	3000	4000	bacteria, soil (S)
+Steitzviridae	Stonedovirus	3000	4000	soil (S)
+Steitzviridae	Strehtovirus	4000	5000	bacteria
+Steitzviridae	Strotuvirus	4000	5000	soil (S)
+Steitzviridae	Studlivirus	4000	5000	soil (S)
+Steitzviridae	Suhnsivirus	3000	4000	bacteria, soil (S)
+Steitzviridae	Surghavirus	4000	5000	bacteria
+Steitzviridae	Tamanovirus	3000	4000	bacteria
+Steitzviridae	Tehmuvirus	3000	4000	bacteria
+Steitzviridae	Tehnicivirus	4000	5000	bacteria, soil (S)
+Steitzviridae	Thehlovirus	3000	4000	bacteria
+Steitzviridae	Thuhrlavirus	3000	4000	soil (S)
+Steitzviridae	Tikiyavirus	3000	5000	bacteria, soil (S)
+Steitzviridae	Timirovirus	3000	4000	bacteria
+Steitzviridae	Tsuhreavirus	3000	4000	bacteria
+Steitzviridae	Tuskovirus	4000	5000	bacteria, soil (S)
+Steitzviridae	Tuwendivirus	3000	4000	bacteria, soil (S)
+Steitzviridae	Ulenhavirus	3000	4000	soil (S)
+Steitzviridae	Vindevirus	3000	4000	bacteria
+Steitzviridae	Wahlkavirus	3000	5000	soil (S)
+Steitzviridae	Wahspovirus	3000	4000	soil (S)
+Steitzviridae	Watorgevirus	3000	4000	soil (S)
+Steitzviridae	Wehlevirus	3000	4000	soil (S)
+Steitzviridae	Wesdanuvirus	4000	5000	soil (S)
+Steitzviridae	Westonuvirus	4000	5000	soil (S)
+Steitzviridae	Whadcovirus	3000	4000	soil (S)
+Steitzviridae	Whidchuvirus	4000	5000	soil (S)
+Steitzviridae	Whudnevirus	3000	4000	soil (S)
+Steitzviridae	Wibpevirus	3000	5000	soil (S)
+Steitzviridae	Widsokivirus	3000	4000	bacteria
+Steitzviridae	Wilfovirus	3000	4000	soil (S)
+Steitzviridae	Wirwovirus	3000	4000	soil (S)
+Steitzviridae	Wixfovirus	3000	4000	soil (S)
+Steitzviridae	Wohodivirus	3000	4000	soil (S)
+Steitzviridae	Wohrmlevirus	3000	4000	soil (S)
+Steitzviridae	Wohtavirus	3000	4000	soil (S)
+Steitzviridae	Wolvivirus	3000	4000	plants (S)
+Steitzviridae	Wruxavirus	4000	5000	soil (S)
+Steitzviridae	Wundevirus	3000	4000	soil (S)
+Steitzviridae	Wushavirus	3000	4000	soil (S)
+Steitzviridae	Yeziwivirus	3000	5000	bacteria, soil (S)
+Straboviridae	Acajnonavirus	169000	170000	bacteria
+Straboviridae	Angelvirus	222000	223000	bacteria
+Straboviridae	Biquartavirus	173000	174000	bacteria
+Straboviridae	Bragavirus	161000	168000	bacteria
+Straboviridae	Carettavirus	121000	122000	bacteria
+Straboviridae	Ceceduovirus	229000	232000	bacteria
+Straboviridae	Centumtrigintavirus	159000	160000	bacteria
+Straboviridae	Chrysonvirus	225000	226000	bacteria
+Straboviridae	Cinqassovirus	221000	234000	bacteria
+Straboviridae	Dhakavirus	155000	173000	bacteria
+Straboviridae	Gaprivervirus	169000	172000	bacteria
+Straboviridae	Gelderlandvirus	158000	161000	bacteria
+Straboviridae	Gualtarvirus	163000	164000	bacteria
+Straboviridae	Hadassahvirus	166000	169000	bacteria
+Straboviridae	Ishigurovirus	235000	236000	bacteria
+Straboviridae	Jiangsuvirus	166000	167000	bacteria
+Straboviridae	Jiaodavirus	162000	169000	bacteria
+Straboviridae	Kagamiyamavirus	175000	176000	bacteria
+Straboviridae	Kanagawavirus	172000	178000	bacteria
+Straboviridae	Karamvirus	165000	174000	bacteria
+Straboviridae	Krischvirus	163000	167000	bacteria
+Straboviridae	Lasallevirus	164000	165000	bacteria
+Straboviridae	Lazarusvirus	164000	168000	bacteria
+Straboviridae	Moonvirus	170000	173000	bacteria
+Straboviridae	Mosigvirus	167000	187000	bacteria
+Straboviridae	Mosugukvirus	170000	171000	bacteria
+Straboviridae	Mylasvirus	247000	248000	bacteria
+Straboviridae	Nanhuvirus	182000	183000	bacteria
+Straboviridae	Pseudotevenvirus	176000	182000	bacteria
+Straboviridae	Risoevirus	175000	176000	bacteria
+Straboviridae	Schizotequatrovirus	244000	249000	bacteria
+Straboviridae	Slopekvirus	171000	177000	bacteria
+Straboviridae	Tegunavirus	162000	169000	bacteria
+Straboviridae	Tequatrovirus	163000	194000	bacteria
+Straboviridae	Tulanevirus	160000	166000	bacteria
+Straboviridae	Winklervirus	171000	173000	bacteria
+Straboviridae	Zedzedvirus	166000	167000	bacteria
+Sunviridae	Sunshinevirus	17000	18000	vertebrates
+Suolaviridae	Pormufvirus	35000	36000	archaea
+Suoliviridae	Afonbuvirus	96000	98000	bacteria
+Suoliviridae	Aurodevirus	98000	99000	bacteria
+Suoliviridae	Besingivirus	92000	93000	bacteria
+Suoliviridae	Birpovirus	99000	101000	bacteria
+Suoliviridae	Blohavirus	101000	102000	bacteria
+Suoliviridae	Bohxovirus	98000	99000	bacteria
+Suoliviridae	Buchavirus	97000	105000	bacteria
+Suoliviridae	Buhlduvirus	97000	99000	bacteria
+Suoliviridae	Buorbuivirus	96000	97000	bacteria
+Suoliviridae	Burzaovirus	101000	105000	bacteria
+Suoliviridae	Cacepaovirus	96000	97000	bacteria
+Suoliviridae	Canhaevirus	99000	100000	bacteria
+Suoliviridae	Chuhaivirus	94000	95000	bacteria
+Suoliviridae	Cohcovirus	98000	100000	bacteria
+Suoliviridae	Culoivirus	98000	101000	bacteria
+Suoliviridae	Dechshavirus	99000	100000	bacteria
+Tectiviridae	Alphatectivirus	14000	15000	bacteria
+Tectiviridae	Betatectivirus	14000	15000	bacteria
+Tectiviridae	Deltatectivirus	18000	19000	bacteria
+Tectiviridae	Epsilontectivirus	17000	18000	bacteria
+Tectiviridae	Gammatectivirus	16000	17000	bacteria
+Thalassapleoviridae	Aprofuvirus	14000	15000	archaea
+Thalassapleoviridae	Avenivirus	17000	18000	archaea
+Thalassapleoviridae	Geogavirus	13000	17000	archaea
+Thaspiviridae	Nitmarvirus	27000	29000	archaea
+Tobaniviridae	Bafinivirus	26000	28000	vertebrates
+Tobaniviridae	Bostovirus	20000	21000	vertebrates
+Tobaniviridae	Infratovirus	29000	31000	vertebrates
+Tobaniviridae	Lyctovirus	30000	32000	vertebrates
+Tobaniviridae	Oncotshavirus	27000	28000	vertebrates
+Tobaniviridae	Pregotovirus	30000	34000	vertebrates
+Tobaniviridae	Septovirus	27000	28000	vertebrates
+Tobaniviridae	Sertovirus	27000	28000	vertebrates
+Tobaniviridae	Torovirus	28000	29000	vertebrates
+Tobaniviridae	Vebetovirus	36000	37000	vertebrates
+Togaviridae	Alphavirus	11000	13000	invertebrates, invertebrates, vertebrates, vertebrates
+Tolecusatellitidae	Betasatellite	1000	2000	plants
+Tolecusatellitidae	Deltasatellite	600	800	plants
+Tombusviridae	Alphacarmovirus	3000	5000	plants
+Tombusviridae	Alphanecrovirus	3000	4000	plants
+Tombusviridae	Aureusvirus	4000	5000	plants
+Tombusviridae	Avenavirus	4000	5000	plants
+Tombusviridae	Betacarmovirus	3000	5000	plants
+Tombusviridae	Betanecrovirus	3000	4000	plants
+Tombusviridae	Dianthovirus	1000	4000	plants
+Tombusviridae	Gallantivirus	3000	4000	plants
+Tombusviridae	Gammacarmovirus	4000	5000	plants
+Tombusviridae	Luteovirus	4000	7000	plants
+Tombusviridae	Macanavirus	3000	4000	plants
+Tombusviridae	Machlomovirus	4000	5000	plants
+Tombusviridae	Panicovirus	4000	5000	plants
+Tombusviridae	Pelarspovirus	3000	4000	plants
+Tombusviridae	Tombusvirus	4000	5000	plants
+Tombusviridae	Tralespevirus	3000	4000	plants
+Tombusviridae	Umbravirus	4000	5000	plants
+Tombusviridae	Zeavirus	4000	5000	plants
+Tonesaviridae	Albetovirus	1000	2000	plants
+Tonesaviridae	Aumaivirus	1000	2000	plants
+Tosoviridae	Fraservirus	5000	7000	vertebrates
+Tospoviridae	Orthotospovirus	700	10000	invertebrates, plants
+Toyamaviridae	Totsukavirus	64000	65000	bacteria
+Toyamaviridae	Ushigomevirus	67000	68000	bacteria
+Toyamaviridae	Wadatovirus	62000	63000	bacteria
+Trautnerviridae	Prospektnaukivirus	45000	46000	bacteria
+Trautnerviridae	Rivavirus	44000	47000	bacteria
+Trautnerviridae	Splendidredvirus	42000	44000	bacteria
+Trimbiviridae	Orthotrimbivirus	4000	5000	fungi
+Tristromaviridae	Alphatristromavirus	17000	18000	archaea
+Tulasviridae	Orthotulasvirus	12000	13000	fungi
+Tulasviridae	Paratulasvirus	14000	15000	fungi
+Turriviridae	Alphaturrivirus	16000	18000	archaea
+Tymoviridae	Maculavirus	7000	8000	plants
+Tymoviridae	Marafivirus	6000	8000	plants
+Tymoviridae	Tymovirus	6000	7000	plants
+Umezonoviridae	Moriyavirus	30000	32000	bacteria
+Umezonoviridae	Namikivirus	28000	32000	bacteria
+Unambiviridae	Orthounambivirus	4000	5000	fungi
+Ungulaviridae	Captovirus	20000	21000	archaea
+Usuviridae	Hewusuvirus	37000	38000	archaea
+Usuviridae	Manusuvirus	38000	39000	archaea
+Vandenendeviridae	Baldwinvirus	94000	95000	bacteria
+Vandenendeviridae	Chemalvirus	95000	96000	bacteria
+Vandenendeviridae	Dilongvirus	94000	95000	bacteria
+Vandenendeviridae	Flaumdravirus	90000	93000	bacteria
+Vandenendeviridae	Kremarvirus	97000	99000	bacteria
+Vandenendeviridae	Nankokuvirus	84000	89000	bacteria
+Vandenendeviridae	Omahavirus	98000	99000	bacteria
+Vandenendeviridae	Otagovirus	94000	101000	bacteria
+Vandenendeviridae	Pakpunavirus	88000	95000	bacteria
+Vandenendeviridae	Shenlongvirus	97000	98000	bacteria
+Vandenendeviridae	Tartuvirus	95000	98000	bacteria
+Vandenendeviridae	Torinovirus	98000	99000	bacteria
+Vandenendeviridae	Uavernvirus	101000	102000	bacteria
+Vandenendeviridae	Ventosusvirus	97000	98000	bacteria
+Vandenendeviridae	Weillhallvirus	94000	95000	bacteria
+Vandenendeviridae	Yunamivirus	93000	94000	bacteria
+Verdandiviridae	Dolusvirus	19000	21000	archaea
+Verdandiviridae	Tonitrusvirus	19000	20000	archaea
+Vertoviridae	Chaovirus	55000	56000	archaea
+Vertoviridae	Myohalovirus	58000	59000	archaea
+Vilmaviridae	Bongovirus	80000	83000	bacteria
+Vilmaviridae	Bromdenvirus	70000	78000	bacteria
+Vilmaviridae	Bronvirus	68000	75000	bacteria
+Vilmaviridae	Faithunavirus	69000	78000	bacteria
+Vilmaviridae	Kumaovirus	70000	71000	bacteria
+Vilmaviridae	Lumosvirus	75000	77000	bacteria
+Vilmaviridae	Reyvirus	83000	85000	bacteria
+Vilmaviridae	Wildcatvirus	78000	79000	bacteria
+Vilyaviridae	Ancalagonvirus	2000	3000	vertebrates
+Vilyaviridae	Andurilvirus	2000	3000	protists (S)
+Vilyaviridae	Angristvirus	2000	3000	protists (S)
+Vilyaviridae	Aranruthvirus	2000	3000	protists (S)
+Vilyaviridae	Arnorvirus	2000	3000	protists (S)
+Vilyaviridae	Berenvirus	2000	3000	vertebrates
+Vilyaviridae	Glamdringvirus	2000	3000	protists (S)
+Vilyaviridae	Grondvirus	2000	3000	protists (S)
+Vilyaviridae	Herugrimvirus	2000	3000	protists (S)
+Vilyaviridae	Illuinvirus	2000	3000	protists (S)
+Vilyaviridae	Ormalvirus	2000	3000	protists (S), vertebrates
+Vilyaviridae	Palantirivirus	2000	3000	protists (S), vertebrates
+Vilyaviridae	Ringilvirus	1000	3000	protists (S)
+Vilyaviridae	Ulaervirus	2000	3000	vertebrates
+Vilyaviridae	Vingilotevirus	1000	3000	protists (S)
+Virgaviridae	Furovirus	3000	8000	plants
+Virgaviridae	Goravirus	3000	6000	plants
+Virgaviridae	Hordeivirus	3000	4000	plants
+Virgaviridae	Pecluvirus	4000	6000	plants
+Virgaviridae	Pomovirus	2000	7000	plants
+Virgaviridae	Tobamovirus	6000	7000	plants
+Virgaviridae	Tobravirus	1000	8000	plants
+Winoviridae	Peternellavirus	39000	40000	bacteria
+Winoviridae	Pippivirus	34000	35000	bacteria
+Wupedeviridae	Wumivirus	1000	12000	invertebrates
+Xinmoviridae	Alasvirus	12000	13000	invertebrates
+Xinmoviridae	Anphevirus	12000	13000	invertebrates
+Xinmoviridae	Corulvirus	11000	12000	invertebrates
+Xinmoviridae	Culivirus	12000	13000	invertebrates
+Xinmoviridae	Doupovirus	13000	14000	invertebrates
+Xinmoviridae	Draselvirus	9000	10000	invertebrates
+Xinmoviridae	Drunivirus	13000	14000	invertebrates
+Xinmoviridae	Gambievirus	11000	12000	invertebrates
+Xinmoviridae	Gordisvirus	12000	13000	invertebrates
+Xinmoviridae	Gudgevirus	12000	13000	invertebrates
+Xinmoviridae	Gylbovirus	12000	13000	invertebrates
+Xinmoviridae	Hoptevirus	10000	11000	invertebrates
+Xinmoviridae	Laumovirus	15000	16000	invertebrates
+Xinmoviridae	Madalivirus	12000	13000	invertebrates
+Xinmoviridae	Nurnegvirus	11000	12000	invertebrates
+Xinmoviridae	Pelmivirus	12000	13000	invertebrates
+Xinmoviridae	Puclevirus	11000	12000	invertebrates
+Xinmoviridae	Tecephavirus	11000	12000	vertebrates (S)
+Xinmoviridae	Triniovirus	12000	13000	invertebrates
+Xinmoviridae	Trocevirus	12000	13000	invertebrates
+Xinmoviridae	Ulegvirus	11000	12000	invertebrates
+Yadokariviridae	Alphayadokarivirus	2000	7000	fungi, protists
+Yadokariviridae	Betayadokarivirus	4000	6000	fungi
+Yadonushiviridae	Yadonushivirus	8000	9000	fungi
+Yangangviridae	Mathaucavirus	38000	39000	archaea
+Yangangviridae	Nohelivirus	36000	37000	archaea
+Yangangviridae	Senitvirus	36000	37000	archaea
+Yanlukaviridae	Sweetvirus	35000	36000	archaea
+Yaraviridae	Yaravirus	44000	45000	protists
+Yueviridae	Yuyuevirus	1000	7000	invertebrates
+Zierdtviridae	Ceetrepovirus	66000	68000	bacteria
+Zierdtviridae	Chunghsingvirus	70000	71000	bacteria
+Zierdtviridae	Commandariavirus	68000	69000	bacteria
+Zierdtviridae	Foxborovirus	67000	69000	bacteria
+Zierdtviridae	Gruunavirus	65000	68000	bacteria
+Zierdtviridae	Kablunavirus	65000	69000	bacteria
+Zierdtviridae	Pleakleyvirus	64000	65000	bacteria
+Zierdtviridae	Skysandvirus	66000	68000	bacteria
+Zierdtviridae	Sukkupivirus	64000	67000	bacteria
+Zobellviridae	Citrovirus	47000	48000	bacteria
+Zobellviridae	Icepovirus	49000	50000	bacteria
+Zobellviridae	Melvirus	43000	46000	bacteria
+Zobellviridae	Paundecimvirus	49000	50000	bacteria
+Zobellviridae	Salinovirus	49000	50000	bacteria
+Zobellviridae	Siovirus	38000	41000	bacteria
+Zobellviridae	Veravirus	40000	41000	bacteria
+Zobellviridae	Vipivirus	46000	47000	bacteria
+nan	Abaiavirus	41000	42000	bacteria
+nan	Abbeymikolonvirus	42000	43000	bacteria
+nan	Abouovirus	45000	46000	bacteria
+nan	Acadianvirus	69000	71000	bacteria
+nan	Aceathervirus	36000	37000	bacteria
+nan	Actaeavirus	38000	39000	bacteria
+nan	Adaiavirus	15000	16000	bacteria
+nan	Adovirus	36000	38000	bacteria
+nan	Adrianbuildvirus	30000	36000	bacteria
+nan	Aegirvirus	45000	46000	bacteria
+nan	Aequorvirus	38000	39000	bacteria
+nan	Agmunavirus	36000	37000	bacteria
+nan	Aguilavirus	42000	45000	bacteria
+nan	Ahaonvirus	36000	38000	bacteria
+nan	Ahotrevirus	43000	44000	bacteria
+nan	Akiravirus	45000	46000	bacteria
+nan	Akonivirus	54000	55000	bacteria
+nan	Alachuavirus	55000	56000	bacteria
+nan	Alcyoneusvirus	345000	347000	bacteria
+nan	Alegriavirus	48000	49000	bacteria
+nan	Alexandravirus	259000	267000	bacteria
+nan	Alfirinvirus	46000	47000	bacteria
+nan	Amginevirus	61000	63000	bacteria
+nan	Amherstvirus	16000	17000	bacteria
+nan	Amigovirus	58000	60000	bacteria
+nan	Aminayvirus	60000	61000	bacteria
+nan	Amiranvirus	33000	34000	bacteria
+nan	Amoyvirus	56000	57000	bacteria
+nan	Anamdongvirus	48000	49000	bacteria
+nan	Anatolevirus	35000	36000	bacteria
+nan	Anayavirus	56000	63000	bacteria
+nan	Andrewvirus	38000	39000	bacteria
+nan	Angmobvirus	46000	47000	bacteria
+nan	Anjalivirus	19000	20000	bacteria
+nan	Anthonyvirus	52000	53000	bacteria
+nan	Antsirabevirus	44000	45000	bacteria
+nan	Aokuangvirus	139000	140000	bacteria
+nan	Appavirus	38000	39000	bacteria
+nan	Apricotvirus	52000	53000	bacteria
+nan	Aquingentivirus	38000	43000	bacteria
+nan	Aramisvirus	42000	43000	bacteria
+nan	Arawnvirus	31000	32000	bacteria
+nan	Archimedesvirus	44000	45000	bacteria
+nan	Arequatrovirus	51000	53000	bacteria
+nan	Armstrongvirus	39000	40000	bacteria
+nan	Arvduovirus	37000	38000	bacteria
+nan	Aryavirus	41000	42000	bacteria
+nan	Ashduovirus	43000	44000	bacteria
+nan	Ashivirus	44000	45000	bacteria
+nan	Aspduovirus	58000	59000	bacteria
+nan	Asteriusvirus	348000	349000	bacteria
+nan	Astrithrvirus	11000	12000	bacteria
+nan	Athenavirus	37000	38000	bacteria
+nan	Atraxavirus	14000	15000	bacteria
+nan	Atrivirus	37000	38000	bacteria
+nan	Attisvirus	44000	48000	bacteria
+nan	Attoomivirus	41000	42000	bacteria
+nan	Atuphduovirus	45000	46000	bacteria
+nan	Audreyjarvisvirus	114000	133000	bacteria
+nan	Aurunvirus	172000	173000	bacteria
+nan	Austintatiousvirus	36000	39000	bacteria
+nan	Avanivirus	54000	59000	bacteria
+nan	Avocadovirus	44000	46000	bacteria
+nan	Avunavirus	120000	121000	bacteria
+nan	Axeltriavirus	47000	48000	bacteria
+nan	Ayaqvirus	40000	41000	bacteria
+nan	Aziravirus	45000	46000	bacteria
+nan	Backyardiganvirus	47000	52000	bacteria
+nan	Badaztecvirus	18000	19000	bacteria
+nan	Baikalvirus	258000	259000	bacteria
+nan	Bakolyvirus	44000	45000	bacteria
+nan	Banchanvirus	46000	47000	bacteria
+nan	Bantamvirus	92000	93000	bacteria
+nan	Barbavirus	80000	85000	bacteria
+nan	Barnyardvirus	70000	71000	bacteria
+nan	Basiliskvirus	82000	83000	bacteria
+nan	Bauervirus	50000	51000	bacteria
+nan	Baxterfoxvirus	51000	54000	bacteria
+nan	Bcepmuvirus	36000	38000	bacteria
+nan	Beceayunavirus	42000	43000	bacteria
+nan	Becedseptimavirus	93000	94000	bacteria
+nan	Beenievirus	46000	49000	bacteria
+nan	Beetrevirus	38000	39000	bacteria
+nan	Behunavirus	40000	41000	bacteria
+nan	Bembunaquatrovirus	50000	51000	bacteria
+nan	Bendigovirus	83000	84000	bacteria
+nan	Benedictvirus	47000	52000	bacteria
+nan	Beograduvirus	46000	48000	bacteria
+nan	Bernalvirus	42000	44000	bacteria
+nan	Betterkatzvirus	50000	51000	bacteria
+nan	Bglawtbvirus	68000	69000	bacteria
+nan	Bievrevirus	49000	50000	bacteria
+nan	Bigmanorsvirus	59000	60000	bacteria
+nan	Bignuzvirus	48000	49000	bacteria
+nan	Bimevirus	47000	50000	bacteria
+nan	Bingvirus	56000	57000	bacteria
+nan	Bippervirus	77000	78000	bacteria
+nan	Birdsnestvirus	70000	71000	bacteria
+nan	Biseptimavirus	38000	45000	bacteria
+nan	Bismarckvirus	42000	43000	bacteria
+nan	Bixiavirus	61000	63000	bacteria
+nan	Bixzunavirus	151000	161000	bacteria
+nan	Bjornvirus	45000	46000	bacteria
+nan	Bluefeathervirus	16000	17000	bacteria
+nan	Bocovirus	36000	37000	bacteria
+nan	Boesrvirus	42000	43000	bacteria
+nan	Bonzeevirus	41000	43000	bacteria
+nan	Borockvirus	112000	113000	bacteria
+nan	Bowservirus	46000	47000	bacteria
+nan	Bridgettevirus	41000	45000	bacteria
+nan	Brigitvirus	61000	62000	bacteria
+nan	Britbratvirus	55000	56000	bacteria
+nan	Brujitavirus	46000	49000	bacteria
+nan	Brunovirus	40000	41000	bacteria
+nan	Bruynoghevirus	43000	46000	bacteria
+nan	Buchananvirus	46000	47000	bacteria
+nan	Bugaksanvirus	60000	61000	bacteria
+nan	Bunatrivirus	36000	37000	bacteria
+nan	Burrovirus	53000	55000	bacteria
+nan	Busanvirus	156000	157000	bacteria
+nan	Byrnievirus	39000	40000	bacteria
+nan	Caelumvirus	50000	54000	bacteria
+nan	Caminolopintovirus	47000	48000	bacteria
+nan	Camtrevirus	38000	45000	bacteria
+nan	Camvirus	48000	51000	bacteria
+nan	Cantarevirus	90000	91000	bacteria
+nan	Capnelvirus	40000	41000	bacteria
+nan	Carmenvirus	41000	43000	bacteria
+nan	Carnodivirus	56000	58000	bacteria
+nan	Carvajevirus	56000	57000	bacteria
+nan	Casadabanvirus	34000	47000	bacteria
+nan	Catfishvirus	46000	47000	bacteria
+nan	Cbastvirus	79000	80000	bacteria
+nan	Cecivirus	53000	57000	bacteria
+nan	Cedarrivervirus	46000	47000	bacteria
+nan	Ceduovirus	20000	24000	bacteria
+nan	Celiavirus	50000	51000	bacteria
+nan	Cequinquevirus	29000	34000	bacteria
+nan	Certrevirus	142000	152000	bacteria
+nan	Chakrabartyvirus	158000	159000	bacteria
+nan	Chamilpavirus	40000	41000	bacteria
+nan	Chaoyangvirus	49000	50000	bacteria
+nan	Charlievirus	40000	45000	bacteria
+nan	Chenonavirus	55000	58000	bacteria
+nan	Cheoctovirus	52000	62000	bacteria
+nan	Chertseyvirus	24000	25000	bacteria
+nan	Cheungvirus	47000	48000	bacteria
+nan	Chewyvirus	69000	70000	bacteria
+nan	Chidieberevirus	88000	92000	bacteria
+nan	Chopinvirus	79000	80000	bacteria
+nan	Chosvirus	33000	34000	bacteria
+nan	Chymeravirus	34000	35000	bacteria
+nan	Cimandefvirus	55000	61000	bacteria
+nan	Cimpunavirus	58000	59000	bacteria
+nan	Cinunavirus	56000	57000	bacteria
+nan	Clawzvirus	57000	58000	bacteria
+nan	Coatlandelriovirus	44000	45000	bacteria
+nan	Cobrasixvirus	47000	48000	bacteria
+nan	Coetzeevirus	36000	39000	bacteria
+nan	Coeurvirus	16000	17000	bacteria
+nan	Colneyvirus	48000	51000	bacteria
+nan	Colunavirus	34000	40000	bacteria
+nan	Coopervirus	69000	73000	bacteria
+nan	Coralvirus	38000	39000	bacteria
+nan	Corgivirus	15000	16000	bacteria
+nan	Corndogvirus	69000	73000	bacteria
+nan	Cornievirus	56000	57000	bacteria
+nan	Coventryvirus	39000	43000	bacteria
+nan	Craquatrovirus	57000	58000	bacteria
+nan	Cronusvirus	35000	36000	bacteria
+nan	Cuauhtlivirus	41000	42000	bacteria
+nan	Cuernavacavirus	43000	47000	bacteria
+nan	Cukevirus	68000	69000	bacteria
+nan	Cyclitvirus	44000	45000	bacteria
+nan	Dardanusvirus	43000	44000	bacteria
+nan	Daredevilvirus	90000	91000	bacteria
+nan	Decurrovirus	15000	16000	bacteria
+nan	Delepquintavirus	96000	97000	bacteria
+nan	Delfunavirus	40000	41000	bacteria
+nan	Delislevirus	11000	12000	bacteria
+nan	Demosthenesvirus	74000	76000	bacteria
+nan	Denisevirus	45000	46000	bacteria
+nan	Denvervirus	86000	87000	bacteria
+nan	Deseoctovirus	44000	47000	bacteria
+nan	Detrevirus	54000	57000	bacteria
+nan	Deurplevirus	36000	37000	bacteria
+nan	Dhillonvirus	37000	48000	bacteria
+nan	Dibbivirus	49000	50000	bacteria
+nan	Diegovirus	60000	63000	bacteria
+nan	Dinavirus	39000	40000	bacteria
+nan	Dishuivirus	45000	46000	bacteria
+nan	Dismasvirus	41000	42000	bacteria
+nan	Dolmabahcevirus	93000	94000	bacteria
+nan	Donellivirus	497000	498000	bacteria
+nan	Doucettevirus	37000	39000	bacteria
+nan	Douglaswolinvirus	80000	81000	bacteria
+nan	Dragolirvirus	41000	42000	bacteria
+nan	Dubowvirus	40000	45000	bacteria
+nan	Dubuvirus	39000	40000	bacteria
+nan	Dybvigvirus	17000	18000	bacteria
+nan	Dynamenevirus	39000	41000	bacteria
+nan	Eagleeyevirus	52000	53000	bacteria
+nan	Edenvirus	40000	41000	bacteria
+nan	Edwardsroadvirus	14000	15000	bacteria
+nan	Efemquintavirus	42000	43000	bacteria
+nan	Efemunavirus	42000	43000	bacteria
+nan	Efquatrovirus	37000	42000	bacteria
+nan	Efunavirus	138000	142000	bacteria
+nan	Eiauvirus	43000	44000	bacteria
+nan	Eidolonvirus	43000	44000	bacteria
+nan	Eisenstarkvirus	44000	45000	bacteria
+nan	Elemovirus	59000	62000	bacteria
+nan	Elerivirus	40000	41000	bacteria
+nan	Elesarvirus	42000	43000	bacteria
+nan	Elmenteitavirus	58000	59000	bacteria
+nan	Emalynvirus	43000	47000	bacteria
+nan	Emdodecavirus	188000	207000	bacteria
+nan	Emirosevirus	37000	38000	bacteria
+nan	Emperorvirus	15000	17000	bacteria
+nan	Eneladusvirus	354000	358000	bacteria
+nan	Enfavirus	44000	45000	bacteria
+nan	Enhodamvirus	39000	40000	bacteria
+nan	Eponavirus	49000	50000	bacteria
+nan	Ericdabvirus	16000	17000	bacteria
+nan	Eurybiavirus	180000	184000	bacteria
+nan	Eyrevirus	44000	45000	bacteria
+nan	Fairfaxidumvirus	49000	51000	bacteria
+nan	Fajavirus	52000	53000	bacteria
+nan	Farahnazvirus	59000	60000	bacteria
+nan	Fattrevirus	39000	40000	bacteria
+nan	Feofaniavirus	46000	48000	bacteria
+nan	Fernvirus	35000	44000	bacteria
+nan	Fibralongavirus	41000	44000	bacteria
+nan	Ficleduovirus	46000	48000	bacteria
+nan	Finchvirus	138000	139000	bacteria
+nan	Finkelvirus	47000	48000	bacteria
+nan	Fionnbharthvirus	54000	59000	bacteria
+nan	Fipvunavirus	88000	89000	bacteria
+nan	Firingavirus	39000	41000	bacteria
+nan	Fishburnevirus	45000	50000	bacteria
+nan	Flowerpowervirus	46000	47000	bacteria
+nan	Footloosevirus	39000	40000	bacteria
+nan	Forzavirus	114000	115000	bacteria
+nan	Foturvirus	47000	49000	bacteria
+nan	Foussvirus	41000	42000	bacteria
+nan	Fowlmouthvirus	69000	70000	bacteria
+nan	Foxquatrovirus	60000	61000	bacteria
+nan	Foxunavirus	43000	45000	bacteria
+nan	Franklinbayvirus	104000	105000	bacteria
+nan	Fremauxvirus	54000	56000	bacteria
+nan	Fromanvirus	49000	54000	bacteria
+nan	Fujianvirus	43000	44000	bacteria
+nan	Fukuivirus	162000	170000	bacteria
+nan	Fussvirus	37000	39000	bacteria
+nan	Fuzanglongvirus	90000	91000	bacteria
+nan	Gaiavirus	90000	91000	bacteria
+nan	Gajwadongvirus	44000	46000	bacteria
+nan	Galaxyvirus	37000	40000	bacteria
+nan	Galunavirus	49000	50000	bacteria
+nan	Gamtrevirus	77000	78000	bacteria
+nan	Geezettvirus	50000	51000	bacteria
+nan	Gervaisevirus	57000	62000	bacteria
+nan	Gesputvirus	43000	44000	bacteria
+nan	Getalongvirus	53000	57000	bacteria
+nan	Getseptimavirus	73000	75000	bacteria
+nan	Ghobesvirus	45000	46000	bacteria
+nan	Gilesvirus	53000	54000	bacteria
+nan	Gilgameshvirus	129000	130000	bacteria
+nan	Gillianvirus	61000	62000	bacteria
+nan	Gimaduovirus	103000	104000	bacteria
+nan	Gladiatorvirus	48000	53000	bacteria
+nan	Glaedevirus	46000	47000	bacteria
+nan	Godonkavirus	121000	123000	bacteria
+nan	Gofduovirus	40000	44000	bacteria
+nan	Goodmanvirus	42000	43000	bacteria
+nan	Gordonvirus	57000	59000	bacteria
+nan	Gordtnkvirus	75000	76000	bacteria
+nan	Gorganvirus	54000	55000	bacteria
+nan	Gorjumvirus	78000	79000	bacteria
+nan	Grandbuvirus	3000	4000	soil (S)
+nan	Grutrevirus	17000	18000	bacteria
+nan	Gustavvirus	42000	45000	bacteria
+nan	Gyeongsanvirus	40000	42000	bacteria
+nan	Haetaevirus	168000	169000	bacteria
+nan	Hafyongvirus	43000	44000	bacteria
+nan	Haihevirus	54000	55000	bacteria
+nan	Halcyonevirus	50000	56000	bacteria
+nan	Halfdanvirus	42000	43000	bacteria
+nan	Hapakavirus	45000	46000	bacteria
+nan	Hapunavirus	38000	40000	bacteria
+nan	Harrisonburgvirus	44000	45000	bacteria
+nan	Harrisonvirus	44000	45000	bacteria
+nan	Hattifnattvirus	39000	40000	bacteria
+nan	Hautrevirus	50000	51000	bacteria
+nan	Hawkeyevirus	67000	68000	bacteria
+nan	Hedwigvirus	44000	45000	bacteria
+nan	Heilongjiangvirus	43000	44000	bacteria
+nan	Helsingorvirus	38000	40000	bacteria
+nan	Henunavirus	147000	149000	bacteria
+nan	Hestiavirus	51000	52000	bacteria
+nan	Hinxtonvirus	31000	42000	bacteria
+nan	Hiroshimavirus	43000	44000	bacteria
+nan	Hiyaavirus	83000	84000	bacteria
+nan	Hnatkovirus	60000	61000	bacteria
+nan	Hollowayvirus	62000	66000	bacteria
+nan	Holosalinivirus	35000	36000	bacteria
+nan	Homburgvirus	64000	68000	bacteria
+nan	Horusvirus	55000	56000	bacteria
+nan	Howevirus	53000	54000	bacteria
+nan	Hubeivirus	43000	45000	bacteria
+nan	Hulijingvirus	49000	50000	bacteria
+nan	Hungariovirus	41000	42000	bacteria
+nan	Iaduovirus	34000	35000	bacteria
+nan	Ibantikvirus	56000	57000	bacteria
+nan	Idahovirus	15000	16000	bacteria
+nan	Identitycrisisvirus	38000	39000	bacteria
+nan	Iggyvirus	60000	61000	bacteria
+nan	Igirivirus	45000	46000	bacteria
+nan	Ignaciovirus	37000	39000	bacteria
+nan	Ikedavirus	43000	45000	bacteria
+nan	Ilzatvirus	41000	43000	bacteria
+nan	Immanueltrevirus	46000	47000	bacteria
+nan	Immutovirus	160000	161000	bacteria
+nan	Imvubuvirus	69000	70000	bacteria
+nan	Incheonvirus	48000	50000	bacteria
+nan	Indlulamithivirus	71000	72000	bacteria
+nan	Inhavirus	35000	36000	bacteria
+nan	Iodovirus	47000	48000	bacteria
+nan	Ionavirus	157000	158000	bacteria
+nan	Isoldevirus	53000	54000	bacteria
+nan	Ittyvirus	61000	62000	bacteria
+nan	Jacevirus	53000	54000	bacteria
+nan	Janusvirus	49000	51000	bacteria
+nan	Jarrellvirus	41000	42000	bacteria
+nan	Jasminevirus	45000	47000	bacteria
+nan	Jedunavirus	48000	49000	bacteria
+nan	Jelitavirus	42000	43000	bacteria
+nan	Jenstvirus	126000	127000	bacteria
+nan	Jiaweivirus	41000	42000	bacteria
+nan	Jilinvirus	41000	43000	bacteria
+nan	Jimmervirus	52000	55000	bacteria
+nan	Jolieduovirus	44000	45000	bacteria
+nan	Jouyvirus	46000	51000	bacteria
+nan	Juiceboxvirus	41000	42000	bacteria
+nan	Jujuvirus	52000	55000	bacteria
+nan	Julieunavirus	71000	72000	bacteria
+nan	Junavirus	38000	45000	bacteria
+nan	Justusliebigvirus	146000	150000	bacteria
+nan	Kafavirus	45000	46000	bacteria
+nan	Kafunavirus	41000	42000	bacteria
+nan	Kajamvirus	44000	45000	bacteria
+nan	Kamchatkavirus	51000	52000	bacteria
+nan	Kelleziovirus	58000	59000	bacteria
+nan	Kelquatrovirus	42000	43000	bacteria
+nan	Kembevirus	46000	47000	bacteria
+nan	Kenoshavirus	60000	62000	bacteria
+nan	Kenyattavirus	160000	161000	bacteria
+nan	Keshuvirus	61000	62000	bacteria
+nan	Kharnvirus	43000	45000	bacteria
+nan	Kilunavirus	42000	43000	bacteria
+nan	Kimonavirus	50000	51000	bacteria
+nan	Kipunavirus	43000	44000	bacteria
+nan	Kirovvirus	165000	166000	bacteria
+nan	Klausavirus	68000	72000	bacteria
+nan	Kleczkowskavirus	53000	54000	bacteria
+nan	Klementvirus	43000	44000	bacteria
+nan	Knuthellervirus	47000	48000	bacteria
+nan	Kochitakasuvirus	63000	65000	bacteria
+nan	Kojivirus	39000	40000	bacteria
+nan	Konstantinevirus	68000	69000	bacteria
+nan	Korravirus	42000	45000	bacteria
+nan	Kostyavirus	74000	77000	bacteria
+nan	Krakvirus	41000	42000	bacteria
+nan	Krampusvirus	56000	57000	bacteria
+nan	Kratiovirus	59000	64000	bacteria
+nan	Krompvirus	58000	59000	bacteria
+nan	Kronosvirus	42000	43000	bacteria
+nan	Krylovvirus	46000	47000	bacteria
+nan	Kryptosalinivirus	53000	54000	bacteria
+nan	Kuleanavirus	38000	39000	bacteria
+nan	Kumottavirus	39000	41000	bacteria
+nan	Kungbxnavirus	234000	235000	bacteria
+nan	Kunmingvirus	42000	44000	bacteria
+nan	Kuwvirus	44000	45000	bacteria
+nan	Kwaitsingvirus	39000	41000	bacteria
+nan	Lacfervirus	40000	41000	bacteria
+nan	Lacnuvirus	36000	37000	bacteria
+nan	Lacusarxvirus	130000	131000	bacteria
+nan	Lafunavirus	42000	43000	bacteria
+nan	Lagaffevirus	48000	49000	bacteria
+nan	Lambdavirus	41000	49000	bacteria
+nan	Lambovirus	65000	69000	bacteria
+nan	Lanavirus	88000	89000	bacteria
+nan	Larmunavirus	39000	40000	bacteria
+nan	Laroyevirus	59000	61000	bacteria
+nan	Lastavirus	61000	63000	bacteria
+nan	Latrobevirus	130000	131000	bacteria
+nan	Lauvirus	39000	40000	bacteria
+nan	Layangavirus	43000	44000	bacteria
+nan	Layangbvirus	42000	43000	bacteria
+nan	Lederbergvirus	38000	42000	bacteria
+nan	Leicestervirus	41000	42000	bacteria
+nan	Lentavirus	30000	31000	bacteria
+nan	Lenusvirus	78000	80000	bacteria
+nan	Lessievirus	61000	64000	bacteria
+nan	Lidleunavirus	74000	75000	bacteria
+nan	Liefievirus	41000	43000	bacteria
+nan	Lietduovirus	74000	75000	bacteria
+nan	Lightbulbvirus	145000	146000	bacteria
+nan	Likavirus	49000	52000	bacteria
+nan	Lillamyvirus	38000	40000	bacteria
+nan	Lilmcdreamyvirus	71000	72000	bacteria
+nan	Lilspottyvirus	49000	50000	bacteria
+nan	Lilyvirus	44000	45000	bacteria
+nan	Limdunavirus	25000	29000	bacteria
+nan	Lingvirus	44000	45000	bacteria
+nan	Lirvirus	47000	48000	bacteria
+nan	Lishizhenvirus	49000	50000	bacteria
+nan	Llyrvirus	208000	209000	bacteria
+nan	Lokivirus	41000	44000	bacteria
+nan	Loughboroughvirus	53000	54000	bacteria
+nan	Lubbockvirus	53000	55000	bacteria
+nan	Luchadorvirus	52000	54000	bacteria
+nan	Luckybarnesvirus	50000	51000	bacteria
+nan	Luckytenvirus	42000	43000	bacteria
+nan	Lughvirus	34000	35000	bacteria
+nan	Luzcentumvirus	37000	38000	bacteria
+nan	Lwoffvirus	36000	38000	bacteria
+nan	Macdonaldcampvirus	45000	46000	bacteria
+nan	Maenadvirus	73000	82000	bacteria
+nan	Magadivirus	58000	59000	bacteria
+nan	Magiavirus	44000	45000	bacteria
+nan	Mahrahovirus	3000	5000	bacteria, invertebrates (S)
+nan	Majavirus	36000	37000	bacteria
+nan	Malagasyrosevirus	54000	55000	bacteria
+nan	Malkevirus	32000	40000	bacteria
+nan	Mallvirus	44000	45000	bacteria
+nan	Manovirus	42000	43000	bacteria
+nan	Manuelvirus	45000	46000	bacteria
+nan	Mapvirus	47000	49000	bacteria
+nan	Mardecavirus	76000	79000	bacteria
+nan	Mareflavirus	38000	39000	bacteria
+nan	Marfavirus	168000	171000	bacteria
+nan	Marienburgvirus	57000	58000	bacteria
+nan	Marvinvirus	65000	66000	bacteria
+nan	Mascletvirus	48000	49000	bacteria
+nan	Maxrubnervirus	87000	88000	bacteria
+nan	Mboduovirus	83000	84000	bacteria
+nan	Mboquatrovirus	46000	47000	bacteria
+nan	Mcgonagallvirus	17000	18000	bacteria
+nan	Mechnikovvirus	38000	40000	bacteria
+nan	Medawarvirus	33000	38000	bacteria
+nan	Medeavirus	58000	59000	bacteria
+nan	Melbournevirus	49000	50000	bacteria
+nan	Menderavirus	159000	162000	bacteria
+nan	Mengvirus	44000	45000	bacteria
+nan	Metrivirus	234000	235000	bacteria
+nan	Micathvirus	60000	61000	bacteria
+nan	Micavirus	43000	44000	bacteria
+nan	Microwolfvirus	48000	51000	bacteria
+nan	Midgardsormrvirus	50000	51000	bacteria
+nan	Miecznikowavirus	55000	56000	bacteria
+nan	Mieseafarmvirus	231000	232000	bacteria
+nan	Mimasvirus	358000	379000	bacteria
+nan	Minunavirus	46000	47000	bacteria
+nan	Mohonavirus	125000	126000	bacteria
+nan	Mollymurvirus	90000	91000	bacteria
+nan	Montyvirus	75000	78000	bacteria
+nan	Moomoovirus	55000	56000	bacteria
+nan	Morelosvirus	41000	42000	bacteria
+nan	Moturavirus	221000	222000	bacteria
+nan	Mudcatvirus	57000	60000	bacteria
+nan	Mufasoctovirus	60000	61000	bacteria
+nan	Muldoonvirus	167000	168000	bacteria
+nan	Muminvirus	36000	40000	bacteria
+nan	Murrayvirus	41000	42000	bacteria
+nan	Mushuvirus	36000	37000	bacteria
+nan	Muvirus	36000	38000	bacteria
+nan	Mycoabscvirus	52000	53000	bacteria
+nan	Mydovirus	142000	148000	bacteria
+nan	Myoalterovirus	92000	93000	bacteria
+nan	Myradeevirus	50000	51000	bacteria
+nan	Myrnavirus	164000	165000	bacteria
+nan	Myxoctovirus	49000	50000	bacteria
+nan	Naesvirus	47000	49000	bacteria
+nan	Namazuvirus	59000	60000	bacteria
+nan	Nanditavirus	41000	44000	bacteria
+nan	Nanhaivirus	77000	78000	bacteria
+nan	Natevirus	166000	167000	bacteria
+nan	Neferthenavirus	41000	42000	bacteria
+nan	Nerivirus	45000	46000	bacteria
+nan	Nesevirus	45000	48000	bacteria
+nan	Nevevirus	53000	56000	bacteria
+nan	Nevillevirus	75000	77000	bacteria
+nan	Nicedsevirus	3000	4000	bacteria
+nan	Nickievirus	112000	113000	bacteria
+nan	Nipunavirus	57000	59000	bacteria
+nan	Nochtlivirus	37000	38000	bacteria
+nan	Noelyvirus	15000	16000	bacteria
+nan	Nohivirus	43000	44000	bacteria
+nan	Nonagvirus	56000	61000	bacteria
+nan	Nonanavirus	41000	53000	bacteria
+nan	Nordovirus	4000	5000	soil (S)
+nan	Norfolkplacevirus	33000	39000	bacteria
+nan	Northamptonvirus	60000	61000	bacteria
+nan	Nyceiraevirus	41000	42000	bacteria
+nan	Nylescharonvirus	47000	49000	bacteria
+nan	Nymphadoravirus	49000	55000	bacteria
+nan	Obolenskvirus	43000	47000	bacteria
+nan	Oceanidvirus	39000	40000	bacteria
+nan	Octobienvirus	75000	77000	bacteria
+nan	Oengusvirus	58000	59000	bacteria
+nan	Oinezvirus	42000	43000	bacteria
+nan	Omarvirus	49000	51000	bacteria
+nan	Omegavirus	106000	112000	bacteria
+nan	Oneupvirus	91000	94000	bacteria
+nan	Onyinyevirus	71000	72000	bacteria
+nan	Orchidvirus	80000	81000	bacteria
+nan	Oscarsovirus	33000	34000	bacteria
+nan	Oshimavirus	83000	85000	bacteria
+nan	Oslovirus	60000	64000	bacteria
+nan	Paadamvirus	42000	44000	bacteria
+nan	Paclarkvirus	36000	41000	bacteria
+nan	Pagevirus	39000	41000	bacteria
+nan	Pahexavirus	28000	30000	bacteria
+nan	Pairvirus	45000	46000	bacteria
+nan	Palovirus	46000	47000	bacteria
+nan	Pankowvirus	54000	63000	bacteria
+nan	Papyrusvirus	70000	72000	bacteria
+nan	Parissaclayvirus	49000	50000	bacteria
+nan	Parlovirus	62000	63000	bacteria
+nan	Pasovirus	45000	46000	bacteria
+nan	Pastovirus	42000	43000	bacteria
+nan	Patiencevirus	70000	71000	bacteria
+nan	Pavtokvirus	60000	62000	bacteria
+nan	Peatvirus	48000	49000	bacteria
+nan	Pebcunavirus	41000	42000	bacteria
+nan	Pedosvirus	43000	44000	bacteria
+nan	Peeveelvirus	34000	46000	bacteria
+nan	Pegunavirus	64000	70000	bacteria
+nan	Pelagivirus	42000	43000	bacteria
+nan	Pemunavirus	50000	51000	bacteria
+nan	Pepyhexavirus	76000	79000	bacteria
+nan	Perisivirus	38000	42000	bacteria
+nan	Persistencevirus	50000	51000	bacteria
+nan	Phabquatrovirus	94000	95000	bacteria
+nan	Phadecavirus	30000	33000	bacteria
+nan	Phapecoctavirus	144000	152000	bacteria
+nan	Pharaohvirus	50000	54000	bacteria
+nan	Phayoncevirus	49000	51000	bacteria
+nan	Phietavirus	39000	46000	bacteria
+nan	Phifelvirus	36000	40000	bacteria
+nan	Phistoryvirus	53000	54000	bacteria
+nan	Phleivirus	50000	51000	bacteria
+nan	Phrappuccinovirus	136000	137000	bacteria
+nan	Picardvirus	39000	40000	bacteria
+nan	Pikminvirus	39000	40000	bacteria
+nan	Pinnievirus	44000	45000	bacteria
+nan	Piorkowskivirus	30000	36000	bacteria
+nan	Pipefishvirus	67000	70000	bacteria
+nan	Plaisancevirus	103000	104000	bacteria
+nan	Plateaulakevirus	115000	139000	bacteria
+nan	Pleeduovirus	35000	36000	bacteria
+nan	Pleetrevirus	39000	42000	bacteria
+nan	Plotvirus	64000	65000	bacteria
+nan	Polybotosvirus	490000	491000	bacteria
+nan	Ponsvirus	47000	49000	bacteria
+nan	Popoffvirus	43000	44000	bacteria
+nan	Porunavirus	55000	56000	bacteria
+nan	Poseidonvirus	41000	42000	bacteria
+nan	Poushouvirus	40000	41000	bacteria
+nan	Powerballvirus	47000	48000	bacteria
+nan	Predatorvirus	70000	71000	bacteria
+nan	Proddevirus	42000	43000	bacteria
+nan	Psavirus	37000	39000	bacteria
+nan	Pukovnikvirus	52000	54000	bacteria
+nan	Pulverervirus	38000	39000	bacteria
+nan	Pumpernickelvirus	186000	187000	bacteria
+nan	Punavirus	94000	116000	bacteria
+nan	Puppervirus	150000	151000	bacteria
+nan	Purivirus	42000	43000	bacteria
+nan	Purkyvirus	50000	51000	bacteria
+nan	Pushchinovirus	49000	50000	bacteria
+nan	Qadamvirus	45000	46000	bacteria
+nan	Qingdaovirus	120000	121000	bacteria
+nan	Quesadillavirus	70000	73000	bacteria
+nan	Questintvirus	26000	27000	bacteria
+nan	Quivirus	113000	114000	bacteria
+nan	Radostvirus	47000	48000	bacteria
+nan	Rahariannevirus	46000	47000	bacteria
+nan	Raleighvirus	40000	41000	bacteria
+nan	Rauchvirus	42000	43000	bacteria
+nan	Ravarandavirus	139000	147000	bacteria
+nan	Ravinvirus	46000	47000	bacteria
+nan	Readingvirus	51000	52000	bacteria
+nan	Refugevirus	53000	54000	bacteria
+nan	Reminisvirus	45000	47000	bacteria
+nan	Reqipinevirus	59000	60000	bacteria
+nan	Rerduovirus	45000	49000	bacteria
+nan	Reynauldvirus	80000	81000	bacteria
+nan	Rhizidiovirus			fungi
+nan	Richievirus	49000	54000	bacteria
+nan	Rigallicvirus	56000	57000	bacteria
+nan	Rimavirus	56000	57000	bacteria
+nan	Ringroadvirus	47000	48000	bacteria
+nan	Rivsvirus	267000	268000	bacteria
+nan	Rockefellervirus	42000	45000	bacteria
+nan	Rockvillevirus	41000	42000	bacteria
+nan	Rogerhendrixvirus	97000	98000	bacteria
+nan	Ronaldovirus	67000	69000	bacteria
+nan	Rosariovirus	52000	53000	bacteria
+nan	Rosebushvirus	66000	68000	bacteria
+nan	Rosemountvirus	52000	55000	bacteria
+nan	Roslyckyvirus	58000	59000	bacteria
+nan	Roufvirus	47000	48000	bacteria
+nan	Rovertvirus	38000	39000	bacteria
+nan	Rowavirus	42000	43000	bacteria
+nan	Ruthyvirus	51000	53000	bacteria
+nan	Ryyoungvirus	42000	43000	bacteria
+nan	Saclayvirus	102000	105000	bacteria
+nan	Sagamiharavirus	51000	52000	bacteria
+nan	Saguarovirus	69000	70000	bacteria
+nan	Saikungvirus	36000	42000	bacteria
+nan	Saintgironsvirus	73000	74000	bacteria
+nan	Salmondvirus	253000	256000	bacteria
+nan	Saltrevirus	45000	46000	bacteria
+nan	Salutenavirus	51000	52000	bacteria
+nan	Salvavirus	60000	61000	bacteria
+nan	Samaravirus	45000	46000	bacteria
+nan	Samunavirus	93000	94000	bacteria
+nan	Samwavirus	42000	46000	bacteria
+nan	Sandinevirus	40000	41000	bacteria
+nan	Sansavirus	80000	81000	bacteria
+nan	Santafevirus	53000	54000	bacteria
+nan	Santhisvirus	39000	42000	bacteria
+nan	Saphexavirus	53000	59000	bacteria
+nan	Sargevirus	36000	37000	bacteria
+nan	Sarumanvirus	262000	264000	bacteria
+nan	Sasdunavirus	37000	38000	bacteria
+nan	Sashavirus	53000	54000	bacteria
+nan	Sasquatchvirus	261000	262000	bacteria
+nan	Sasvirus	42000	43000	bacteria
+nan	Saundersvirus	47000	48000	bacteria
+nan	Sawaravirus	58000	59000	bacteria
+nan	Scappvirus	42000	43000	bacteria
+nan	Scapunavirus	43000	44000	bacteria
+nan	Schmidtvirus	43000	44000	bacteria
+nan	Schmidvirus	26000	27000	bacteria
+nan	Schmittlotzvirus	69000	70000	bacteria
+nan	Schnabeltiervirus	46000	47000	bacteria
+nan	Schubertvirus	38000	39000	bacteria
+nan	Seahorsevirus	45000	46000	bacteria
+nan	Seamegvirus	56000	57000	bacteria
+nan	Secretariatvirus	57000	58000	bacteria
+nan	Sednavirus	45000	46000	bacteria
+nan	Segzyvirus	47000	49000	bacteria
+nan	Sendosyvirus	36000	40000	bacteria
+nan	Sentinelvirus	50000	51000	bacteria
+nan	Seongbukvirus	38000	39000	bacteria
+nan	Sepahanvirus	145000	146000	bacteria
+nan	Septimatrevirus	39000	47000	bacteria
+nan	Septuagintavirus	142000	146000	bacteria
+nan	Serbinvirus	42000	43000	bacteria
+nan	Seunavirus	145000	149000	bacteria
+nan	Seuratvirus	56000	60000	bacteria
+nan	Seussvirus	85000	86000	bacteria
+nan	Sextaecvirus	92000	94000	bacteria
+nan	Sfunavirus	43000	44000	bacteria
+nan	Shamshuipovirus	38000	41000	bacteria
+nan	Shandongvirus	131000	132000	bacteria
+nan	Shangdongvirus	42000	43000	bacteria
+nan	Shangxiadianvirus	40000	42000	bacteria
+nan	Sheenvirus	52000	53000	bacteria
+nan	Sherbrookevirus	31000	34000	bacteria
+nan	Shirahamavirus	224000	225000	bacteria
+nan	Shirevirus	43000	45000	bacteria
+nan	Shockervirus	45000	46000	bacteria
+nan	Shoyavirus	37000	38000	bacteria
+nan	Shuimuvirus	47000	48000	bacteria
+nan	Siaravirus	61000	62000	bacteria
+nan	Sidiousvirus	51000	52000	bacteria
+nan	Sieqvirus	42000	43000	bacteria
+nan	Siftrevirus	60000	61000	bacteria
+nan	Silentrexvirus	65000	66000	bacteria
+nan	Sircambvirus	47000	50000	bacteria
+nan	Sixamavirus	115000	116000	bacteria
+nan	Skarprettervirus	42000	43000	bacteria
+nan	Skatevirus	45000	49000	bacteria
+nan	Skogvirus	152000	153000	bacteria
+nan	Skrubnovirus	3000	5000	bacteria, soil (S)
+nan	Skulduggeryvirus	62000	63000	bacteria
+nan	Skunavirus	25000	33000	bacteria
+nan	Slashvirus	80000	82000	bacteria
+nan	Sleepyheadvirus	43000	44000	bacteria
+nan	Slepowronvirus	40000	44000	bacteria
+nan	Smoothievirus	92000	94000	bacteria
+nan	Snuvirus	265000	266000	bacteria
+nan	Sonalivirus	61000	62000	bacteria
+nan	Songlingvirus	44000	45000	bacteria
+nan	Sophritavirus	160000	168000	bacteria
+nan	Sortsnevirus	41000	43000	bacteria
+nan	Soupsvirus	52000	53000	bacteria
+nan	Sourvirus	61000	62000	bacteria
+nan	Sozzivirus	43000	47000	bacteria
+nan	Sparkyvirus	63000	64000	bacteria
+nan	Spartoivirus	35000	36000	bacteria
+nan	Spbetavirus	134000	135000	bacteria
+nan	Spinunavirus	39000	60000	bacteria
+nan	Spiovirus	45000	46000	bacteria
+nan	Spizizenvirus	39000	40000	bacteria
+nan	Squashvirus	61000	63000	bacteria
+nan	Squirtyvirus	60000	61000	bacteria
+nan	Stanholtvirus	48000	55000	bacteria
+nan	Steinhofvirus	48000	50000	bacteria
+nan	Stonewallvirus	33000	34000	bacteria
+nan	Stopalavirus	43000	44000	bacteria
+nan	Stopavirus	39000	40000	bacteria
+nan	Stormageddonvirus	136000	137000	bacteria
+nan	Subavirus	45000	46000	bacteria
+nan	Successvirus	57000	58000	bacteria
+nan	Sukhumvitvirus	38000	39000	bacteria
+nan	Sumtervirus	45000	46000	bacteria
+nan	Svunavirus	34000	36000	bacteria
+nan	Swiduovirus	47000	48000	bacteria
+nan	Syrbvirus	42000	43000	bacteria
+nan	Takahashivirus	252000	253000	bacteria
+nan	Tandoganvirus	40000	41000	bacteria
+nan	Tangaroavirus	47000	48000	bacteria
+nan	Tanisvirus	59000	61000	bacteria
+nan	Tankvirus	67000	68000	bacteria
+nan	Tantvirus	40000	41000	bacteria
+nan	Taranisvirus	54000	55000	bacteria
+nan	Tawavirus	46000	47000	bacteria
+nan	Tepoztlanvirus	45000	47000	bacteria
+nan	Terapinvirus	66000	68000	bacteria
+nan	Teubervirus	57000	63000	bacteria
+nan	Theosmithvirus	52000	53000	bacteria
+nan	Thetabobvirus	56000	59000	bacteria
+nan	Thiercelinvirus	44000	45000	bacteria
+nan	Thonkovirus	69000	70000	bacteria
+nan	Thoosavirus	37000	38000	bacteria
+nan	Thornevirus	221000	222000	bacteria
+nan	Tiamatvirus	45000	46000	bacteria
+nan	Tieomvirus	40000	41000	bacteria
+nan	Tiilvirus	46000	47000	bacteria
+nan	Tijeunavirus	49000	50000	bacteria
+nan	Timquatrovirus	52000	59000	bacteria
+nan	Timshelvirus	50000	54000	bacteria
+nan	Tinalinvirus	43000	44000	bacteria
+nan	Tinduovirus	76000	77000	bacteria
+nan	Tinytimothyvirus	53000	55000	bacteria
+nan	Tiranvirus	45000	46000	bacteria
+nan	Titanvirus	44000	45000	bacteria
+nan	Tolavirus	45000	46000	bacteria
+nan	Torontovirus	38000	42000	bacteria
+nan	Tortellinivirus	49000	50000	bacteria
+nan	Torvergatavirus	63000	64000	bacteria
+nan	Toutatisvirus	54000	55000	bacteria
+nan	Traversvirus	56000	65000	bacteria
+nan	Triavirus	42000	48000	bacteria
+nan	Trigintaduovirus	50000	51000	bacteria
+nan	Trinavirus	139000	140000	bacteria
+nan	Trinevirus	43000	44000	bacteria
+nan	Triplejayvirus	45000	46000	bacteria
+nan	Triteiavirus	41000	42000	bacteria
+nan	Tritonvirus	45000	47000	bacteria
+nan	Trogglehumpervirus	83000	84000	bacteria
+nan	Tsamsavirus	160000	169000	bacteria
+nan	Tsukubavirus	46000	47000	bacteria
+nan	Turbidovirus	49000	54000	bacteria
+nan	Typhavirus	75000	76000	bacteria
+nan	Uetakevirus	38000	40000	bacteria
+nan	Unaquatrovirus	28000	30000	bacteria
+nan	Unicornvirus	57000	62000	bacteria
+nan	Uwajimavirus	30000	31000	bacteria
+nan	Valentinivirus	62000	63000	bacteria
+nan	Vedamuthuvirus	30000	32000	bacteria
+nan	Veewebvirus	49000	50000	bacteria
+nan	Vegasvirus	45000	46000	bacteria
+nan	Vendettavirus	44000	46000	bacteria
+nan	Vequintavirus	129000	144000	bacteria
+nan	Veracruzvirus	45000	51000	bacteria
+nan	Vespunovirus	39000	40000	bacteria
+nan	Vhmlvirus	41000	44000	bacteria
+nan	Vhulanivirus	38000	39000	bacteria
+nan	Vicosavirus	45000	46000	bacteria
+nan	Vidquintavirus	61000	62000	bacteria
+nan	Vieuvirus	45000	48000	bacteria
+nan	Vipetofemvirus	85000	86000	bacteria
+nan	Vistulavirus	41000	42000	bacteria
+nan	Voetvirus	46000	47000	bacteria
+nan	Votkovvirus	40000	41000	bacteria
+nan	Wanchaivirus	39000	42000	bacteria
+nan	Wanderervirus	40000	41000	bacteria
+nan	Waukeshavirus	45000	52000	bacteria
+nan	Wbetavirus	37000	41000	bacteria
+nan	Weaselvirus	134000	135000	bacteria
+nan	Whackvirus	49000	50000	bacteria
+nan	Whiteheadvirus	36000	37000	bacteria
+nan	Whytuvirus	15000	16000	bacteria
+nan	Wodongavirus	39000	40000	bacteria
+nan	Woesvirus	73000	74000	bacteria
+nan	Wollypogvirus	63000	64000	bacteria
+nan	Wolominvirus	41000	42000	bacteria
+nan	Wongtaivirus	38000	41000	bacteria
+nan	Woodruffvirus	56000	58000	bacteria
+nan	Xajduovirus	49000	50000	bacteria
+nan	Xaviavirus	49000	50000	bacteria
+nan	Xeniaduovirus	68000	69000	bacteria
+nan	Xiamenvirus	62000	64000	bacteria
+nan	Xipdecavirus	43000	45000	bacteria
+nan	Xuquatrovirus	61000	62000	bacteria
+nan	Yanchengvirus	40000	41000	bacteria
+nan	Yautepecvirus	44000	45000	bacteria
+nan	Yautsimvirus	40000	41000	bacteria
+nan	Yeceytrevirus	53000	54000	bacteria
+nan	Yihwangvirus	80000	82000	bacteria
+nan	Yinyavirus	45000	46000	bacteria
+nan	Yokohamavirus	42000	44000	bacteria
+nan	Yoloswagvirus	259000	260000	bacteria
+nan	Yongloolinvirus	44000	57000	bacteria
+nan	Yosifvirus	50000	51000	bacteria
+nan	Youngvirus	43000	44000	bacteria
+nan	Yvonnevirus	98000	99000	bacteria
+nan	Zewailvirus	48000	50000	bacteria
+nan	Zhangjivirus	164000	166000	bacteria
+nan	Zhangqianvirus	42000	43000	bacteria
+nan	Zhuquevirus	42000	43000	bacteria
+nan	Zukovirus	82000	83000	bacteria
