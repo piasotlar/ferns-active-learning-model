@@ -1,4 +1,3 @@
-#organized version of model.py
 import argparse
 import os
 import pandas as pd
@@ -616,5 +615,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-#python model.py --iteration 4 --validation-batch "batches/to_label_iteration_3.xlsx" --add-to-train-batch "batches/to_label_iteration_2.xlsx"
